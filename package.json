@@ -1,7 +1,7 @@
 {
   "name": "nuxt-storyblok-starter",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "contributors": [
     {
       "name": "Kevin Regenrek <hello@regenrek.at>",
