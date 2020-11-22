@@ -5,7 +5,7 @@ Nuxt Storyblok Starter Kit is a project template for building Websites on top of
 Helping you to stay productive following and eliminating repetive tasks. 
 
 - 🎲 &nbsp;Demos on CodeSandbox - WIP
-- 📖 &nbsp;Read the documentation - WIP
+- 📖 [&nbsp;Read the documentation](https://nuxt-storyblok-starter-docs.vercel.app/)
 
 ## Quickstart
 
@@ -17,7 +17,7 @@ yarn # install
 yarn dev # start develop server
 ```
 
-📖 Read the documentation - WIP
+- 📖 [&nbsp;Read the documentation](http
 
 ## What's inside
 

@@ -14,7 +14,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint": "yarn lint:js"
+    "lint": "yarn lint:js",
+    "vercel-build": "NOW_BUILD=true yarn fixture:generate:export"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"
