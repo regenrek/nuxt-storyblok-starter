@@ -7,6 +7,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# vercel deploy
+.vercel
+
 # Runtime data
 pids
 *.pid
@@ -88,3 +91,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# disable vs code counter
+.VSCodeCounter

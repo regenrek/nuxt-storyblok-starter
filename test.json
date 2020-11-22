@@ -1,0 +1,3464 @@
+{
+   "stories" : [
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "39265a0b-622d-48e1-8136-0f68b5586a4c",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "6f04a9a1-8f2b-4551-8c59-b58c0c2cdc01",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "www.haumberger.at",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "- hÃ¶here FlexibilitÃ¤t ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- sichere Prozesse ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- Schaffung von hochqualifizierten ArbeitsplÃ¤tzen ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- einfachere Produktionssteuerung ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- Effizienzsteigerung in der Produktion",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "29432e3a-9c70-492b-a55e-026e83023fbc",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die Haumberger Fertigungstechnik GmbH realisierte mit dem Projekt \"Fabrik der Zukunft\" eine automatisierte Fertigung von Einzelteilen und Kleinserien. Durch die Vernetzung von Maschinen und Systemen werden AuftrÃ¤ge mit kleinen StÃ¼ckzahlen, auf die das Unternehmen spezialisiert ist, flexibel und effizient bearbeitet. Besonderes Augenmerk lag auf dem Ausbau des Personalstands und der Schaffung hochqualifizierter ArbeitsplÃ¤tze.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "Â© Robert Herbst",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/c73a4fd217/fabrik_der_zukunft_haumberger_foto.jpg",
+                     "focus" : null,
+                     "id" : 1596169,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "",
+                  "title" : "Fabrik der Zukunft"
+               }
+            ],
+            "meta" : {
+               "_uid" : "5e580b3c-b60e-4090-8a6a-23432e63fe55",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Durch das Projekt wurde die automatisierte Fertigung von EinzelstÃ¼cken ermÃ¶glicht. Der Personalstand wurde wÃ¤hrend des Projekts beinahe verdoppelt, worauf das Unternehmen besonders stolz ist - denn die Fabrik der Zukunft ist bei Haumberger keine menschenleere Fertigungshalle, sondern ein Betrieb, der seinen Mitarbeiterinnen und Mitarbeitern anspruchsvolle, attraktive Jobs bietet.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Haumberger ist spezialisiert auf Sondermaschinenbau und AutomatisierungslÃ¶sungen fÃ¼r z.B. die Elektronik- und Automobilindustrie, sowie auf die Lohnfertigung von hochprÃ¤zisen Komponenten und Baugruppen u.a. fÃ¼r die Luft- und Raumfahrt. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Durch den Fokus auf die Fertigung von Einzelteilen und Kleinserien ist das Unternehmen gefordert, ProduktionsauftrÃ¤ge flexibel und schnell abzuarbeiten. Um dabei trotzdem grÃ¶ÃtmÃ¶gliche Planungssicherheit zu erreichen, sowie die Produktionssteuerung zu vereinfachen, wurde mit dem Projekt \"Fabrik der Zukunft\" eine umfassende Vernetzung verschiedener Unternehmensbereiche, von Maschinen bis zum ERP-System, realisiert.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "931419ae-65bc-49ac-80e4-c8b318934cf1",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-19T12:26:32.224Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-20T13:02:17.718Z",
+         "full_slug" : "projekte/fabrik-der-zukunft",
+         "group_id" : "4015397f-e8ac-466d-9cde-218bee7b6141",
+         "id" : 24353031,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "Fabrik der Zukunft",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 150,
+         "published_at" : "2020-11-20T17:44:37.800Z",
+         "release_id" : null,
+         "slug" : "fabrik-der-zukunft",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "9dc549e8-e066-4001-9eba-38fed6890676"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "3360e6ac-c1b0-4902-86c7-4905bddbc9ac",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "5ace2d8f-b6b4-41bc-b330-9cff6f71364e",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "www.ac2t.at",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Die AC2T research GmbH (ACÂ²T) verfolgt mit dem Projekt das Ziel, grundlagenbasierte, anwendungsorientierte Forschung auf hÃ¶chstem internationalem Niveau durchzufÃ¼hren. ACÂ²T setzt in Zusammenarbeit mit den Projektpartnern seine Forschungs- und Entwicklungsschwerpunkte in den Bereichen, die fÃ¼r die WettbewerbsfÃ¤higkeit der Projektpartner und ACÂ²T entscheidend sind. Um eine hohe wissenschaftliche QualitÃ¤t sicherzustellen, werden laufend UniversitÃ¤tseinrichtungen sowie auÃeruniversitÃ¤re Forschungseinrichtungen in die Forschungsvorhaben einbezogen. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Folgende strategische Ziele liegen dem Projekt zugrunde: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- Erarbeitung von grundlegenden wissenschaftlichen Erkenntnissen ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- Ausrichtung des Forschungsprogramms an den strategischen Interessen der Partner, um diese nachhaltig in die Lage zu versetzen, neue innovative Produkte und Prozesse zu entwickeln ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- Kooperation mit anerkannten Forschern, wissenschaftlichen Organisationen und innovativen Unternehmen in gemeinsamen strategischen Forschungsarbeiten ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- Vernetzung und BÃ¼ndelung von nationalen und internationalen Kompetenzen in den relevanten Fachgebieten zur Erreichung von optimalen Synergieeffekten ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- Wissenstransfer in unterschiedlichste Wirtschafts- und Gesellschaftszweige ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- StÃ¤rkung der WettbewerbsfÃ¤higkeit Ãsterreichs als Forschungsstandort ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- RegelmÃ¤Ãige Vergabe von Themen und Bereitstellung von ArbeitsmÃ¶glichkeiten zur Erstellung von Studienarbeiten, wie z. B. Dissertationen",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "f588a9d3-efa4-4a3a-a355-6d451429b7d9",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Im Rahmen dieses 8-jÃ¤hrigen Schirmprojektes werden, gemeinsam mit etwa 70 nationalen und internationalen Unternehmenspartnern und ebenso Wissenschaftspartnern, einzelne anwendungsorientierte Forschungsprojekte im Fachgebiet \"Tribologie\" durchgefÃ¼hrt. Die Optimierung von Reibung, VerschleiÃ und der Schmierstoffanwendung stehen hierbei im Mittelpunkt der ForschungstÃ¤tigkeit.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "Â© AC2T research GmbH",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/015a56c8e0/comet-k2-intribology_foto.jpg",
+                     "focus" : null,
+                     "id" : 1596188,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "",
+                  "title" : "COMET K2 InTribology"
+               }
+            ],
+            "meta" : {
+               "_uid" : "193eb8e5-b7d6-4b67-b50e-a5147006a8a3",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Die ersten von zwei 4-Jahres-Finanzierungsperioden des aktuellen Schirmprojekts InTribology startete im April 2020.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Ein besonderer Schwerpunkt der ForschungstÃ¤tigkeit ist die ZusammenfÃ¼hrung des Wissens in der Tribologie mit dem Wissen in der Datenwissenschaft. Tribologische Daten werden hierbei mit modernen Methoden zur Datenanalyse untersucht, um damit neue Erkenntnisse zu erzielen. Die Finanzierung der Forschungsarbeiten erfolgt durch die Partner, die Ã¶ffentliche Hand (rund 50%) und der AC2T research GmbH als Projektkoordinator. Das Land NiederÃ¶sterreich stellt rund 1/3 der Finanzierungsleistung der Ã¶ffentlichen Hand zur VerfÃ¼gung. Die weiteren 2/3 werden aus dem jeweiligen Bundesbudget vom Bundesministerium fÃ¼r Klimaschutz, Umwelt, Energie, MobilitÃ¤t, Innovation und Technologie sowie dem Bundesministerium fÃ¼r Digitalisierung und Wirtschaftsstandort, jeweils im Wege der Ãsterreichischen ForschungsfÃ¶rderungsgesellschaft, zur VerfÃ¼gung gestellt.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Die AC2T research GmbH, angesiedelt im Technologie- und Forschungszentrum Wiener Neustadt, erbringt seit etwa 20 Jahren Forschungsdienstleistungen im Auftrag und fÃ¼r die Industrie. Ein wesentlicher Umfang dieser Forschungsarbeiten erfolgt in mehrjÃ¤hrigen Schirmprojekten. Im Zeitraum 2002 bis 2009 war dies das Schirmprojekt \"Kplus Zentrum fÃ¼r Tribologie\" und von 2010 bis 2020 das Schirmprojekt \"COMET K2 Exzellenzzentrum fÃ¼r Tribologie\". Im Laufe der Jahre erhÃ¶hte sich der Personalstand von 0 auf rund 150 Personen. Der Ã¼berwiegende Anteil des Personals sind wissenschaftlich tÃ¤tige Mitarbeiter/innen mit akademischem Abschluss in einer der Mutterdisziplinen der Tribologie, und zwar im Bereich Maschinenbau, Werkstoffwissenschaft, Chemie, Physik und Elektrotechnik/Mechatronik. In jÃ¼ngerer Zeit werden diese KapazitÃ¤ten kontinuierlich ergÃ¤nzt durch Mitarbeiter/innen mit dem Wissensschwerpunkt in der Informationstechnologie und der Datenwissenschaft.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "0f5abae6-362c-47b6-a335-2b0210a13ae3",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-19T07:33:01.974Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-20T13:02:18.041Z",
+         "full_slug" : "projekte/comet-k2-intribology",
+         "group_id" : "49b57c04-4641-4b98-a4f6-ca6de597c5aa",
+         "id" : 24294191,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "COMET K2 InTribology",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 160,
+         "published_at" : "2020-11-20T17:44:38.139Z",
+         "release_id" : null,
+         "slug" : "comet-k2-intribology",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "a3a77166-39ea-4548-abac-688f2930b6f1"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "ea4b843a-4a98-4f80-b227-429f15688919",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "46d32eab-f7de-4f4f-b64d-12c54e6299ee",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "www.hollaus.at",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "80% der AufwÃ¤nde eines GebÃ¤udes fallen im Betrieb an. Auffallend hoch hierbei sind die AufwÃ¤nde fÃ¼r Wartung und Instandhaltung sowie die ErfÃ¼llung von Betreibervorschriften. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Mit Hilfe modernster Technologien soll der gesamte Ablauf der Instandhaltung digitalisiert werden.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "3b365d45-757f-46e5-85b3-879298aa2825",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Virtual Smart FM macht es mÃ¶glich mit Hilfe von 360Â°-Fotos sowie Punktwolken durch ein GebÃ¤ude oder GebÃ¤udemodell zu navigieren. An Hand einer Timeline kÃ¶nnen der Baufortschritt bzw. der Bestand und dessen VerÃ¤nderungen beurteilt werden. Mit Hilfe von âAugmented Realityâ lassen sich in der Instandhaltung, bei StÃ¶rungen und SchÃ¤den die Elemente des Raumes mit zusÃ¤tzlichen Informationen Ã¼berlagern. ",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : null,
+                     "copyright" : null,
+                     "fieldtype" : "asset",
+                     "filename" : "",
+                     "focus" : null,
+                     "id" : null,
+                     "name" : "",
+                     "title" : null
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "",
+                  "title" : "7D Baudokumentation - Virtual Smart FM"
+               }
+            ],
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "f900b387-2d25-4b99-a141-6eda52ab1865",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "1. GebÃ¤udemodelle mit 360Â° Fotos, lagerichtig verortet mit den Plandaten",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "36048a63-88c9-48d2-99a0-8fb890901527",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "2. Abgleich von Punktwolken mit IFC Dateien sowie Punktwolken mit PlÃ¤nen um As Built und As Planned vergleichen zu kÃ¶nnen und eine Vorstellung der RealitÃ¤t zu bekommen.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "1807855c-e74e-451d-ba1d-9da3d3f5a534",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "3. Verortung von Anlagen und MÃ¤ngeln direkt in 360Â° Bildern und Punktwolken",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "074179a1-9178-49cb-9220-f7b49e1e3bdd",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "4. Abbildung der Anlagen in der RealitÃ¤t mittels Mixed Reality um so den gesamten Ablauf der Instandhaltung inklusive der Wartungen digitalisiert zu haben.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Das Ergebnis ist die 7D GebÃ¤udedoku welches ein komplettes virtuelles GebÃ¤udemodell Ã¼ber die RealitÃ¤t Ã¼berlagert. So lÃ¤sst sich der gesamte Ablauf des GebÃ¤udebetriebes effizient digitalisieren.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "So kÃ¶nnen etwa Leitungen in der Wand erkannt werden. Auch fÃ¼r GebÃ¤udebegehungen (Wo sollte eine Brandschutzeinrichtung sein? Ist sie wirklich da?) lÃ¤sst sich diese Technologie perfekt anwenden. Beim realen oder virtuellen Rundgang durch das GebÃ¤ude lassen sich diese Informationen visualisieren. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "ErgÃ¤nzend zu 3D kÃ¶nnen 4 weitere Dimensionen dargestellt werden: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Zeit (4): Mittels einer Timeline kÃ¶nnen verschiedene Projektphasen (Rohbau, Verrohrung, Belagsfertig, Bestand) abgebildet werden. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Kosten (5): Die im System abgebildeten Kosten von Errichtung, Betrieb und Instandhaltung kÃ¶nnen direkt im Modell angezeigt und ausgewertet werden. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Nachhaltigkeit (6): Die Nutzbarkeit von GebÃ¤udenund die AufwÃ¤nde von Wartungen lassen sich durch den Einsatz von Augmented Reality erhÃ¶hen bzw. reduzieren. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Soziales (7): ArbeitsunfÃ¤lle kÃ¶nnen so reduziert werden. Das Produkt wurde als eines von vielen Modulen in das bereits bestens am Markt positionierte CAFM Produkt RKV View implementiert.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Virtual Smart FM - Unsichtbares sichtbar machen Noch vor Kurzem waren Verantwortliche fÃ¼r den Betrieb von GebÃ¤uden froh, 2D-Fotos oder realitÃ¤tsnahe PlÃ¤ne von GebÃ¤uden zur VerfÃ¼gung zu haben. Das gehÃ¶rt seit diesem Projekt fÃ¼r die Kunden des Ingenieur Studio HOLLAUS der Vergangenheit an.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "0414c1fe-eb16-405a-bc62-f14674be73ab",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-14T09:32:58.815Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-18T20:23:31.504Z",
+         "full_slug" : "projekte/7d-baudokumentation-virtual-smart-fm",
+         "group_id" : "c13f598b-21f9-4562-b8dc-f3903f552189",
+         "id" : 23822942,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "7D Baudokumentation - Virtual Smart FM",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 180,
+         "published_at" : "2020-11-20T17:44:38.500Z",
+         "release_id" : null,
+         "slug" : "7d-baudokumentation-virtual-smart-fm",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "86b2cc73-431d-45a9-94e0-170d233c6310"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "528916ef-f015-4943-b0da-1ae56769abdd",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [
+               "dfa4f1b4-8b17-40fd-9983-32188a382d0c",
+               "721f0635-b475-4710-91ee-906bdbb867df",
+               "f91526c4-a6f8-464e-8f4f-4205d2e4e993"
+            ],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "289a1693-aa92-411b-aed0-d009842422ce",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "www.farmdok.com",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Durch die Nutzung der FARMDOK-Technologie ein System schaffen, welches Informationen zum Feld (BodenqualitÃ¤t, Witterungsbedingungen, Ertragsniveau) mit den AktivitÃ¤ten und MaÃnahmen des Landwirts verbindet. Aus diesen Ergebnissen kann der Landwirt seine Zukunft gestalten. Mit FARMDOK kÃ¶nnen durch diese Erkenntnisse Informationen an Maschinen weitergegeben werden. Ebenso kÃ¶nnen mit FARMDOK Schnittstellen mit Partner in der Landwirtschaft geschlossen werden.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Bei FARMDOK stehen der Landwirt seine Felder im Mittelpunkt. Der Landwirt kann mit FARMDOK die Anbauplanung und DÃ¼ngeplanung erledigen und seine Betriebsmittel mit der Lagerfunktion verwalten. Alle Aufzeichnungen kÃ¶nnen zu einem Bericht erfasst werden und bei Kontrollen vorgelegt werden. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "FARMDOK ermÃ¶glicht mit einer einzigartigen Technologie dem Landwirt alle Informationen in einem Schlagblatt zu vereinen. Neben dem Abbilden von Bodenproben, Erfassen von Bearbeitungsschritten, Auflistung der verwendeten Ressourcen und Betriebsmitteln, ermÃ¶glicht FARMDOK den unkomplizierten Eintritt in Precision Farming. Zu den schlagbezogenen Informationen visualisiert FARMDOK mittels einzigartigen Berechnungsmethoden den Biomassezuwachs am Feld und gibt Informationen zu den unterschiedlichen TeilflÃ¤chen und ErtragsmÃ¶glichkeiten.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "6433eff9-2213-4952-9ee4-123f3aa5fb49",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "We lead the digital revolution in agriculture. FARMDOK ist die digitale Schlagkartei fÃ¼r die Landwirtschaft. Neben der mobilen App zur Aufzeichnung mittels Smartphone-GPS steht am PC die komplette administrative und organisatorische Betriebsverwaltung zur VerfÃ¼gung. ",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : null,
+                     "copyright" : null,
+                     "fieldtype" : "asset",
+                     "filename" : "",
+                     "focus" : null,
+                     "id" : null,
+                     "name" : "",
+                     "title" : null
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "",
+                  "title" : "FARMDOK"
+               }
+            ],
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "5d5f343c-bf55-46ec-bc56-cea4b2ee9b9e",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Agritechnica Innovation Award 2017 Silbermedaille",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "fd1b9290-3e5f-4fd9-b24e-9bf3acf9e13b",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "App des Jahres 2018 - FutureZone",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "8ddb2840-da00-4caa-b62a-5f2da374a150",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Websummit Lissabon 2019 - FARMDOK zÃ¤hlt zu den 15 vielversprechendsten Startups in Europa",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "87a6cb32-b386-433a-9ca1-7bb9a06693bb",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Start-Up City Magazine 2020 - 10 Most Promising AgTech Start-Ups in Europe",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Pionier im deutschsprachigen Raum. Schrittweiser Roll-Out weltweit.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Die Aufzeichnungspflicht der Landwirte durch die Nutzung einzigartiger Technologie erleichtern.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "28324491-a119-48bd-802d-50bfb2acccb9",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T12:39:19.311Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-14T22:05:33.000Z",
+         "full_slug" : "projekte/farmdok",
+         "group_id" : "1ff61212-b5fe-447c-ad57-d2848b982e71",
+         "id" : 23350886,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "FARMDOK",
+         "parent_id" : 16275052,
+         "path" : "",
+         "position" : 190,
+         "published_at" : "2020-11-20T17:44:38.825Z",
+         "release_id" : null,
+         "slug" : "farmdok",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "3e1e3ccf-5b46-451d-ae59-8d4e55223cfb"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "76cc5d5a-00b1-4d92-a5cc-835d36411c36",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "07a42c36-e568-4a02-b369-5638387650e2",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "www.riz-up.at/digithek",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Business Know-How durch Microlearning: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Das A-Z des unternehmerischen Alltags ist eine Information fÃ¼r all jene, die planen, ein Unternehmen zu grÃ¼nden, gerade gegrÃ¼ndet haben oder schon als Jung-UnternehmerInnen tÃ¤tig sind.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "460ff3d4-f575-4e2c-b3a0-1479601d86fb",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die riz up DIGITHEK bietet eine Sammlung informativer Videos aus allen Bereichen des unternehmerischen âAlltagsâ - von A wie \"Ausgaben\" bis Z wie \"Zielgruppe\".",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/07431a6864/riz-up-digithek_foto.jpg",
+                     "focus" : null,
+                     "id" : 1596196,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "kompakt, informativ, Ã¼berall verfÃ¼gbar",
+                  "title" : "riz up DIGITHEK"
+               }
+            ],
+            "meta" : {
+               "_uid" : "4a706395-3916-474c-9794-aacc0f0a004e",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Die Business Basics Videos bieten die ideale Vorbereitung fÃ¼r Ihren persÃ¶nlichen Beratungstermin oder die Teilnahme an einem der zahlreichen riz up Seminare und Workshops. Kostenlos und flÃ¤chendeckend in ganz NiederÃ¶sterreich.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "> kurze ErklÃ¤r-Videos unternehmerischer Begriffe (max. 1 Minute) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "> lÃ¤ngere Informations-Videos (Business Basics Videos = 15-20 Minuten) beantworten kompakt in 15 bis 25 Minuten hÃ¤ufig gestellte Fragen zu Themen wie âBusinessplanâ oder âPlanrechnungâ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "a915c2c7-fa42-4eec-9b0e-f6921973363b",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T12:37:53.407Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-18T10:50:22.269Z",
+         "full_slug" : "projekte/riz-up-digithek",
+         "group_id" : "26c68035-e103-4fb3-b319-ca9524383542",
+         "id" : 23350882,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "riz up DIGITHEK",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 200,
+         "published_at" : "2020-11-20T17:44:39.159Z",
+         "release_id" : null,
+         "slug" : "riz-up-digithek",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "98ed75ed-5808-415c-a89e-7138f1ed7f52"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "4e6be0c3-3e0f-4ebb-92a7-9ced66b20b38",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "87d4d707-4eee-49f7-9608-a978b6307eb1",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "www.wirsind1.at",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "> Netzwerk ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "> PrÃ¤sentation ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "> Information",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "c52cb5fa-3d7b-4a0b-be63-22fcc23d90f6",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Unter dem Motto \"Wir sind 1 - und davon ganz schÃ¶n viele\" bietet www.wirsind1.at niederÃ¶sterreichischen Ein-Personen-Unternehmen eine Online-Plattform, auf der sie sich prÃ¤sentieren, informieren, austauschen & vernetzen kÃ¶nnen. ",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        },
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Auf der Webseite und der dazugehÃ¶rigen Facebook-Seite liken und begleiten die Mitglieder der Community aktuelle EintrÃ¤ge und BeitrÃ¤ge aus dem EPU-Netzwerk sowie Blogs und Vlogs (Video-Posts) der Unternehmerinnen und Unternehmer.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/db40bb8d86/wir-sind-1_foto.jpg",
+                     "focus" : null,
+                     "id" : 1596192,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "DIE Plattform fÃ¼r Ein-Personen-Unternehmen in NiederÃ¶sterreich",
+                  "title" : "Wir sind 1"
+               }
+            ],
+            "meta" : {
+               "_uid" : "71122a9f-4ca4-4436-ba81-ed828786b690",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Das grÃ¶Ãte EPU-Netzwerk in NiederÃ¶sterreich",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Du bist EPU & mÃ¶chtest dich prÃ¤sentieren, mit anderen austauschen und aktuelle Infos bekommen? Dann werde Teil des Wir sind 1 EPU-Netzwerks! ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Hier bist du 1, aber trotzdem nicht allein. Hier bist du richtig. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "1 = einzigartig ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "1 = eine Einheit ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "1 = EPU",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "38c0cb05-9128-438a-b1d8-89b8103b173f",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T12:30:26.838Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-18T08:48:48.597Z",
+         "full_slug" : "projekte/wir-sind-1",
+         "group_id" : "94efb727-3d57-4c63-8141-fcf2ccb9bd9d",
+         "id" : 23350813,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "Wir sind 1",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 210,
+         "published_at" : "2020-11-20T17:44:39.505Z",
+         "release_id" : null,
+         "slug" : "wir-sind-1",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "8cd0d11f-e11a-4b66-af0c-33edc2bc363f"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "c086647b-a22b-4fff-96f3-4245315aeba7",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "e34d0d35-ee6c-42ef-97f9-899e827a5557",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "https://tedalos.net/",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "95% aller LagerflÃ¤chen und IntralogistikwarenstrÃ¶me, sind nicht digital Ã¼berwacht. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "d.h. nur 5% kÃ¶nnen durch robotergestÃ¼tzte Systeme automatisiert werden (z.B.: automatisierte Hochregale). ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Der Markt fÃ¼r BestandsÃ¼berwachung mittels Internet of Things wird bis zum Jahr 2025 rund 300 Milliarden US-Dollar schwer sein. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Somit haben wir viele AnwendungsmÃ¶glichkeiten. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Unser erkannten Hauptzielgruppen sind: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ das Lager (Inventur, Zwischeninventur in Echtzeit) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ die Instandhaltung (lieferantengesteuerte Nachlieferung) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ der Transport (LKW, Schienenverkehr)",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ das Gesundheitswesen (KrankenhÃ¤user, Patientenversorgung zu Hause) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ die Industrie (Erstellung eines \"digitalen Zwillings\" - Digital Twin) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ die Produktion (verbesserte VerfÃ¼gbarkeit und Planbarkeit) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ die Logistik (fÃ¼r fixen oder mobilen Einsatz in Innen- und AuÃenbereich) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ der Handel (Verbrauchsdaten, schnellere NachbefÃ¼llung) ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ das Baugewerbe (Baustellen fix oder auch wandernd)",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "8a180ec7-2071-45c1-af4c-1f6cfb96a04f",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die TeDaLoS - Sensoreinheiten berichten verschlÃ¼sselt direkt an unsere Cloud-Software, die diese Daten entschlÃ¼sseln, validieren, interpretieren und umgerechnet darstellen. ",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        },
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Eingestellte Schwellwerte lÃ¶sen, bei Ãberschreitung, sofort eine Alarm-Nachricht aus. Diese Daten kÃ¶nnen Ã¼ber Schnittstellen auch direkt an Ihr fÃ¼hrendes System Ã¼bergeben werden.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/eed970b758/tedalos_foto.jpg",
+                     "focus" : null,
+                     "id" : 1603971,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "Transparenz in der Warenwirtschaft und am Transport mit TeDaLoS",
+                  "title" : "Digital Twin"
+               }
+            ],
+            "meta" : {
+               "_uid" : "589b6b37-4654-4613-9ac7-e9db7fff3665",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "1c9469a7-e0d9-431e-b6d6-4dd204517865",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Januar 1, 2015",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        },
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Eine Marktstudie belegt den Kundenwunsch nach mobiler und branchenoffener BestandsÃ¼berwachung. Das Internet der Dinge ist in aller Munde und die Start von Forschung & Entwicklung startet.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "START VON F&E"
+               },
+               {
+                  "_uid" : "222b6548-ad0b-4b62-982c-ad925f114d2b",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Juni 8, 2016",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        },
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die ersten Kunden aus unterschiedlichen Branchen bereiten Ã¼ber viele Monate den TeDaLoS-Prototypen fÃ¼r den harten Feldeinsatz in der Logistik vor.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "PROTOTYPEN-BAU MIT ERSTEN KUNDEN"
+               },
+               {
+                  "_uid" : "e3ac48aa-c0df-40ad-9b04-f9abda962301",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Januar 1, 2017",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        },
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Namhafte Unternehmen â vom KMU zum GroÃkonzern â setzen TeDaLoS im Tagesbetrieb ein. Im Herbst 2017 feiert TeDaLoS den Markteintritt in Deutschland.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "âGO-LIVEâ & EXPANSION"
+               },
+               {
+                  "_uid" : "07373629-326a-4d19-a8fe-d6c35aef9706",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Februar 1, 2019",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        },
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Auf der Logistikmesse LogiMAT in Stuttgart wird dem Fachpublikum mit groÃem Erfolg die âintelligenteâ Lagertechnik prÃ¤sentiert, die weit Ã¼ber Auto-ID hinausgeht.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "VERTRIEBS-AUSWEITUNG"
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Nach einer bestÃ¤tigten Studie durch die FH St. PÃ¶lten zur Nachfrage an âmobiler FernbestandsÃ¼berwachungâ, forschten wir ab 2015 im Felde. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Seit 2017 ist TeDaLoS im operativen Einsatz bei Kundenprojekten von den Niederlanden bis Griechenland. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Wir produzieren Standard-Sensoreinheit (z.B. A4, Palette, Â¼-Palette, fÃ¼r IBC-Tank, an KleinteillagerbehÃ¤lter), aber auch spezielle Anpassungen an diverse LadungstrÃ¤ger. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Prominente Referenzkunden (wie z.B.: Kellner & Kunz AG, ENGEL, voestalpine, Miba, MAGNA, EIZO, Wien Energie, Canon, KRUCH Railway Innovations) setzen unser Sensortechnik bereits erfolgreich ein. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "September 2019 bestÃ¤rkt BITO-Lagertechnik, als international operierendes Industrieunternehmen im Bereich der Lager- und Kommissioniertechnik, die Zusammenarbeit mit uns, durch Beteiligung des Bito Campus als Gesellschafter. Die Kooperation wird das Ziel verfolgen, mit vereintem Know-How mobile und autonome Systeme fÃ¼r die Material- und BestandsÃ¼berwachung mittels Internet der Dinge anbieten zu kÃ¶nnen. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Internationale Vertriebspartner mit Fokus in den Anwender-Zielgruppen konnten bereits akquiriert werden.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Mehrere Abteilungen eines Unternehmens profitieren von unserer LÃ¶sung. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Das Lager spart Lagerplatz, Suchzeiten, Inventurkosten und Schwund. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Die Produktion hat Ausfallsicherheit und schnellere Materialbereitstellung auf weniger ProduktionsflÃ¤che. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Der Einkauf bekommt die Bestellinfo bis zu 5 Tage frÃ¼her und kann auch kurzfristig den, zu erwartenden, Bedarf erkennen. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Die Finanzabteilung profitiert von einer Echtzeit-Inventur auf Knopfdruck ohne teuren Betriebsstillstand und einer Reduktion von gebundenem Kapital. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Der Return of Invest liegt zwischen 6 Monaten und 2 Jahren. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "TeDaLoS ist: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "einfacher - IoT Full Stack, vom Sensor bis zur Cloud ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "schneller - Sofort up and running, geringe Finanzbelastung ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "homogener - alle Branchen, Warengruppen + Supply Chains",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "vielseitiger - Menge + Zustand + Ort + globale WarenmobilitÃ¤t ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Jedes Lager, jeder Lagerort und -art vom Warenstrom kann nachgerÃ¼stet werden. One-Stop-LÃ¶sung fÃ¼r den âdigitalen Zwillingâ fÃ¼r stÃ¼ckgenaue MengenÃ¼berwachung fÃ¼r das gesamte Unternehmen und standortÃ¼bergreifender Anwendung.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Mit TeDaLoS kann man:",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Damit kann man: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ die physische Verteilung der BestÃ¤nde an dezentralen Lagerorten in Echtzeit messen. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Entnahmen nicht-bestandsgefÃ¼hrter Artikel aus der Instandhaltung stÃ¼ckgenau erkennen. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Betriebs- und Hilfsmittel erfassen, Lieferanten anbinden. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ SchwundgefÃ¤hrdete Waren in Errichtung und Instandhaltung aus der Ferne Ã¼berwachen (Kabel, SchlÃ¤uche, SchweiÃdraht, etc.). ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Akkurate Inhaltsmengen auch in TransportbehÃ¤ltern (Fass, Tank, Container, etc.) ermitteln. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "ZusÃ¤tzliche MÃ¶glichkeiten: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Reduktion des gebundenen Kapitals durch Minimierung des Sicherheitsbestandes ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Kostenstellen-/ Auftragszuweisung der VerbrÃ¤uche nach realem Konsum ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "â¢ Anbindung der Warenlieferanten zur besseren VerfÃ¼gbarkeit und Frachtplanung Vollautonomes System aus einer Hand ohne lokale Ressourcenbindung, beinhaltet spezielle Sensorik, Funktechnik, Datenkommunikation, Cloud Software und IT-Schnittstelle.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "894b781d-f13b-48db-af36-f8731d264295",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T10:35:43.268Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-18T20:23:32.804Z",
+         "full_slug" : "projekte/digital-twin",
+         "group_id" : "7ecb5ab9-6e07-41f7-9520-c3d6c1b6c440",
+         "id" : 23316539,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "Digital Twin",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 220,
+         "published_at" : "2020-11-20T17:44:40.846Z",
+         "release_id" : null,
+         "slug" : "digital-twin",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "1ed31c85-68d7-49d8-a7b8-22b3f1a9c813"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "21e07d8a-902b-4d80-9544-e800f1f2ff83",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [
+               "a23a1303-10fd-4656-a5e9-4976814710f2"
+            ],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "f92b5dda-5d3c-4b66-b919-7b5b02338b31",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "https://www.kettenbruck.at",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Den BÃ¼rgerinnen und BÃ¼rgern in Scheibbs sollte die MÃ¶glichkeit gegeben werden, Ã¼ber das Bauvorhaben mitzuentscheiden. Mit Hilfe der Virtual Reality-Technik wurde dazu eine konkrete Entscheidungshilfe gegeben. Noch vor dem ersten Spatenstich konnte die fertige BrÃ¼cke realitÃ¤tsnah und in 3D simuliert prÃ¤sentiert werden. Durch die elektronische Abstimmungsplattform BRZ eDem wurde auÃerdem ein technisch einwandfreies und faires Abstimmungsverfahren sichergestellt.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "5e64407b-9184-4958-948d-e9ebf21e66f3",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die Stadtgemeinde Scheibbs und das BRZ leisten im Rahmen einer Abstimmung zu einem BrÃ¼ckenbauprojekt Pionierarbeit bei der Verbindung von Virtual Reality (VR) und der Blockchain-gesicherten E-Partizipations-LÃ¶sung BRZ eDem.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "Â© Stadtgemeinde Scheibbs",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/115681fea3/heubergbrucke-variante-b-fischbauch-foto.jpg",
+                     "focus" : null,
+                     "id" : 1596221,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "Elektronische Abstimmung mittels virtueller RealitÃ¤t",
+                  "title" : "BrÃ¼ckenbau-Projekt in Scheibbs"
+               }
+            ],
+            "meta" : {
+               "_uid" : "d35c6cad-b33e-442f-8da0-df74385e8f33",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "e96a0cad-a7d8-4839-9922-1deafe719d59",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "In einem Ã¶sterreichweit einzigartigen Innovationsprojekt kooperierten die Stadt Scheibbs und das Bundesrechenzentrum bei der BÃ¼rgerbeteiligung rund um das Design einer achten BrÃ¼cke Ã¼ber die Erlauf. Drei ausgewÃ¤hlte EntwÃ¼rfe standen zwischen 9. und 20. Dezember 2019 zur Abstimmung und konnten mit Hilfe einer Virtual Reality (VR) Brille im Scheibbser Rathaus besichtigt werden. Innerhalb der 3D-Umgebung konnte der BÃ¼rger bzw. die BÃ¼rgerin direkt das favorisierte Modell auswÃ¤hlen und noch wÃ¤hrend der virtuellen Begehung einen elektronischen Abstimmungsvorgang starten.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        },
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die Stimmabgabe war nur fÃ¼r Bewohner/innen der Stadt Scheibbs mÃ¶glich, da diese vor Start der Abstimmungsphase einen âTokenâ, also eine einmal verwendbare elektronische Stimmkarte erhalten hatten. Mit dem Einsatz des Tokens konnte die Stimmabgabe anonym erfolgen, ohne dass auf die IdentitÃ¤t der abstimmenden Person RÃ¼ckschlÃ¼sse gezogen werden konnten. Zudem konnte jeder Token nur ein einziges Mal verwendet werden. Mehrfache Stimmabgabe war nicht mÃ¶glich. Abstimmen konnte man direkt im Rathaus oder unter www.scheibbs.gv.at/befragung sowie per Handy. Dazu musste der Token manuell eingegeben oder der QR-Code mit der Handykamera gescannt werden.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Virtuelle Besichtigung und elektronische Abstimmung"
+               },
+               {
+                  "_uid" : "a2aaae3a-9dc1-475f-9e75-4f97fb9ec786",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "âGemeinsam mit Scheibbs zeigten wir bei diesem Projekt, dass elektronische BÃ¼rgerbeteiligung einfach und sicher mÃ¶glich ist - und zwar Dank der ausgereiften Software-LÃ¶sung BRZ eDem. Dieses in der Blockchain abgesicherte Tool fÃ¼r E-Partizipation kann StÃ¤dte und Gemeinden unterstÃ¼tzen, Verwaltungsagenden fÃ¼r den BÃ¼rger und die BÃ¼rgerin so einfach und sicher wie mÃ¶glich zu machenâ, so Mag. Clemens Schwaiger, Bereichsleiter der Bereiche Product Management und Digital Advisory im BRZ. âDie VR-Abstimmung in Scheibbs soll auch andere StÃ¤dte und Gemeinden motivieren, Verwaltungsagenden in die digitale Gegenwart zu bringen. Das BRZ unterstÃ¼tzt dabei gerne und bringt seine Erfahrungen und Produkte aus dem Bereich eGovernment ein.â",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Scheibbs als Modell fÃ¼r eDemocracy-Verfahren in StÃ¤dten und Gemeinden"
+               },
+               {
+                  "_uid" : "861424ec-297f-4823-a20a-a8be6954aa88",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "BRZ eDem ist eine auf der Blockchain-Technologie basierende eDemocracy-LÃ¶sung, die vom BRZ entwickelt wurde. Ein besonderes Augenmerk liegt auf Sicherheit, ZuverlÃ¤ssigkeit und Transparenz beim Abstimmungsprozess. Durch die Trennung von IdentitÃ¤t und digitaler Wahlurne ist die Abstimmung anonym, gleichzeitig wird jedoch sichergestellt, dass nur eine einmalige Stimmabgabe mÃ¶glich ist. BRZ eDem soll in Zukunft Beteiligungsprozesse in StÃ¤dten und Gemeinden fÃ¼r BÃ¼rgerinnen und BÃ¼rger sowie fÃ¼r die durchfÃ¼hrenden Organe vereinfachen.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Ãber BRZ eDem"
+               },
+               {
+                  "_uid" : "af91b892-3f5e-429f-9055-ec8d9b08ff2c",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Das BRZ ist der marktfÃ¼hrende Technologiepartner des Ã¶ffentlichen Sektors in Ãsterreich. Es entwickelt und betreibt mehr als 400 IT-Anwendungen und E-Government-LÃ¶sungen (z.B. FinanzOnline, oesterreich.gv.at). DarÃ¼ber hinaus verfÃ¼gt es Ã¼ber eines der grÃ¶Ãten Rechenzentren des Landes und hÃ¼tet den Datenschatz der Republik.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Ãber das BRZ"
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Am Mittwoch, den 08. JÃ¤nner 2020 wurde im Scheibbser Rathaus das Abstimmungsergebnis bekannt gegeben. 973 TeilnehmerInnen (von 4503 Stimmberechtigten) nahmen an der Abstimmung teil, das ist eine Beteiligung von 21,61 %. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Als Sieger ging der Entwurf C (Tetratop) hervor - dieser erhielt 3344 Sterne. Die Variante B (Fischbauch) erhielt 2851 Sterne, die Variante A (Edelrost) 2365 Sterne. Damit kommt das BrÃ¼ckengelÃ¤nder in der Variante Tetratop, in Edelrost gehalten, zur Umsetzung.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Wie soll Scheibbs in Zukunft aussehen? Diese Frage stellte sich BÃ¼rgermeister Franz Aigner beim Bau einer zusÃ¤tzlichen, achten BrÃ¼cke Ã¼ber die Erlauf. Das die BrÃ¼cke gebaut wird, war beschlossen, aber welches BrÃ¼ckenmodell tatsÃ¤chlich umgesetzt wird, sollten die BÃ¼rgerinnen und BÃ¼rger von Scheibbs mitbestimmen. Bei der DurchfÃ¼hrung dieser Umfrage ging der BÃ¼rgermeister neue Wege. UnterstÃ¼tzt wurde er dabei von den Expertinnen und Experten des Bundesrechenzentrums und ihrer E-Partizipations-LÃ¶sung BRZ eDem.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "25b38d65-20e6-45dc-9e05-641008fc8da9",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T10:26:48.159Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-18T20:23:33.131Z",
+         "full_slug" : "projekte/brueckenbau-projekt-in-scheibbs",
+         "group_id" : "f7e73382-30ec-43cf-b43d-3a4a58f1f0bb",
+         "id" : 23314931,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "BrÃ¼ckenbau-Projekt in Scheibbs",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 230,
+         "published_at" : "2020-11-20T17:44:43.625Z",
+         "release_id" : null,
+         "slug" : "brueckenbau-projekt-in-scheibbs",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "4d5f2d04-b4d8-4153-8b2a-b1f6aa019488"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "108347ee-2661-4ed6-9aaf-fb153e64f143",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "4415e94c-20ab-4286-abdd-478cd8d71326",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "https://www.keyper.io /  https://keyper.link/FCB-sharing / https://www.keyper.io/news/flachendeckende-covid-19-tests-als-grundlage-fur-sichere-events/ ",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Unser vorrangiges Ziel, ist unseren Kunden und Stakeholdern sowie deren Kunden die digitale Ticketdistribution so einfach, sicher und schnell wie mÃ¶glich zu gewÃ¤hrleisten. Zudem mÃ¶chten wir dabei helfen, den Schwarzmarkt einzudÃ¤mmen, um den Besuchern die Tickets zu erschwinglichen Preisen anbieten zu kÃ¶nnen. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Vorteile/Ziele nach Gruppen ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Sport-, Event-, Kulturveranstalter ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Reduzierung No-Show Rate durch MÃ¶glichkeit der Ticketweitergabe, dadurch Steigerung des Umsatzes ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Personalisierte Tickets, kenne alle Ticketnutzer, nicht nur TicketkÃ¤ufer, dadurch gezielte MarketingmaÃnahmen mÃ¶glich ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "EindÃ¤mmung Schwarzmarkt ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Einfache und schnelle Verwaltung von VIP, Sponsoren,â¦ Tickets, auch last-minute Ãnderungen sind kein Stressfaktor mehr ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Fans, Besucher, Fanclubs ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Verwaltung und Verteilung von digitalen Tickets zB in der Vereinsapp",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "nicht benÃ¶tigte Tickets einfach innerhalb von Sekunden digital an Freunde weitergeben ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Sponsoren, VIP, Presse, Akkreditierung",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Einfaches Einladungsmanagement ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Einfache Ticketverwaltung & -weitergabe/verteilung",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Aus anonymisierten Besuchern werden zusÃ¤tzliche Kunden. ZusÃ¤tzlich erfolgt die Verteilung von VIP-, Sponsoren-, Hospitality und Sondertickets zeitsparender. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Was das Produkt unter anderem auszeichnet, ist die kontaktlose Anwendung. Gerade in den aktuellen, von Covid-19 geprÃ¤gten, Zeiten, rÃ¼ckt aber auch noch eine weitere zentrale FunktionalitÃ¤t verstÃ¤rkt in den Mittelpunkt: Die Datenschutz-konforme Personalisierung von Tickets. âSollten VerdachtsfÃ¤lle auftreten, kÃ¶nnen fÃ¼r die Nachverfolgung und Rekonstruktion der anwesenden Besucher notwendigen Daten auf Knopfdruck bereitgestellt werden.â erklÃ¤rt Andreas Kienbink, GeschÃ¤ftsfÃ¼hrer von keyper.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "c50e3789-137f-4890-a651-6a1dc7091b6d",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "keyper ist ein Technologieanbieter, der seinen Kunden wie Sportvereinen und Kulturveranstaltern sowie deren Fans/Besuchern die einfache Weitergabe, Verwaltung und Personalisierung der digitalen Tickets von Einzelspielen sowie von Dauerkarten in der Vereins-App oder anderen bereits bestehenden LÃ¶sungen anbietet. Das âNo-Showâ Problem kann gelÃ¶st, mehr Umsatz generiert und der Schwarzmarkt bekÃ¤mpft werden. ",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/2b5c2cc388/keyper_bild_foto.jpg",
+                     "focus" : null,
+                     "id" : 1596230,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "Secure and easy.",
+                  "title" : "keyper / Sharing tickets."
+               }
+            ],
+            "meta" : {
+               "_uid" : "322972f3-644f-4f34-9277-096a345ab452",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "d899a87a-6199-476b-bf3c-b29549ddf32b",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Startschuss fÃ¼r die Entwicklung unserer iOS-App, Android-App und Web-App. Seitdem wird an der Produktentwicklung gearbeitet. Zuerst wurde die keyper app entwickelt, mit der Tickets einfach weitergeleitet werden konnten.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "2014-2015 â technische Entwicklung & keyper app"
+               },
+               {
+                  "_uid" : "af93c538-0792-47e7-af79-a4464bf20cf8",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Wechsel des Fokus von einer B2C App zu einem B2B SDK GeschÃ¤ftsmodell. Erste Erfolge stellten sich ein. Eine Testphase mit den Pilotkunden Haydn Festival Eisenstadt, dem Kunsthistorischen Museum Wien und FC Basel 1893 wurde im white-labelled Design durchgefÃ¼hrt.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "2016-2017 â Fokus auf Businesskunden & erste Testbetriebe"
+               },
+               {
+                  "_uid" : "179b9d13-1f7b-4ead-bf36-a9d4aecb71b4",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Unsere MarketingaktivitÃ¤ten wurden verstÃ¤rkt. keyper in der Ticketingbranche einen Namen zu machen war das Ziel. Wesentliche Features fÃ¼r eine noch kundenfreundlichere Anwendung wurden/werden entwickelt. Der Fokus wird auf Sportvereine, Event- und Kulturveranstalter gelegt.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Seit 2018 â Marktbearbeitung & Erweiterungen "
+               },
+               {
+                  "_uid" : "2a95b04a-1151-4a60-b951-5a07b07616e3",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "WÃ¤hrend der COVID-19 Krise mÃ¶chten wir unsere Kerntechnologie sinnstiftend einsetzen. Dazu haben wir eine auf der keyper Plattform aufbauende LÃ¶sung entwickelt, mit der die digitale Distribution und Logistik von COVID-19 Tests unterstÃ¼tzt wird. Mit Onlinewebinaren versuchen wir LÃ¶sungen aufzuzeigen, um eine RÃ¼ckkehr der Zuschauer in den Stadien zu ermÃ¶glichen.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Aktuell â COVID-19 "
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Das Ergebnis ist ein volleinsetzbare Technologie, die von Kunden wie FK Austria Wien (Ãsterreich), FC Bayern MÃ¼nchen (Deutschland), Karlsruher-SC (Deutschland), FC Basel (Schweiz), Ãjpest FC (Ungarn), Kunsthistorische Museum Wien (Ãsterreich) oder die Salzburger Festspiele (Ãsterreich) verwendet wird.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "keyper wurde aufgrund einer persÃ¶nlichen Erfahrung von Andreas Kienbink, CEO, gegrÃ¼ndet. Er musste vor dem Einlass ins FuÃballstadion mit seiner Familie warten, da sein Schwager die Tickets im Auto hatte und sich dieser in einem Stau befand. Zu dieser Zeit gab es fÃ¼r jede Anwendung Apps, doch die Tickethandhabung war veraltet. Die GrÃ¼nder von keyper, Andreas Kienbink und Andreas Kreuter, dachten es wÃ¤re cool, eine App fÃ¼r ein einfaches Tickethandling zu entwickeln. Seit 2013 arbeitet das Team rund um die beiden daran das Ticketing in das 21. Jahrhundert zu bringen.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "fc43e8e3-b42f-4ae2-96a7-d97ade77d28c",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T10:16:14.223Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-18T20:23:33.478Z",
+         "full_slug" : "projekte/keyper-sharing-tickets-secure-and-easy-",
+         "group_id" : "8f22416d-bba7-49cc-ba29-ba5607d21874",
+         "id" : 23312909,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "keyper / Sharing tickets. Secure and easy.",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 240,
+         "published_at" : "2020-11-20T17:44:44.637Z",
+         "release_id" : null,
+         "slug" : "keyper-sharing-tickets-secure-and-easy-",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "959edc51-0095-4368-b233-8bd5fd562cea"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "0814a663-4a88-4d6e-904c-689a27801dc4",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "675cffd1-820a-4a9b-86da-2e7416c2aeb0",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "https://www.siedl.net/teamcollaboration",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Moderne Services fÃ¼r E-Mail, Groupware, Office Dokumente, Chat, Videomeetings und Filesharing zu verwenden und die Kontrolle der Daten zu bewahren, die Entscheidungsfreiheit zu haben wo ihre Daten gespeichert bzw. die Services betrieben werden, die DSGVO Richtlinien einzuhalten, die WertschÃ¶pfung in Ãsterreich bzw. in Europa zu generieren und die Systeme im Detail an die Anforderungen ihres Unternehmens bzw. Organisation anzupassen. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Eine einfache Bedienung fÃ¼r die Anwender, Enterprise Support und hohe Sicherheitsanforderungen mÃ¼ssen ebenso erfÃ¼llt werden.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "5d04ed09-f070-49c1-bc83-030afcaf5f82",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Will ein Unternehmen oder eine Organisation seine Prozesse im Office- und Kommunikationsbereich digitalisieren, dann stehen primÃ¤r die groÃen IT-Konzerne auf der Auswahlliste. Diese modernen Service bieten viele Vorteile, jedoch geht die digitale SouverÃ¤nitÃ¤t und die Kontrolle Ã¼ber seine Daten verloren, individuelle Anpassungen sind nicht mehr mÃ¶glich, die WertschÃ¶pfung flieÃt nach Ãbersee und die Bestimmungen von der DSGVO werden nicht erfÃ¼llt.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/720x405/17dd8f0844/header-sidl-opensourceteam-foto.png",
+                     "focus" : null,
+                     "id" : 1618164,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "Die digital souverÃ¤ne Office- und KommunikationslÃ¶sung",
+                  "title" : "Open Source Team Collaboration"
+               }
+            ],
+            "meta" : {
+               "_uid" : "f6fd2471-0f37-4e02-85c9-87dc6182819e",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "f54f4713-96d7-4d19-b7be-c9f835c8bfbc",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Alle Softwarehersteller entwickeln auf Basis von Open Source Technologie und bieten neben kostenlosen Community Versionen auch Enterprise Support und Schulungen. Als Basis, zentrales Identitiy Management und Portal fÃ¼r alle Services wird der Univention Corporate Server verwendet. E-Mail- und Groupware liefert Kopano Collaboration Suite, Filesharing bietet die Nextcloud, Office Dokumente online bearbeiten mit Only Office, die ChatlÃ¶sung liefert Rocket.Chat und Videokonferenzen werden mit Jitsi umgesetzt.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Auswahl der Hersteller"
+               },
+               {
+                  "_uid" : "fc124faa-566e-45a6-a431-e2b1a2a1f80d",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Alle erwÃ¤hnten Hersteller finden sich im zentralen Univention Portal wieder. Hier ist die zentrale Stelle wo Anwender Ihre Programme und Services starten kÃ¶nnen. Mit einem zentralen Login und Kennwort kÃ¶nnen Sie den gewÃ¼nschten Service verwenden. Plattform- und ortsunabhÃ¤ngig stehen alle Daten und Informationen bereit. ZusÃ¤tzlich kann dass Portal um eigene Services und Apps erweitert werden.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Die LÃ¶sung aus einem Guss - das Univention Portal"
+               },
+               {
+                  "_uid" : "8b90dca7-66ae-4156-9e18-245ec8a9add3",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Wichtig ist natÃ¼rlich das Daten fÃ¼r jeden Service zur VerfÃ¼gung stehen. So kann in Nextcloud ein Office Dokument erstellt werden und mit einem anderen Anwender gleichzeitig bearbeitet werden. Ein Foto von Rocket.Chat kann in die Nextcloud gespeichert und online in das Dokument eingefÃ¼gt werden. Und das Dokument kann einfach an eine E-Mail als Anhang hinzugefÃ¼gt und verschickt werden. Alles ohne Down- und Upload.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Vollen Datenzugriff zwischen den Services"
+               },
+               {
+                  "_uid" : "7899ef76-052d-4c79-a164-816636ee13c2",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die Open Source Team Collaboration kann auf der Serverfarm im Unternehmen, im Rechenzentrum oder auf Hoster und Cloudanbieter betrieben werden. Des weiteren kÃ¶nnen zusÃ¤tzliche Services eingebunden und Schnittstellen fÃ¼r den Datenaustausch an Ihre BedÃ¼rfnisse angepasst werden.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Deine Entscheidung wo die Services betrieben und deine Daten gespeichert werden!"
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "zufriedene Anwender, sichere Unternehmen und entlastete Administratoren ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Das Ergebnis sind: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- zufriedene Anwender, weil die Software einfach zu verwenden ist.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- sichere Unternehmen und Organisation weil diese die MÃ¶glichkeit haben den Quellcode zu prÃ¼fen und anzupassen, SicherheitslÃ¼cken rasch identifiziert und behoben werden und sich die Open Source Team Collaboration auch an die Datensicherung denkt. ZusÃ¤tzlich behalten Sie die Kontrolle Ã¼ber ihre Daten.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "- entlastete Administratoren, weil diese den Anwender eine sichere WeboberflÃ¤che zur VerfÃ¼gung stellen und die Services unabhÃ¤ngig vom EndgerÃ¤t und Ort zur VerfÃ¼gung stehen.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Will ein Unternehmen oder eine Organisation seine Prozesse im Office- und Kommunikationsbereich digitalisieren, dann stehen primÃ¤r die groÃen IT-Konzerne auf der Auswahlliste. Microsoft mit Office 365, Google mit G-Suite oder Amazon mit Ihren Cloud Services. Diese modernen Service bieten viele Vorteile, jedoch geht die digitale SouverÃ¤nitÃ¤t und die Kontrolle Ã¼ber seine Daten verloren, individuelle Anpassungen sind nicht mehr mÃ¶glich, die WertschÃ¶pfung flieÃt nach Ãbersee und die Bestimmungen von der DSGVO werden nicht erfÃ¼llt.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "4e3c0bae-7774-4cb4-abfe-ca4fc9c98dc1",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T10:05:54.918Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-20T13:02:21.378Z",
+         "full_slug" : "projekte/open-source-team-collaboration",
+         "group_id" : "f312ceb0-ae45-4f94-b963-ec345daa2c73",
+         "id" : 23311165,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "Open Source Team Collaboration",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 250,
+         "published_at" : "2020-11-20T17:44:45.651Z",
+         "release_id" : null,
+         "slug" : "open-source-team-collaboration",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "898ef759-76ce-4ee0-986f-1b874c7cfb18"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "779118a1-9d93-4ca6-9826-e769b0d89a5b",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "3bb516e4-34b8-41f3-a4e1-e6d89baf7511",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "https://drive.google.com/file/d/1nq9GdnNBcthPxsk5M06p2HvB8FcvthZs/view?usp=sharing",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "a) Wissenschaftliche Planung: Das erste Ziel zum Forschungslabor war es, die Technologieerweiterungen zu planen und die optimalen KapazitÃ¤ten fÃ¼r z.B. PV, elektrische Speicher und E-Ladestationen fÃ¼r die verschiedenen AnwendungsfÃ¤lle und spÃ¤teren Labortests festzulegen. Bereits die Konzeptionierung des Forschungslabors stellt eine komplexe Forschungsfrage dar, weil die Planung von GebÃ¤uden mit ganzheitlicher Optimierung aller Energiesysteme und GebÃ¤udeelemente noch nie durchgefÃ¼hrt wurde. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "b) Messinfrastruktur und Inbetriebnahme des Microgrid Lab: Zweites Ziel ist das Microgrid-Forschungslabor fÃ¼r die bereits bestehenden Technologien (Hackgutkessel und AbsorptionskÃ¤ltemaschine im Technologiezentrum Wieselburg) und die neu geplanten Implementierungen dezentraler WÃ¤rme-, KÃ¤lte- und Stromtechnologien (PV-Anlage am Dach des Feuerwehrhauses, Batteriespeicher, E-Ladestationen) zu finalisieren und in Betrieb zu nehmen. Inhaltlicher Bestandteil ist die Implementierung einer Messinfrastruktur und eines Kommunikationsnetzes zur Erfassung von realen Lastprofilen und Performance-Daten der Erzeugungseinheiten. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "c) Datensammlung, Testzyklen, Algorithmen Adaptierung: Drittes Ziel ist die theoretischen Modelle, auf Basis von Datensammlungen innerhalb dieses Projekts, weiter zu entwickeln. Die Praxistauglichkeit der theoretischen Algorithmen wird innerhalb des Forschungslabors Microgrid evaluiert. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "d) Offen zugÃ¤ngliches Labor, Produktentwicklung und Dissemination: Viertes Ziel ist die Methodik und das Know-How zu Microgrids fÃ¼r Dienstleister und Entwickler von Systemkomponenten (zum Beispiel: Microgrid-Controller, Energiemanagementsystemen, Ladereglern,â¦) zugÃ¤nglich zu machen.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "f46d5204-8cdb-4dc7-bd8f-552f26a24703",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Am Technopol Wieselburg betreibt das K1-Kompetenzzentrum Bioenergy and Sustainable Technologies (BEST) in einer Kooperation des Technologie- und Forschungszentrums und den Gemeinden Wieselburg Stadt und Land ein energetisches Mikronetz fÃ¼r Forschungszwecke. ",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/281349391b/microgrid_forschungslabor_wieselburg_foto.jpg",
+                     "focus" : null,
+                     "id" : 1596241,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "",
+                  "title" : "Microgrid Forschungslabor Wieselburg"
+               }
+            ],
+            "meta" : {
+               "_uid" : "e9dd994c-53ac-4e69-b324-38fbec8a556e",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "67f4da4a-7f3b-42d0-a6e1-4f11accba7bb",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Installation von dezentralen Technologien & Intelligenter Kontroller Algorithmen",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "df6d477b-c8b3-41e1-9c16-5ad1ec9a4dcb",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Kommunikationsinfrastruktur",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "01b40788-4e9e-416a-9853-b070e12d5665",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Wissenschaftliche Publikationen",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               },
+               {
+                  "_uid" : "b7d25508-bf00-4fe2-ade5-398d0d167fe7",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "MarktfÃ¤hige Produkte und Dienstleistungen",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : ""
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "FunktionsfÃ¤higes Testlabor fÃ¼r Microgrids",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Durch die wissenschaftliche Betreuung des vor Ort ansÃ¤ssigen K1-Kompetenzzentrums BEST und der Fachhochschule Wiener Neustadt - Campus Wieselburg wird eine einmalige Forschungsinfrastruktur laufend weiterentwickelt. Dies ermÃ¶glicht es Strom-, WÃ¤rme- und KÃ¤ltetechnologien in realer Umgebung zu optimieren. Durch die Forschungsergebnisse und Implementierung von Optimierungsalgorithmen und standardisierten Kommunikationsmethoden und IT Infrastrukturen kÃ¶nnen bestehende Energieversorgungssysteme ergÃ¤nzt, Netze entlastet und die Notwendigkeit eines teuren Netzausbaues verringert werden. Mikro-Netze (Microgrids) liefern so zukÃ¼nftig die MÃ¶glichkeit, erneuerbare Energieressourcen effizienter zu nutzen.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Microgrids sind kleine, lokale Energienetze (Strom, WÃ¤rme und KÃ¤lte) die Haushalte und Betriebe mit Energie versorgen. Sie kÃ¶nnen ihren Energiebedarf selbststÃ¤ndig aus erneuerbaren Energien oder anderen Energieformen decken, wie etwa Biomasse, Wasserkraft, WindrÃ¤der oder KraftwÃ¤rmekopplungen. Microgrids kÃ¶nnen individuell gesteuert werden. Sie berechnen den Verbrauch und kÃ¶nnen Energie im Bedarfsfall dorthin verlagern, wo gerade Bedarf besteht, oder sie reduzieren im Gegensatz dazu den Energieverbrauch. Sie erhÃ¶hen dadurch die Systemeffizienz, reduzieren Verluste, und verbessern die Integration von volatilen Energieformen wie Photovoltaik und Wind. Zudem haben sie den Vorteil, dass sie sich vom Stromnetz entkoppeln und fÃ¼r angeschlossene GebÃ¤ude oder Gewerbebetriebe weiterhin Strom, WÃ¤rme und KÃ¤lte produzieren kÃ¶nnen (zum Beispiel Regionen die hÃ¤ufig von StromausfÃ¤llen durch Unwetter betroffen sind). Microgrids kÃ¶nnen aber auch einen Vorteil fÃ¼r lokale Energieversorger darstellen, da diese auch Dienstleistungen an Energieversorger anbieten kÃ¶nnen. So kann zum Beispiel das Microgrid Biogas in das Erdgasnetz einspeisen und so erneuerbare Energie zur VerfÃ¼gung stellen. Eine andere MÃ¶glichkeit ist die Bereitstellung von Regelenergie, um NetzengpÃ¤sse zu reduzieren.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "6aa89465-4225-4af8-b350-c5dff11196f4",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T09:55:00.279Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-20T13:02:21.729Z",
+         "full_slug" : "projekte/microgrid-forschungslabor-wieselburg",
+         "group_id" : "54d1fe2b-954a-4e69-adb0-11d4aeb89930",
+         "id" : 23311148,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "Microgrid Forschungslabor Wieselburg",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 260,
+         "published_at" : "2020-11-20T17:44:46.666Z",
+         "release_id" : null,
+         "slug" : "microgrid-forschungslabor-wieselburg",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "e39fa4e1-a480-4bc2-a5c7-8344dc241200"
+      },
+      {
+         "alternates" : [],
+         "content" : {
+            "_uid" : "e16c9961-5e99-4f4f-bf4b-23e15e59abed",
+            "body_image" : {
+               "alt" : null,
+               "copyright" : null,
+               "fieldtype" : "asset",
+               "filename" : "",
+               "focus" : null,
+               "id" : null,
+               "name" : "",
+               "title" : null
+            },
+            "category" : [],
+            "company_id" : "",
+            "company_id_v2" : {
+               "_uid" : "3040a6ab-0789-4761-a21d-f76aba56ca39",
+               "company_id" : null,
+               "plugin" : "vh-companyselect"
+            },
+            "component" : "project-post",
+            "external_link" : "https://dokupit.com/",
+            "goals_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "--- Ãberblick Ã¼ber die Funktionen von DokuPit --- ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Projektverwaltung: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Leistungen definieren, BauplÃ¤ne hochladen & Nutzer freigeben ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Dokumentation: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "TÃ¤tigkeiten sowie Fotos erfassen & Standort markieren ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Auswertung: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Bericht sowie Abrechnung erstellen, Ergebnisse analysieren & MÃ¤ngel erfassen ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "--- Darum solltest du mit DokuPit arbeiten --- ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Individualisierbare Logik: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Profitiere von einer frei gestaltbaren sowie herstellerunabhÃ¤ngigen DatenÂ­erfassung deiner TÃ¤tigkeiten, Dienstleistungen und Produkte. Lege alle Parameter und Details komplett selbst fest. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Bericht auf Knopfdruck: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Das komplette Projekt ist in einem professionell gestalteten PDF zusammengefasst und lÃ¤sst sich direkt per E-Mail verschicken. WÃ¤hle dein Design, integriere dein Logo und hÃ¤nge alle relevanten Dokumente an. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Automatische Abrechnung: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Sofort berechnete Preise und StÃ¼ckzahlen sowie individuelle Formeln sorgen fÃ¼r eine enorme Zeitersparnis innerhalb der Abrechnung.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "#1 Digitalisierung ist unsere Leidenschaft: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Wir bringen effizientes Arbeiten in Branchen, die noch mit veralteten Methoden ihren Alltag bestreiten. Digitales Dokumentieren und Archivieren ist die Zukunft des Arbeitsmarktes. Neben rechtlichen Sicherheiten im Bereich der Nachweispflicht bietet es viele weitere Vorteile. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "#2 Effizientes und einfaches Arbeiten ist unsere Philosophie: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Intuitives und geleitetes Dokumentieren sorgt fÃ¼r sichere ArbeitsablÃ¤ufe. Automatische Zwischen- und Abschlussberichte sowie Abrechnungen sparen sehr viel Zeit. Dokumentationen vor Ort sind zudem blitzschnell erstellt. Nur Ã¼ber eine einfache Bedienbarkeit kann das erreicht werden. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "#3 Die GesamtlÃ¶sung jeder ProjektÂ­Â­dokumentation zu sein, ist unser Konzept: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Flexible EinstellungsmÃ¶glichkeiten sind wichtig, um maximale Effizienz zu erreichen. HerstellerunabhÃ¤ngigkeit sorgt dabei fÃ¼r den bestmÃ¶glichen Spielraum. DokuPit verlÃ¤sst dabei die 0815-Schiene und ermÃ¶glicht die Projektdokumentation fÃ¼r alle prÃ¼fpflichtigen Gewerke aus den Bereichen Handwerk, Dienstleistung und Bau. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "#4 NÃ¤he behalten, ist unsere Besonderheit: ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "DokuPit ist wie eine Familie. Umgesetztes Feedback trÃ¤gt aktiv dazu bei, unsere Software immer praxisnah zu halten. Wer persÃ¶nlichen Support sucht, wird bei uns fÃ¼ndig! Jeder Kunde ist uns nah und hat Einfluss auf die Entwicklung.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "hero" : [
+               {
+                  "_uid" : "d08d71bf-099c-456f-af19-e880f1cbb24f",
+                  "component" : "vh_hero_text_image_single_project",
+                  "description" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Mit DokuPit erfasst du alle TÃ¤tigkeiten digital per Smartphone oder Tablet. Der Vorteil: SÃ¤mtliche Daten kommen in Echtzeit im BÃ¼ro an â egal ob du als Brandabschotter, Architekt, Isolierer, PlanungsbÃ¼ro oder Generalunternehmer arbeitest! Effiziente Zeitersparnis war nie einfacher! Automatische Projektberichte sowie Abrechnung erfolgen auf Knopfdruck. Individuelle Formelberechnungen sorgen fÃ¼r sekundenschnelle Preiskalkulationen. ",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "featured_image" : {
+                     "alt" : "",
+                     "copyright" : "Â© DokuPit GmbH",
+                     "fieldtype" : "asset",
+                     "filename" : "https://a.storyblok.com/f/89606/1920x1080/dd82b6062c/dokupit_foto.jpg",
+                     "focus" : null,
+                     "id" : 1596244,
+                     "name" : "",
+                     "title" : ""
+                  },
+                  "goBackLabel" : "ZurÃ¼ck zur Ãbersicht",
+                  "headerClass" : "bg-hero-texture",
+                  "isGoBack" : false,
+                  "subtitle" : "als digitale GesamtlÃ¶sung fÃ¼r Projektdokumentationen",
+                  "title" : "DokuPit"
+               }
+            ],
+            "meta" : {
+               "_uid" : "5e7c8362-a2bc-4120-8b20-b6f04287b74e",
+               "description" : "",
+               "og_description" : "",
+               "og_image" : "",
+               "og_title" : "",
+               "plugin" : "seo_metatags",
+               "title" : "",
+               "twitter_description" : "",
+               "twitter_image" : "",
+               "twitter_title" : ""
+            },
+            "milestones_bulletpoints" : [
+               {
+                  "_uid" : "68ebaec5-814a-4888-9e53-86271a635355",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Die Idee zur Brandschutz-App ist geboren.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "August 2017: "
+               },
+               {
+                  "_uid" : "85dffbcb-397d-4671-9922-e88991772e83",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Release von DokuPit mit der ersten erfolgreichen Nutzung von interessierten und bis heute treuen Kunden.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "MÃ¤rz 2018: "
+               },
+               {
+                  "_uid" : "5b86796b-fb08-4137-a351-81dd5f00842c",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "Preisverleihung â Genius Ideen- & GrÃ¼nderpreis \"Genial digital\"",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Mai 2019: "
+               },
+               {
+                  "_uid" : "cb9663ee-fa09-4500-9e32-158cfbd06de0",
+                  "component" : "bulletpoint-item",
+                  "text" : {
+                     "content" : [
+                        {
+                           "content" : [
+                              {
+                                 "text" : "DokuPit wird durch seinen Erfolg als \"DokuPit GmbH\" ein eigenstÃ¤ndiges Unternehmen. Aus der ehemaligen Brandschutz-App wurde eine ganzheitliche Software zur Projektdokumentation.",
+                                 "type" : "text"
+                              }
+                           ],
+                           "type" : "paragraph"
+                        }
+                     ],
+                     "type" : "doc"
+                  },
+                  "title" : "Juli 2019: "
+               }
+            ],
+            "result_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Mehr Zeit fÃ¼r dein Business! ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "Einfach. Digital. Dokumentieren. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "> Ãber 5.100 angelegte Projekte. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "> Ãber 9.650 erstellte Berichte. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "> Ãber 270.000 dokumentierte TÃ¤tigkeiten. ",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  },
+                  {
+                     "content" : [
+                        {
+                           "text" : "> InternationalitÃ¤t: Kunden aus Ãsterreich, Deutschland und der Schweiz.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "starting_situation_text" : {
+               "content" : [
+                  {
+                     "content" : [
+                        {
+                           "text" : "Der freundschaftliche Zusammenschluss einer IT-Firma mit Brandschutzexperten brachte innovative Ideen hervor. Unsere Experten erkannten schnell die Defizite in der Dokumentation innerhalb der Brandschutz-Branche. Schnell wurde klar, dass die gesamte Bau-Branche betroffen ist und effizientere LÃ¶sungen auf den Markt mÃ¼ssen. Im Fokus stehen IndividualitÃ¤t und IntuitivitÃ¤t fÃ¼r Unternehmen.",
+                           "type" : "text"
+                        }
+                     ],
+                     "type" : "paragraph"
+                  }
+               ],
+               "type" : "doc"
+            },
+            "theme" : "light",
+            "user_id" : "",
+            "user_id_v2" : {
+               "_uid" : "e903d980-5b74-425b-9fdc-bc5fc93b672f",
+               "plugin" : "vh-userselect",
+               "user_id" : null
+            }
+         },
+         "created_at" : "2020-10-09T09:44:35.962Z",
+         "default_full_slug" : null,
+         "first_published_at" : "2020-10-20T13:02:22.071Z",
+         "full_slug" : "projekte/dokupit",
+         "group_id" : "1277f1c4-acfb-492a-b61d-be2bb0026457",
+         "id" : 23311121,
+         "is_startpage" : false,
+         "lang" : "default",
+         "meta_data" : null,
+         "name" : "DokuPit ",
+         "parent_id" : 16275052,
+         "path" : null,
+         "position" : 270,
+         "published_at" : "2020-11-20T17:44:47.684Z",
+         "release_id" : null,
+         "slug" : "dokupit",
+         "sort_by_date" : null,
+         "tag_list" : [],
+         "translated_slugs" : [],
+         "uuid" : "8461ab8b-e0e9-4e0a-a57f-f9b5ae979a93"
+      }
+   ]
+}
