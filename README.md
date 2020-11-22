@@ -17,7 +17,7 @@ yarn # install
 yarn dev # start develop server
 ```
 
-- 📖 [&nbsp;Read the documentation](http
+- 📖 [&nbsp;Read the documentation](https://nuxt-storyblok-starter-docs.vercel.app/)
 
 ## What's inside
 
