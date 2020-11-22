@@ -1,18 +1,23 @@
-# nuxt-storyblok-starter
+# Nuxt.js Storyblok Starter
 
 Nuxt Storyblok Starter Kit is a project template for building Websites on top of the popular Storyblok CMS, TailwindCSS 2, PostCSS and many more. 
 
 Helping you to stay productive following and eliminating repetive tasks. 
 
+- 🎲 &nbsp;Demos on CodeSandbox - WIP
+- 📖 &nbsp;Read the documentation - WIP
+
 ## Quickstart
 
-Clone the project and install depencies
+Clone the project and install dependencies
 ```
 git clone git@github.com:regenrek/nuxt-storyblok-starter.git my-project
 
 yarn # install
 yarn dev # start develop server
 ```
+
+📖 Read the documentation - WIP
 
 ## What's inside
 
@@ -23,6 +28,9 @@ yarn dev # start develop server
 #### Nuxt Modules
 * [nuxt-storyblok-queries](https://github.com/regenrek/nuxt-storyblok-queries)
 
-## Deploy
+## License
+
+[MIT License](./LICENSE)
+
 
 
