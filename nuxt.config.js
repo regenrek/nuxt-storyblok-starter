@@ -30,7 +30,6 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    'nujek-ui/nuxt',
     '@nuxtjs/color-mode'
   ],
 
