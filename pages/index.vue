@@ -1,11 +1,19 @@
 <template>
-  <div class="mx-auto max-w-4xl my-5">
+  <div class="min-h-screen mx-auto max-w-xl my-5 px-8">
+    <div>
+      <p class="flex items-center">
+        Enjoy light and dark mode:&nbsp;<app-color-switcher
+          class="inline-flex ml-2"
+        />
+      </p>
+    </div>
+
     <div>
       <h1 class="text-4xl">
         {{ home.name }}
       </h1>
 
-      <div class="bg-gray-100 py-8 px-8 my-8">
+      <div class="bg-gray-100 dark:bg-gray-800 dark:text-white py-8 px-8 my-8">
         <ul class="grid gap-y-4">
           <li v-for="(post, index) in posts" :key="index" class="">
             {{ index + 1 }}. {{ post.content.title }}
@@ -16,10 +24,16 @@
       </div>
 
       <div class="flex space-x-6">
-        <button class="border b-gray-200 p-4" @click="createNewPost">
+        <button
+          class="border b-gray-200 p-4 dark:text-white"
+          @click="createNewPost"
+        >
           Create new post
         </button>
-        <button class="border b-gray-200 p-4" @click="refetchPosts">
+        <button
+          class="border b-gray-200 p-4 dark:text-white"
+          @click="refetchPosts"
+        >
           Refetch Posts
         </button>
       </div>

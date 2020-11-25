@@ -2,7 +2,7 @@ import { storyblokConfig } from './config'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -30,8 +30,13 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    'nujek-ui/nuxt'
+    'nujek-ui/nuxt',
+    '@nuxtjs/color-mode'
   ],
+
+  colorMode: {
+    classSuffix: ''
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

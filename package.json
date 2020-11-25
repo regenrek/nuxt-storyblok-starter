@@ -30,10 +30,11 @@
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.1",
     "@nuxtjs/tailwindcss": "https://github.com/nuxt-community/tailwindcss-module#feat/tailwindcss2",
-    "@wearewondrous/nuxt-storyblok-queries": "https://github.com/regenrek/nuxt-storyblok-queries#feat-manage-api",
+    "@wearewondrous/nuxt-storyblok-queries": "https://github.com/regenrek/nuxt-storyblok-queries#master",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
