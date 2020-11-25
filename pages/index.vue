@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen mx-auto max-w-xl my-5 px-8">
+  <div class="min-h-screen mx-auto max-w-xl py-5 px-8">
     <div>
       <p class="flex items-center">
         Enjoy light and dark mode:&nbsp;<app-color-switcher
