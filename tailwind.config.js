@@ -1,3 +1,8 @@
 module.exports = {
-  darkMode: 'class'
+  darkMode: 'class',
+  themes: {
+    extends: {
+      fontFamily: 'manrope'
+    }
+  }
 }

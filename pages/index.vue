@@ -1,41 +1,27 @@
 <template>
-  <div class="min-h-screen mx-auto max-w-xl py-5 px-8">
-    <div>
-      <p class="flex items-center">
-        Enjoy light and dark mode:&nbsp;<app-color-switcher
-          class="inline-flex ml-2"
-        />
-      </p>
+  <div>
+    <div class="border-b border-gray-400 flex justify-between py-4 mx-16">
+      <div class="text-5xl">Logo</div>
+
+      <div>
+        <NjColorSwitcher />
+      </div>
     </div>
 
-    <div>
-      <h1 class="text-4xl">
-        {{ home.name }}
-      </h1>
-
-      <div class="bg-gray-100 dark:bg-gray-800 dark:text-white py-8 px-8 my-8">
-        <ul class="grid gap-y-4">
-          <li v-for="(post, index) in posts" :key="index" class="">
-            {{ index + 1 }}. {{ post.content.title }}
-          </li>
-        </ul>
-
-        <div v-if="$fetchState.pending" class="my-2">Posts are loading...</div>
-      </div>
-
-      <div class="flex space-x-6">
-        <button
-          class="border b-gray-200 p-4 dark:text-white"
-          @click="createNewPost"
+    <div class="min-h-screen mx-auto py-5 px-8">
+      <div class="grid grid-cols-4 col-start-2 gap-12">
+        <div
+          v-for="(post, index) in posts"
+          :key="index"
+          class="border border-black p-4"
         >
-          Create new post
-        </button>
-        <button
-          class="border b-gray-200 p-4 dark:text-white"
-          @click="refetchPosts"
-        >
-          Refetch Posts
-        </button>
+          <h3 class="text-2xl mb-6 dark:text-white">
+            {{ post.content.title }}
+          </h3>
+          <p class="text-gray-700">
+            {{ post.content.intro }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -43,7 +29,6 @@
 
 <script>
 import slugify from 'slugify'
-const PARENT_STORY_ID = 28237991
 
 export default {
   async asyncData({ $storyblok }) {
@@ -77,9 +62,9 @@ export default {
         {
           name: title,
           slug: this.toSlug(title),
-          parent_id: PARENT_STORY_ID,
+          parent_id: '000000',
           content: {
-            title: title,
+            title,
             component: 'post'
           }
         },
@@ -90,7 +75,7 @@ export default {
       this.$fetch()
     },
     getRand(min, max) {
-      let randomNum = Math.random() * (max - min) + min
+      const randomNum = Math.random() * (max - min) + min
       return Math.floor(randomNum)
     },
     toSlug(title) {
