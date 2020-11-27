@@ -9,11 +9,14 @@
     </div>
 
     <div class="min-h-screen mx-auto py-5 px-8">
-      <div class="grid grid-cols-4 col-start-2 gap-12">
+      <div class="grid grid-cols-4 gap-12 auto-cols-min">
         <div
           v-for="(post, index) in posts"
           :key="index"
           class="border border-black p-4"
+          :class="{
+            'col-start-3 col-end-5 lg:col-start-3 lg:col-end-4': index % 2 === 0
+          }"
         >
           <h3 class="text-2xl mb-6 dark:text-white">
             {{ post.content.title }}
