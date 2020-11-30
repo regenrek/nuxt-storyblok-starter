@@ -33,7 +33,7 @@
     "@nuxtjs/tailwindcss": "https://github.com/nuxt-community/tailwindcss-module#feat/tailwindcss2",
     "@wearewondrous/nuxt-storyblok-queries": "https://github.com/regenrek/nuxt-storyblok-queries#master",
     "babel-eslint": "^10.1.0",
-    "core-js": "^3.6.5",
+    "core-js": "^3.8.0",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^2.0.0",
