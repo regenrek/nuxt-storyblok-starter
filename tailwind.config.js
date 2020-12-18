@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       fontFamily: 'manrope',
       colors: {
-        primary: '#FFE152'
+        primary: '#FFE152',
+        'gray-lightest': '#efefef'
       }
     }
   },
