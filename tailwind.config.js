@@ -1,8 +1,15 @@
 module.exports = {
   darkMode: 'class',
-  themes: {
-    extends: {
-      fontFamily: 'manrope'
+  theme: {
+    extend: {
+      fontFamily: 'manrope',
+      colors: {
+        primary: '#FFE152'
+      }
     }
-  }
+  },
+  plugins: [
+    require('@tailwindcss/forms')
+    // ...
+  ]
 }

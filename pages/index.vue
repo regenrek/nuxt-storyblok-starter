@@ -9,6 +9,8 @@
     </div>
 
     <div class="min-h-screen mx-auto py-5 px-8">
+      <NjButton variant="danger">BUTTON</NjButton>
+
       <div class="grid grid-cols-4 gap-12 auto-cols-min">
         <div
           v-for="(post, index) in posts"

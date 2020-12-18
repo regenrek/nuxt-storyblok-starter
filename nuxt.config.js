@@ -31,7 +31,8 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nujek/ui/nuxt'
   ],
 
   googleFonts: {
