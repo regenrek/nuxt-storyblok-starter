@@ -37,7 +37,7 @@
     "@wearewondrous/nuxt-storyblok-queries": "https://github.com/regenrek/nuxt-storyblok-queries#master",
     "@wearewondrous/nuxt-storyblok-router": "^1.5.2",
     "babel-eslint": "^10.1.0",
-    "core-js": "^3.6.5",
+    "core-js": "^3.8.1",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^2.0.0",
