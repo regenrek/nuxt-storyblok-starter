@@ -1,6 +1,9 @@
 <template>
   <div class="bg-white dark:bg-gray-500">
+    <Nav />
+
     <Nuxt />
+    <!-- footer -->
   </div>
 </template>
 

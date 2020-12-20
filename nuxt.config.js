@@ -3,7 +3,7 @@ import { storyblokConfig } from './config'
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-
+  ssr: true,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'nuxt-nujek-starter',
@@ -22,12 +22,21 @@ export default {
   plugins: [],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+  components: [
+    { path: '~/components/bloks', global: true, extensions: ['vue', 'js'] },
+    {
+      path: '~/node_modules/@nujek/ui/components/bloks',
+      global: true,
+      extensions: ['vue', 'js']
+    },
+    '~/components'
+  ],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/composition-api',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
@@ -46,10 +55,32 @@ export default {
     classSuffix: ''
   },
 
+  router: {
+    extendRoutes(routes, resolve) {
+      // const posts = ['blog']
+      // routes.push(
+      //   ...posts.map((name) => ({
+      //     name: `${name}-slug`,
+      //     path: `/${name}/:slug`,
+      //     meta: {
+      //       parent: `/${name}`
+      //     },
+      //     component: resolve(__dirname, 'pages/post/_slug.vue')
+      //   })),
+      //   {
+      //     name: 'index',
+      //     path: '/',
+      //     component: resolve(__dirname, 'pages/_slug/index.vue')
+      //   }
+      // )
+    }
+  },
+
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     ['storyblok-nuxt', storyblokConfig],
-    ['@wearewondrous/nuxt-storyblok-queries', storyblokConfig]
+    ['@wearewondrous/nuxt-storyblok-queries', storyblokConfig],
+    ['@wearewondrous/nuxt-storyblok-router', storyblokConfig]
   ],
 
   tailwindcss: {
@@ -57,5 +88,10 @@ export default {
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {}
+  build: {
+    extend(config, { isDev }) {
+      // do not resolve symlinks
+      if (isDev) config.resolve.symlinks = false
+    }
+  }
 }
