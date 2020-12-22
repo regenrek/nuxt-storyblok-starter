@@ -41,7 +41,12 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
-    '@nujek/ui/nuxt'
+    '@nujek/core',
+    ['@nujek/ui', { withConsole: true }],
+    [
+      '@nujek/storyblok',
+      { storyblokConfig: storyblokConfig, withConsole: true }
+    ]
   ],
 
   googleFonts: {
@@ -78,20 +83,24 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    ['storyblok-nuxt', storyblokConfig],
-    ['@wearewondrous/nuxt-storyblok-queries', storyblokConfig],
-    ['@wearewondrous/nuxt-storyblok-router', storyblokConfig]
+    // ['storyblok-nuxt', storyblokConfig],
+    // ['@wearewondrous/nuxt-storyblok-queries', storyblokConfig],
+    // ['@wearewondrous/nuxt-storyblok-router', storyblokConfig]
   ],
 
   tailwindcss: {
     cssPath: '~/assets/styles/tailwind.css'
   },
 
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    extend(config, { isDev }) {
-      // do not resolve symlinks
-      if (isDev) config.resolve.symlinks = false
-    }
+    transpile: ['@nujek/shared']
   }
+
+  // Build Configuration (https://go.nuxtjs.dev/config-build)
+  // build: {
+  //   extend(config, { isDev }) {
+  //     // do not resolve symlinks
+  //     if (isDev) config.resolve.symlinks = false
+  //   }
+  // }
 }

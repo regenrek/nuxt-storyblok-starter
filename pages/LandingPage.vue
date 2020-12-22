@@ -4,11 +4,13 @@
 <script>
 export default {
   components: {},
-  async asyncData({ $storyblok, error, route }) {
+  async asyncData({ $storyblok, error }) {
     try {
       const { story } = await $storyblok.getCurrentStory({
         resolve_links: 'url'
       })
+
+      console.log('AAAA>>>>>>', story)
 
       return {
         story

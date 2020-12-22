@@ -2,6 +2,8 @@
   <div class="bg-white dark:bg-gray-500">
     <Nav />
 
+    <div>NavOpen: {{ navOpen }}</div>
+
     <Nuxt />
     <!-- footer -->
   </div>
@@ -31,3 +33,26 @@ body {
   font-family: 'Manrope';
 }
 </style>
+<script>
+import { mapActions, mapState } from 'vuex'
+
+export default {
+  data() {
+    return {
+      mainNavigation: [
+        {
+          link: { cached_url: '/' },
+          name: 'Home',
+          linktype: 'url',
+          _uid: '0'
+        }
+      ]
+    }
+  },
+  computed: {
+    ...mapState({
+      navOpen: (state) => state.nav.navOpen
+    })
+  }
+}
+</script>
