@@ -1,5 +1,5 @@
 <template>
-  <div class="nj-hero h-40 bg-blue-200 flex justify-center items-center">
+  <div class="nj-hero h-40 bg-red-200 flex justify-center items-center">
     <h1 class="text-lg">{{ blok.title }}</h1>
   </div>
 </template>
