@@ -951,10 +951,10 @@
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@^0.0.99":
-  version "0.0.99"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.99.tgz#99ac3ac4932896cfb85c6d333f65ed2c3f9f7f55"
-  integrity sha512-HSo0x5j9Y4e+k9kGkQiUACELaAQxFRJEaH/nak0LZrwnzBFIZSGC4N+Tmkfzp7cK1y9CFrn6uo6kSm+bjyvG2w==
+"@nujek/ui@^0.0.103":
+  version "0.0.103"
+  resolved "https://registry.yarnpkg.com/@nujek/ui/-/ui-0.0.103.tgz#06202b0d6fc749cbe8fb5c5221476d43ecfbece2"
+  integrity sha512-xqZ4KeovzXbZcNEZNd2qd1zYqIGREVoyu40r81LTmQE84GqHm54qgKKo58NQAJcIqxS6bt3B3bv7Yl8t3aRI7A==
 
 "@nuxt/babel-preset-app@2.14.12":
   version "2.14.12"
@@ -1654,9 +1654,10 @@
   dependencies:
     tslib "^2.0.1"
 
-"@wearewondrous/nuxt-storyblok-queries@git+https://github.com/regenrek/nuxt-storyblok-queries.git#master":
+"@wearewondrous/nuxt-storyblok-queries@https://github.com/regenrek/nuxt-storyblok-queries#master":
   version "1.2.8"
-  resolved "git+https://github.com/regenrek/nuxt-storyblok-queries.git#4899613ca5c3b224ddf628be7ac843e41d95527f"
+  uid "4899613ca5c3b224ddf628be7ac843e41d95527f"
+  resolved "https://github.com/regenrek/nuxt-storyblok-queries#4899613ca5c3b224ddf628be7ac843e41d95527f"
   dependencies:
     consola "^2.15.0"
     storyblok-js-client "^2.5.2"

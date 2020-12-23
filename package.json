@@ -29,7 +29,7 @@
   "devDependencies": {
     "@nujek/core": "^0.0.6",
     "@nujek/storyblok": "^0.0.6",
-    "@nujek/ui": "^0.0.99",
+    "@nujek/ui": "^0.0.103",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.17.0",
     "@nuxtjs/eslint-config": "^5.0.0",
