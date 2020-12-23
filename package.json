@@ -27,7 +27,7 @@
     }
   },
   "devDependencies": {
-    "@nujek/core": "^0.0.6",
+    "@nujek/core": "^0.0.10",
     "@nujek/storyblok": "^0.0.6",
     "@nujek/ui": "^0.0.99",
     "@nuxtjs/color-mode": "^2.0.0",
