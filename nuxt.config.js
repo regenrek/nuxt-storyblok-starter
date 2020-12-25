@@ -45,7 +45,7 @@ export default {
     ['@nujek/ui', { withConsole: true }],
     [
       '@nujek/storyblok',
-      { storyblokConfig: storyblokConfig, withConsole: true }
+      { storyblokConfig: storyblokConfig, withConsole: true, debug: true }
     ]
   ],
 

@@ -1,14 +1,14 @@
 <template>
   <div class="nj-hero h-40 bg-red-200 flex justify-center items-center">
-    <h1 class="text-lg">{{ blok.title }}</h1>
+    <h1 class="text-lg">{{ $props }}</h1>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    blok: {
-      type: Object,
+    title: {
+      type: String,
       required: true
     }
   }

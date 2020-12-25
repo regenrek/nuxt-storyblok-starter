@@ -10,8 +10,6 @@ export default {
         resolve_links: 'url'
       })
 
-      console.log('AAAA>>>>>>', story)
-
       return {
         story
       }
