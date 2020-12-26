@@ -27,9 +27,9 @@
     }
   },
   "devDependencies": {
-    "@nujek/core": "^0.0.6",
-    "@nujek/storyblok": "^0.0.6",
-    "@nujek/ui": "^0.0.99",
+    "@nujek/core": "^0.0.14",
+    "@nujek/storyblok": "^0.0.14",
+    "@nujek/ui": "^0.0.107",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.17.0",
     "@nuxtjs/eslint-config": "^5.0.0",
@@ -56,5 +56,8 @@
     "@nujek/core": "../nujek/packages/core",
     "@nujek/storyblok": "../nujek/packages/storyblok",
     "@nujek/ui": "../nujek/packages/ui"
+  },
+  "dependencies": {
+    "@nujek/shared": "^0.0.14"
   }
 }
