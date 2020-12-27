@@ -955,39 +955,55 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@nujek/core@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.14.tgz#1882a953adad7653aab496e0e0aecabc5e32ca9b"
-  integrity sha512-AFkOP5YJNHc/OV9dRhrLQB2ZZtP+i3HVbKoPpuAiCdIntDl1f5DLWf0Pf2VBw/zZ5Wr/2dFAmT0RCYKd5fbfbg==
+"@nujek/core@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.19.tgz#c2fda1ec3f8a63c915960c26eb75a01c8fbc554e"
+  integrity sha512-X5QFHJ1M1RIIPs6K8f89NzHUM2d5E7/5YN0DaaafzMBqc3tRIaLqj8rgMQ//n4n+hasoO9dSePhBXCxrLUjOug==
   dependencies:
     "@nujek/shared" "^0.0.7"
 
-"@nujek/shared@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.14.tgz#7ae035cab78399112398decb2a1e4e95ae4d8581"
-  integrity sha512-H9d7tzETNrw4EbVBwk5gQHceYrKx8nqVBgISgPbtgPjUXv8LRzBV+/7ybBIOs7Q4UENFpSORIO/9kXJqpnAxgA==
+"@nujek/nuxt-storyblok-queries@^1.2.11":
+  version "1.2.11"
+  resolved "https://registry.npmjs.org/@nujek/nuxt-storyblok-queries/-/nuxt-storyblok-queries-1.2.11.tgz#2df8b1f680b688d844ef8caeda5b035496a8feb8"
+  integrity sha512-k5UtyxtngU9frmt+WfSKLoMzoZE+cmsyjmmmvmHp1M2sSLdu5Wi2a730rcKVwW7onigwGVEs/2sW2PtE3hMOIA==
+  dependencies:
+    axios "^0.21.0"
+    consola "^2.15.0"
+    storyblok-js-client "^2.5.2"
+
+"@nujek/shared@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.19.tgz#bc94898223cdfa4e341b4b03c84ac514432b509d"
+  integrity sha512-9OyVLkklJTVahbarHPnM5crGcEQSeZHEgY8Y9mryIUDd5PWCE8vmiW11wl1cj4lAjeTURTzO49E/3M+CaPM9pQ==
 
 "@nujek/shared@^0.0.7":
   version "0.0.7"
   resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.7.tgz#9be29235128bdd3b6659917f52e40ec8b59f3ece"
   integrity sha512-lbcbztHFzYBD+ibb+DHJlWYENj5jXoIl039kET50UmPXFKaIFP90u98WT9atzoccbDWklFxC4F2a1BnsdCfEew==
 
-"@nujek/storyblok@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.14.tgz#5fcd34ab46e21f8428bae0c7815303e06246e33d"
-  integrity sha512-rp/N0KPLwqSKA3RmFUn9xAKwBqCbCiGAdsXvCXBGvKGylPxPgsxNI7kJRa2lcsiOW1wORKlcq+fo/exdQ2laaw==
+"@nujek/storyblok@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.19.tgz#e0e259c565183224e754f94e28be79c440d6aa6d"
+  integrity sha512-WqVALe9YjYtjvnZJcncqZgo65p7+yGVKcyih2bpo/Z4r5nMGSzxKuDP+dm0/tX4ZX+eX2TiytFloe0np5eD9qg==
   dependencies:
     "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
+    "@nujek/nuxt-storyblok-queries" "^1.2.11"
     "@nujek/shared" "^0.0.7"
-    "@wearewondrous/nuxt-storyblok-queries" "https://github.com/regenrek/nuxt-storyblok-queries#master"
     "@wearewondrous/nuxt-storyblok-router" "^1.5.2"
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@^0.0.107":
-  version "0.0.107"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.107.tgz#9d458bdf9d0c6a77d61a2f1502571aba74827644"
-  integrity sha512-FLitsstjKUptdI034ki4UtGzXq1s6+aJYUG15VcTzhGbD0vyEMLbp/6ttlkWE1Rpvk5/IVylrvTmmmYT/TsY+w==
+"@nujek/ui@^0.0.112":
+  version "0.0.112"
+  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.112.tgz#74e28315d0e2f75581dfc2338da835e5d311463e"
+  integrity sha512-FSV3UkOQYU2deS9N2Tw2qGez/qyNtxFxNwwsqe8jxoCZRe3+NS3IqXtm0QZ4A0NcCbNx/8IJ+zGmSOad9I/HHQ==
+  dependencies:
+    lazysizes "^5.3.0-beta1"
+    postcss-hexrgba "^2.0.1"
+    postcss-import "^12.0.1"
+    postcss-mixins "6.2.3"
+    postcss-nested "^4.2.3"
+    postcss-scss "^3.0.2"
 
 "@nuxt/babel-preset-app@2.14.12":
   version "2.14.12"
@@ -1686,14 +1702,6 @@
   integrity sha512-tgbvDpLvKQ1GrII424wsoyzPCsG0oTFf38emMq495SfLY7RmUqhVIl81pvnC5489PPrCxDkbauJHJrhlcXfbTQ==
   dependencies:
     tslib "^2.0.1"
-
-"@wearewondrous/nuxt-storyblok-queries@https://github.com/regenrek/nuxt-storyblok-queries#master":
-  version "1.2.11"
-  resolved "https://github.com/regenrek/nuxt-storyblok-queries#ca83604fca3c8dca2db897b36a73c2241dd56b4e"
-  dependencies:
-    axios "^0.21.0"
-    consola "^2.15.0"
-    storyblok-js-client "^2.5.2"
 
 "@wearewondrous/nuxt-storyblok-router@^1.5.2":
   version "1.5.2"
@@ -5808,6 +5816,11 @@ launch-editor@^2.2.1:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
 
+lazysizes@^5.3.0-beta1:
+  version "5.3.0-beta1"
+  resolved "https://registry.npmjs.org/lazysizes/-/lazysizes-5.3.0-beta1.tgz#a2fa48145b28f8cf54df5d20aa8a47b63fa35641"
+  integrity sha512-4ZEoV4UXvz5L96XBuaFphGlq8BVi78kIA4kL3ls2qSYMEgGBdXMgsh8u+bTVjbdwbXfzXtWc71OH4EfEEPVZoA==
+
 levn@^0.4.1:
   version "0.4.1"
   resolved "https://registry.npmjs.org/levn/-/levn-0.4.1.tgz#ae4562c007473b932a6200d403268dd2fffc6ade"
@@ -7775,7 +7788,7 @@ postcss@^6.0.9:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.27, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.5, postcss@^7.0.6:
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.27, postcss@^7.0.32, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.35"
   resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.35.tgz#d2be00b998f7f211d8a276974079f2e92b970e24"
   integrity sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg==
