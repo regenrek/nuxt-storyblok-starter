@@ -82,28 +82,6 @@ export default {
     }
   },
 
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    [
-      'nuxt-i18n',
-      {
-        locales: ['en', 'es'],
-        defaultLocale: 'en',
-        vueI18n: {
-          fallbackLocale: 'en',
-          messages: {
-            en: {
-              greeting: 'Hello world!'
-            },
-            es: {
-              greeting: '¡Hola mundo!'
-            }
-          }
-        }
-      }
-    ]
-  ],
-
   tailwindcss: {
     cssPath: '~/assets/styles/tailwind.css'
   },

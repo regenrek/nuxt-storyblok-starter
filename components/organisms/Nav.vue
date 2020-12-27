@@ -15,14 +15,13 @@
 
     <template #nav>
       <!-- main nav desktop -->
-      <nav class="hidden lg:flex justify-center items-center nj-nav-height">
+      <nav class="hidden md:flex justify-center items-center nj-nav-height">
         <template v-for="nav_item in mainNavigation">
           <nuxt-link
             v-if="nav_item.link && nav_item.link.linktype === 'story'"
             :key="nav_item._uid"
             :to="`/${nav_item.link.cached_url}`"
             class="font-600 cursor-pointer transition-color duration-700 text-sm navbar-item mx-2 lg:mx-4 xl:mx-6 h-20 uppercase letter-space flex items-center"
-            :class="navFontColor"
             exact-active-class="navbar-item--active"
           >
             {{ nav_item.name || 'Mehr erfahren' }}
@@ -41,12 +40,12 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapState, mapGetters, mapActions } from 'vuex'
 
 export default {
   data() {
     return {
-      mainNavigation: [
+      dummyMainNavigation: [
         {
           link: { cached_url: '/' },
           name: 'Home',
@@ -55,6 +54,20 @@ export default {
         }
       ]
     }
+  },
+  computed: {
+    ...mapState({
+      navOpen: (state) => state.nav.navOpen
+    }),
+    ...mapGetters({
+      mainNavigation: 'nav/main'
+    })
+  },
+  methods: {
+    ...mapActions({
+      toggleSidebar: 'nav/toggle',
+      closeSidebar: 'nav/close'
+    })
   }
 }
 </script>
