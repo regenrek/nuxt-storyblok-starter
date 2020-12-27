@@ -17,7 +17,7 @@ Helping you to stay productive following and eliminating repetive tasks.
 
 ## Nujek Framework
 
-The Starter Kit built-in [Nujek Framework](https://nujek-docs.vercel.app/) which is a collection of powerful nuxt modules for storyblok including a reusable ui library.
+This starter-kit has a dependency to [Nujek Framework](https://nujek-docs.vercel.app/) which is a collection of powerful nuxt modules for storyblok including a reusable ui library.
 
 ## Key features
 
