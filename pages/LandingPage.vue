@@ -1,5 +1,5 @@
 <template>
-  <Bloks :class="componentClass" :bloks="story.content.bloks" />
+  <div />
 </template>
 <script>
 export default {
@@ -9,6 +9,8 @@ export default {
       const { story } = await $storyblok.getCurrentStory({
         resolve_links: 'url'
       })
+
+      console.log('Story', story)
 
       return {
         story
@@ -23,7 +25,7 @@ export default {
   },
   computed: {
     componentClass() {
-      switch (this.story.content.component) {
+      switch (this.story?.content?.component) {
         case 'content-page':
           return ['my-12']
         case 'landing-page':

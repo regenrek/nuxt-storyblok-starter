@@ -1,4 +1,5 @@
 import { storyblokConfig } from './config'
+import path from 'path'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -83,9 +84,24 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // ['storyblok-nuxt', storyblokConfig],
-    // ['@wearewondrous/nuxt-storyblok-queries', storyblokConfig],
-    // ['@wearewondrous/nuxt-storyblok-router', storyblokConfig]
+    [
+      'nuxt-i18n',
+      {
+        locales: ['en', 'es'],
+        defaultLocale: 'en',
+        vueI18n: {
+          fallbackLocale: 'en',
+          messages: {
+            en: {
+              greeting: 'Hello world!'
+            },
+            es: {
+              greeting: '¡Hola mundo!'
+            }
+          }
+        }
+      }
+    ]
   ],
 
   tailwindcss: {
@@ -94,6 +110,16 @@ export default {
 
   build: {
     transpile: ['@nujek/shared']
+    // postcss: {
+    //   parser: 'postcss-scss',
+    //   plugins: {
+    //     'postcss-import': {},
+    //     'postcss-mixins': {},
+    //     tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
+    //     'postcss-nested': {},
+    //     'postcss-hexrgba': {}
+    //   }
+    // }
   }
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

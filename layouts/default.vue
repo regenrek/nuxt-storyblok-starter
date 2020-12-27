@@ -9,6 +9,30 @@
   </div>
 </template>
 
+<script>
+import { mapActions, mapState } from 'vuex'
+
+export default {
+  data() {
+    return {
+      mainNavigation: [
+        {
+          link: { cached_url: '/' },
+          name: 'Home',
+          linktype: 'url',
+          _uid: '0'
+        }
+      ]
+    }
+  },
+  computed: {
+    ...mapState({
+      navOpen: (state) => state.nav.navOpen
+    })
+  }
+}
+</script>
+
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -33,26 +57,3 @@ body {
   font-family: 'Manrope';
 }
 </style>
-<script>
-import { mapActions, mapState } from 'vuex'
-
-export default {
-  data() {
-    return {
-      mainNavigation: [
-        {
-          link: { cached_url: '/' },
-          name: 'Home',
-          linktype: 'url',
-          _uid: '0'
-        }
-      ]
-    }
-  },
-  computed: {
-    ...mapState({
-      navOpen: (state) => state.nav.navOpen
-    })
-  }
-}
-</script>

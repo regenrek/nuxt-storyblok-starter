@@ -8,6 +8,7 @@
       <div class="w-40 lg:w-48">
         <nuxt-link to="/" class="block">
           <!-- TODO -->
+          Logo
         </nuxt-link>
       </div>
     </template>
