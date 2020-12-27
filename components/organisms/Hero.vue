@@ -1,7 +1,7 @@
 <template>
-  <div class="nj-hero bg-red-200 flex justify-center items-center min-h-screen">
+  <NjSection class="bg-red-500" position="center" width="boxed">
     <h1 class="text-lg">{{ $props }}</h1>
-  </div>
+  </NjSection>
 </template>
 
 <script>
