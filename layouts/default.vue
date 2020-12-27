@@ -1,9 +1,6 @@
 <template>
   <div class="bg-white dark:bg-gray-500">
     <Nav />
-
-    <div>NavOpen: {{ navOpen }}</div>
-
     <Nuxt />
     <!-- footer -->
   </div>

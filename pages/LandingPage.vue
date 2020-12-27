@@ -1,5 +1,5 @@
 <template>
-  <div />
+  <Bloks :class="componentClass" :bloks="story.content.bloks" :debug="true" />
 </template>
 <script>
 export default {

@@ -1,5 +1,5 @@
 <template>
-  <div class="nj-hero h-40 bg-red-200 flex justify-center items-center">
+  <div class="nj-hero bg-red-200 flex justify-center items-center min-h-screen">
     <h1 class="text-lg">{{ $props }}</h1>
   </div>
 </template>

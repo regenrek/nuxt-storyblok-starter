@@ -1,12 +1,12 @@
 import { forwardProps } from '@nujek/shared'
-import BlokHero2 from './BlokHero2'
+import Hero from '~/components/organisms/hero'
 
 export default {
   name: 'BlokHero',
   functional: true,
   props: ['blok'],
   render(h, context) {
-    return h(BlokHero2, {
+    return h(Hero, {
       props: forwardProps(context.props.blok)
     })
   }
