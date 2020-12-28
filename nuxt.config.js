@@ -1,5 +1,4 @@
 import { storyblokConfig } from './config'
-import path from 'path'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -20,7 +19,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [{ src: '~/plugins/nujek-ui.js' }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: [
@@ -87,24 +86,6 @@ export default {
   },
 
   build: {
-    transpile: ['@nujek/shared']
-    // postcss: {
-    //   parser: 'postcss-scss',
-    //   plugins: {
-    //     'postcss-import': {},
-    //     'postcss-mixins': {},
-    //     tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
-    //     'postcss-nested': {},
-    //     'postcss-hexrgba': {}
-    //   }
-    // }
+    transpile: ['@nujek/shared', '@nujek/ui/plugin']
   }
-
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
-  // build: {
-  //   extend(config, { isDev }) {
-  //     // do not resolve symlinks
-  //     if (isDev) config.resolve.symlinks = false
-  //   }
-  // }
 }

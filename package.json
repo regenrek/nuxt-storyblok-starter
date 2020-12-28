@@ -27,9 +27,10 @@
     }
   },
   "devDependencies": {
-    "@nujek/core": "^0.0.19",
-    "@nujek/storyblok": "^0.0.19",
-    "@nujek/ui": "^0.0.112",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
+    "@nujek/core": "^0.0.20",
+    "@nujek/storyblok": "^0.0.20",
+    "@nujek/ui": "^0.0.113",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.17.0",
     "@nuxtjs/eslint-config": "^5.0.0",
@@ -51,7 +52,8 @@
     "prettier": "^2.1.2",
     "slugify": "^1.4.6",
     "tailwindcss": "^1.9.6",
-    "vue-clickaway": "^2.2.2"
+    "vue-clickaway": "^2.2.2",
+    "vue-tailwind": "^2.0.0"
   },
   "localDependencies": {
     "@nujek/core": "../nujek/packages/core",
