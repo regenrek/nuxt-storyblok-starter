@@ -988,10 +988,10 @@
   resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.7.tgz#9be29235128bdd3b6659917f52e40ec8b59f3ece"
   integrity sha512-lbcbztHFzYBD+ibb+DHJlWYENj5jXoIl039kET50UmPXFKaIFP90u98WT9atzoccbDWklFxC4F2a1BnsdCfEew==
 
-"@nujek/storyblok@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.20.tgz#852bfcc9f24777c81bc3445bee2022feda900350"
-  integrity sha512-GURcbatmLcYm1R+3QYGV5hi5uTPXS7E8kVocdSyO9nFjN5/jSs4ZxPXENpwLHuZrhP+avlQk62JG2iAL++/L/g==
+"@nujek/storyblok@^0.0.21":
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/@nujek/storyblok/-/storyblok-0.0.21.tgz#1a9808c1680233896ffca10014fac94e10fba599"
+  integrity sha512-/vGKnCEkKCrmVwDRjFBFVfjjTiNxytQ/vorpcF10qYnKzSs1XQhu+60svYoOIru8QxP9Hey741uXwL5dXdleNA==
   dependencies:
     "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
     "@nujek/nuxt-storyblok-queries" "^1.2.11"
