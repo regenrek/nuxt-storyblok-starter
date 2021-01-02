@@ -1,18 +1,30 @@
 <template>
-  <n-section
-    class="min-h-screen items-center"
-    position="center"
-    variant="boxed"
-  >
-    <div>
-      <h1 class="text-lg">boxed</h1>
-    </div>
-  </n-section>
+  <div>
+    <NjSection class="min-h-screen items-center" variant="boxed">
+      <div>
+        <h1 class="text-lg">boxed</h1>
+      </div>
+    </NjSection>
+    <NjSection
+      class="min-h-screen items-center"
+      :classes="{
+        wrapper: 'bg-yellow-600'
+      }"
+      :variants="{
+        cool: {
+          wrapper: 'bg-green-800'
+        }
+      }"
+      variant="cool"
+    >
+      <div>
+        <h1 class="text-lg">boxed</h1>
+      </div>
+    </NjSection>
+  </div>
 </template>
 
 <script>
-//import NjSection from '@nujek/ui/components/atoms/NjSection.vue'
-
 export default {
   props: {
     title: {
