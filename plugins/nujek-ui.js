@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Nujek from '@nujek/ui/plugin'
-// import { uiComponentsConfig } from '~/config'
 import NjSection from '@nujek/ui/components/atoms/NjSection.vue'
+import NjBurger from '@nujek/ui/components/atoms/NjBurger.vue'
 
 const settings = {
-  'nj-section': {
+  NjSection: {
     component: NjSection,
     props: {
       classes: {
@@ -13,7 +13,7 @@ const settings = {
       },
       variants: {
         boxed: {
-          wrapper: 'bg-red-200 flex justify-center',
+          wrapper: 'bg-teal-200 flex justify-center',
           container: 'bg-red-400 max-w-2xl'
         },
         fullWidth: {
