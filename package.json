@@ -61,6 +61,6 @@
     "@nujek/ui": "../nujek/packages/ui"
   },
   "dependencies": {
-    "@nujek/shared": "^0.0.21"
+    "@nujek/shared": "^0.0.22"
   }
 }
