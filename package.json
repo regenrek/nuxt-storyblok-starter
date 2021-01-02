@@ -30,7 +30,7 @@
     "@babel/plugin-proposal-optional-chaining": "^7.12.7",
     "@nujek/core": "^0.0.21",
     "@nujek/storyblok": "^0.0.21",
-    "@nujek/ui": "^0.0.114",
+    "@nujek/ui": "^0.0.115",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.17.0",
     "@nuxtjs/eslint-config": "^5.0.0",
