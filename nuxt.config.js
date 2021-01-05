@@ -45,7 +45,12 @@ export default {
     ['@nujek/ui', { withConsole: true }],
     [
       '@nujek/storyblok',
-      { storyblokConfig: storyblokConfig, withConsole: true, debug: true }
+      {
+        storyblokConfig: storyblokConfig,
+        withConsole: true,
+        enableStoryblokRouter: false,
+        debug: true
+      }
     ]
   ],
 
@@ -58,27 +63,6 @@ export default {
   colorMode: {
     // works with tailwindcss 2.0
     classSuffix: ''
-  },
-
-  router: {
-    extendRoutes(routes, resolve) {
-      // const posts = ['blog']
-      // routes.push(
-      //   ...posts.map((name) => ({
-      //     name: `${name}-slug`,
-      //     path: `/${name}/:slug`,
-      //     meta: {
-      //       parent: `/${name}`
-      //     },
-      //     component: resolve(__dirname, 'pages/post/_slug.vue')
-      //   })),
-      //   {
-      //     name: 'index',
-      //     path: '/',
-      //     component: resolve(__dirname, 'pages/_slug/index.vue')
-      //   }
-      // )
-    }
   },
 
   tailwindcss: {
