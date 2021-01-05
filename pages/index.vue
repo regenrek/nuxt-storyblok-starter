@@ -2,15 +2,17 @@
   <Bloks :class="componentClass" :bloks="story.content.bloks" :debug="true" />
 </template>
 <script>
+import ClientLogger from '~/mixins/client-logger'
+
 export default {
   components: {},
+  mixins: [ClientLogger],
   async asyncData({ $storyblok, error }) {
     try {
       const { story } = await $storyblok.getCurrentStory({
-        resolve_links: 'url'
+        resolve_links: 'url',
+        resolve_relations: 'blok_grid.source'
       })
-
-      console.log('Story', story)
 
       return {
         story
@@ -25,7 +27,7 @@ export default {
   },
   computed: {
     componentClass() {
-      switch (this.story?.content?.component) {
+      switch (this.story.content.component) {
         case 'content-page':
           return ['my-12']
         case 'landing-page':
