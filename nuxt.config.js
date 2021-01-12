@@ -70,6 +70,6 @@ export default {
   },
 
   build: {
-    transpile: ['@nujek/shared', '@nujek/ui/plugin']
+    transpile: ['@nujek/shared', '@nujek/ui']
   }
 }
