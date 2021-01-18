@@ -978,10 +978,10 @@
     consola "^2.15.0"
     storyblok-js-client "^2.5.2"
 
-"@nujek/shared@^0.0.32":
-  version "0.0.32"
-  resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.32.tgz#14e42da482249fa395fb448bc10ed60fc965ce59"
-  integrity sha512-Mqsu9chPuSqxkcLOTb8Aeb9Nbxa+I3q1v6MORava81XwhXBrP1mV0bwFfZlcLuaGTTpyCzjJG1X5U9yrdjXTIw==
+"@nujek/shared@^0.0.39":
+  version "0.0.39"
+  resolved "https://registry.yarnpkg.com/@nujek/shared/-/shared-0.0.39.tgz#aefca19edebb4a48cc106a93a04c8039b9de3233"
+  integrity sha512-l8rcxmcrxnC0x5rnAEukH4x8iN/NPLAxnqIKr6HWN4ta5RxjrmY+5xZEHhjRaq3yqTIRMxdDFnjTxwIRAMq+HQ==
 
 "@nujek/shared@^0.0.7":
   version "0.0.7"
