@@ -54,6 +54,6 @@
     "@nujek/core": "^0.0.26",
     "@nujek/shared": "^0.0.32",
     "@nujek/storyblok": "^0.0.26",
-    "@nujek/ui": "^0.0.119"
+    "@nujek/ui": "^0.0.126"
   }
 }
