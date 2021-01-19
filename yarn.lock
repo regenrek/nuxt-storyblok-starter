@@ -962,10 +962,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@nujek/core@^0.0.26":
-  version "0.0.26"
-  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.26.tgz#f8bd21a096175391065393d0cac64b2b9635114f"
-  integrity sha512-bcaLJWN01bfSdsxaUPqpm+Mc8W4NAdwJxmXtlqynOw0gFjeKCIJD3YYxzFTBs5bAJD3gN82sATs29V8nknQc/A==
+"@nujek/core@^0.0.34":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@nujek/core/-/core-0.0.34.tgz#03a012cf5eddb0b93196e7ad9d70c2e3f9859d24"
+  integrity sha512-02LRtNSTnJS49x5azfRQ6aMHQS9mwmz4DpUMK1MknqOEPbs3fiUWMcZLOBe4lxbQQPXw4xnRsmpfqoSnboWvZg==
   dependencies:
     "@nujek/shared" "^0.0.7"
 
