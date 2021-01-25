@@ -1,5 +1,5 @@
 import { forwardProps } from '@nujek/shared'
-import Hero from '~/components/organisms/hero'
+import Hero from '~/components/organisms/Hero'
 
 export default {
   name: 'BlokHero',

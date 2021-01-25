@@ -48,7 +48,6 @@ export default {
       {
         storyblokConfig: storyblokConfig,
         withConsole: true,
-        enableStoryblokRouter: false,
         debug: true
       }
     ]
