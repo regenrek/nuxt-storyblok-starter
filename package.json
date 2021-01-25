@@ -48,7 +48,7 @@
     "nuxt-i18n": "^6.16.0",
     "prettier": "^2.1.2",
     "slugify": "^1.4.6",
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "^2.0.2",
     "vue-clickaway": "^2.2.2",
     "vue-tailwind": "^2.0.0",
     "@nujek/core": "latest",
