@@ -1,5 +1,5 @@
 <template>
-  <Bloks :class="componentClass" :bloks="story.content.bloks" :debug="true" />
+  <Bloks :class="componentClass" :bloks="story.content.bloks" />
 </template>
 <script>
 import ClientLogger from '~/mixins/client-logger'

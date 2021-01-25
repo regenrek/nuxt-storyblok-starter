@@ -28,6 +28,10 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.12.7",
+    "@nujek/core": "latest",
+    "@nujek/shared": "latest",
+    "@nujek/storyblok": "latest",
+    "@nujek/ui": "latest",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.17.0",
     "@nuxtjs/eslint-config": "^5.0.0",
@@ -48,12 +52,9 @@
     "nuxt-i18n": "^6.16.0",
     "prettier": "^2.1.2",
     "slugify": "^1.4.6",
+    "swiper": "^6.4.8",
     "tailwindcss": "^1.9.6",
     "vue-clickaway": "^2.2.2",
-    "vue-tailwind": "^2.0.0",
-    "@nujek/core": "latest",
-    "@nujek/shared": "latest",
-    "@nujek/storyblok": "latest",
-    "@nujek/ui": "latest"
+    "vue-tailwind": "^2.0.0"
   }
 }

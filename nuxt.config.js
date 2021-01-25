@@ -47,8 +47,8 @@ export default {
       '@nujek/storyblok',
       {
         storyblokConfig: storyblokConfig,
-        withConsole: true,
-        debug: true
+        withConsole: process.env.NODE_ENV === 'production' ? false : true,
+        debug: process.env.NODE_ENV === 'production' ? false : true
       }
     ]
   ],

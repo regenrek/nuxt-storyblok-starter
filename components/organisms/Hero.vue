@@ -5,7 +5,7 @@
         <h1 class="text-lg">boxed</h1>
       </div>
     </NjSection>
-    <NjSection
+    <div
       class="min-h-screen items-center"
       :classes="{
         wrapper: 'bg-yellow-600'
@@ -20,7 +20,7 @@
       <div>
         <h1 class="text-lg">boxed</h1>
       </div>
-    </NjSection>
+    </div>
   </div>
 </template>
 
