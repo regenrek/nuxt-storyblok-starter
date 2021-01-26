@@ -39,6 +39,7 @@
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/tailwindcss": "^3.3.4",
     "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.0",
     "babel-eslint": "^10.1.0",
     "core-js": "^3.6.5",
     "eslint": "^7.10.0",
@@ -55,6 +56,6 @@
     "swiper": "^6.4.8",
     "tailwindcss": "^1.9.6",
     "vue-clickaway": "^2.2.2",
-    "vue-tailwind": "^2.0.0"
+    "vue-tailwind": "^2.1.1"
   }
 }

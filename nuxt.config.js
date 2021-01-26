@@ -16,10 +16,13 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: ['@nujek/ui/css/nujek-ui.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: '~/plugins/nujek-ui.js' }],
+  plugins: [
+    { src: '~/plugins/nujek-ui.js' },
+    { src: '~/plugins/vue-tailwind.js' }
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: [
