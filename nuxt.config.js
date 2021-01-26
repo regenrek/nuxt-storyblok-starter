@@ -51,7 +51,10 @@ export default {
       {
         storyblokConfig: storyblokConfig,
         withConsole: process.env.NODE_ENV === 'production' ? false : true,
-        debug: process.env.NODE_ENV === 'production' ? false : true
+        debug: process.env.NODE_ENV === 'production' ? false : true,
+        storyblokQueries: {
+          formatResponse: true
+        }
       }
     ]
   ],
