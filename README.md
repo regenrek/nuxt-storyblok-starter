@@ -26,6 +26,19 @@ yarn dev # start develop server
 * [Storyblok](https://www.storyblok.com/) CMS Ready
 * [TailwindCSS](https://tailwindcss.com/) 2.0 (nuxt-tailwindcss)
 
+## Nuxt modules
+
+* @nuxtjs/color-mode
+* @nuxtjs/google-fonts
+* @nuxtjs/tailwindcss
+
+## Tailwind CSS 2.0
+
+### Modules
+
+* tailwindcss/typography
+* Aspect Ratio plugin for images and other HTML elements
+
 ## Nujek Framework
 
 The Starter Kit built-in [Nujek Framework](https://nujek-docs.vercel.app/) which is a collection of powerful nuxt modules for storyblok including a reusable ui library.

@@ -962,10 +962,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@nujek/core@latest":
-  version "0.0.35"
-  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.35.tgz#1cc618837e62dbc1e00f4eac8a1c332b1ddd6b44"
-  integrity sha512-Cwcm5lN7xR2vafRL4XIlUz2DbrZv2564iZrsqrYNdOZEA+GE9QixaEWT/TBarUc+KuOMBvDeLSf7M7a4PS50Gg==
+"@nujek/core@^0.0.36":
+  version "0.0.36"
+  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.36.tgz#4d5b7b4aa0ca7af43b37bc613e66a6e170c0a117"
+  integrity sha512-FkPKF5QIJ+Xoh11WGeGCSnHrJl12UEQUIo9zM9/NcIRBxjJBSNUn/sOmJiW+P2aZfkOoIqTNSiWKdCL81DFgIA==
   dependencies:
     "@nujek/shared" "^0.0.7"
 
@@ -988,10 +988,10 @@
   resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.45.tgz#6c37cb1ad2d2baf0c550272cc1a3f8032bd96785"
   integrity sha512-jUhEo+9woWKYDTCpXY/lc2ECu3TiIG42qqJuaMeFg8hmKVF852UY59Xgm34o8TRIAG50AHRxDM3DImv01TiC4A==
 
-"@nujek/storyblok@latest":
-  version "0.0.33"
-  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.33.tgz#2d29ed20c6a9fb0c7ade53db5eaf790b0f0e96ea"
-  integrity sha512-KolZuYyzywXcFsDyYRssKOHPBmSN7uf2nV8384Z0f5D9nKam6KexGQlMqPsdAThiFfKfKRXgpXndb3oDCyp8DA==
+"@nujek/storyblok@^0.0.34":
+  version "0.0.34"
+  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.34.tgz#e13b960df2b22fd467596094261fb8066085f041"
+  integrity sha512-xdIS2VW1aqIJjD0sYYMqhsiECEr1sMfik/UAledyfOfeoWIcYWJQpXiyQ3W6u5NDaQlhkRZrVj2xMSNHo7uHDA==
   dependencies:
     "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
     "@nujek/nuxt-storyblok-queries" "^1.2.11"
@@ -1000,10 +1000,10 @@
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@latest":
-  version "0.0.127"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.127.tgz#7e43b151f824cb046d5a2e89051752c518e97f9f"
-  integrity sha512-FI4BC26DXKxEja95HMgtve/zjvnJDBtCnePe90doBVOYIPqPL4/9nzHp02U4bSTVSXyY2QSOm5owEEr+8NoF7w==
+"@nujek/ui@^0.0.128":
+  version "0.0.128"
+  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.128.tgz#0c62b5f846fdecf800bb71ff65be8fb495099563"
+  integrity sha512-jdLAUju381/iwDD+NqmWrR62nnMy8a6BvF7txgUeGz7+hUe9hSG9QqzCPE6Zxu4by7nq3p01Nv/1YK88so66mA==
   dependencies:
     lazysizes "^5.3.0-beta1"
     lodash.get "^4.4.2"
