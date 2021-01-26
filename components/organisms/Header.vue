@@ -42,7 +42,7 @@ export default {}
 
 .image-stack__item--top {
   grid-row: 1;
-  grid-column: 1 / span 8;
+  grid-column: 1 / span 6;
   padding-top: 20%;
   z-index: 1;
 }
