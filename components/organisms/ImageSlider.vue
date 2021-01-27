@@ -1,10 +1,38 @@
 <template>
-  <NjSection variant="boxed" class="nj-slider">
-    <div class="xl:grid xl:grid-cols-12">
-      <div
-        class="flex flex-col lg:grid lg:grid-cols-12 xl:col-span-11 xl:col-start-2"
-      >
-        <!-- <transition name="fade" mode="out-in">
+  <NjSection>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div ref="gallery" class="overflow-hidden">
+        <div class="swiper-wrapper">
+          <div
+            v-for="(slide, index) in slides"
+            :key="index"
+            class="swiper-slide"
+          >
+            <nuxt-link :to="`#`">
+              <SbImage
+                :src="slide.image"
+                :alt="slide.image.alt"
+                :resize="{ width: '445', height: '594' }"
+                :classes="{
+                  aspectRatio: 'w-full',
+                  image: 'object-cover w-full'
+                }"
+              />
+              <!-- <SbImage
+                  :src="slide.image"
+                  :alt="slide.image.alt"
+                  :classes="{
+                    aspectRatio: 'aspect-ratio-4/3 lg:aspect-ratio-2/3',
+                    image: 'object-cover'
+                  }"
+                /> -->
+            </nuxt-link>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-red-300">CONTENT</div>
+      <!-- <transition name="fade" mode="out-in">
           <div
             v-if="slides[activeIndex]"
             :key="activeIndex"
@@ -31,57 +59,36 @@
             </NjButton>
           </div>
         </transition> -->
-
-        <div
-          ref="gallery"
-          class="nj-gallery-slider lg:col-span-4 order-1 lg:order-1"
-        >
-          <div class="swiper-wrapper">
-            <div
-              v-for="(slide, index) in slides"
-              :key="index"
-              class="swiper-slide"
-            >
-              <nuxt-link :to="`#`">
-                <SbImage
-                  :src="slide.image"
-                  :alt="slide.image.alt"
-                  class="aspect-ratio-4/3 lg:aspect-ratio-2/3"
-                />
-              </nuxt-link>
-            </div>
-          </div>
-        </div>
-
-        <!-- Pagination -->
-        <div
-          class="bg-white flex flex-col items-center justify-center py-4 relative z-10 lg:col-span-1 order-3 lg:order-3"
-        >
-          <div
-            class="nj-slider-pagination w-full text-xl flex items-center justify-between lg:flex-col"
-          />
-        </div>
-      </div>
-
-      <!-- Navigation -->
-      <div class="navigation py-2 hidden lg:flex xl:col-span-11 xl:col-start-2">
-        <button class="prev w-10 h-10 flex items-center justify-center">
-          <img
-            aria-label="Vorheriger Slide"
-            src="/svg/arrowLeft_blue.svg"
-            class="w-8 h-8"
-          />
-        </button>
-        <button class="next w-10 h-10 flex items-center justify-center">
-          <img
-            style="transform: rotate(180deg)"
-            aria-label="Nächster Slide"
-            src="/svg/arrowLeft_blue.svg"
-            class="w-8 h-8"
-          />
-        </button>
-      </div>
     </div>
+
+    <!-- Pagination -->
+    <!-- <div
+        class="bg-white flex flex-col items-center justify-center py-4 relative z-10 lg:col-span-1 order-3 lg:order-3"
+      >
+        <div
+          class="nj-slider-pagination w-full text-xl flex items-center justify-between lg:flex-col"
+        />
+      </div>
+    </div> -->
+
+    <!-- Navigation -->
+    <!-- <div class="navigation py-2 hidden lg:flex xl:col-span-11 xl:col-start-2">
+      <button class="prev w-10 h-10 flex items-center justify-center">
+        <img
+          aria-label="Vorheriger Slide"
+          src="/svg/arrowLeft_blue.svg"
+          class="w-8 h-8"
+        />
+      </button>
+      <button class="next w-10 h-10 flex items-center justify-center">
+        <img
+          style="transform: rotate(180deg)"
+          aria-label="Nächster Slide"
+          src="/svg/arrowLeft_blue.svg"
+          class="w-8 h-8"
+        />
+      </button>
+    </div> -->
   </NjSection>
 </template>
 
@@ -107,7 +114,7 @@ export default {
       swiperOptions: {
         loop: true,
         loopedSlides: 1,
-        slidesPerView: 1,
+        slidesPerView: 1.5,
         spaceBetween: 20,
         pagination: {
           el: '.nj-slider-pagination',
