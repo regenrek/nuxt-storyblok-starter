@@ -32,7 +32,7 @@
           </div>
         </transition> -->
 
-        <!-- <div
+        <div
           ref="gallery"
           class="nj-gallery-slider lg:col-span-4 order-1 lg:order-1"
         >
@@ -42,18 +42,16 @@
               :key="index"
               class="swiper-slide"
             >
-              <nuxt-link :to="`/${slide.item.full_slug}`">
+              <nuxt-link :to="`#`">
                 <SbImage
-                  :src="getImage(slide.item)"
-                  :alt="slide.item.name"
+                  :src="slide.image"
+                  :alt="slide.image.alt"
                   class="aspect-ratio-4/3 lg:aspect-ratio-2/3"
                 />
               </nuxt-link>
             </div>
           </div>
         </div>
-
-        -->
 
         <!-- Pagination -->
         <div
@@ -64,7 +62,6 @@
           />
         </div>
       </div>
-      -->
 
       <!-- Navigation -->
       <div class="navigation py-2 hidden lg:flex xl:col-span-11 xl:col-start-2">
@@ -96,7 +93,7 @@ Swiper.use([Navigation, Pagination])
 
 export default {
   props: {
-    slider_items: {
+    sliderItems: {
       type: Array,
       default() {
         return []
@@ -131,7 +128,7 @@ export default {
   },
   computed: {
     slides() {
-      return this.slider_items
+      return this.sliderItems
     }
   },
   mounted() {
@@ -148,12 +145,7 @@ export default {
   },
   methods: {
     getImage(item) {
-      return {}
-      // return (
-      //   (item.content?.hero?.length && item.content.hero[0].featured_image) ||
-      //   item.content.hero[0].image ||
-      //   null
-      // )
+      return item.image.filename || null
     }
   }
 }
