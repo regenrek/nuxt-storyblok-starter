@@ -1,4 +1,5 @@
 import { storyblokConfig } from './config'
+import { sortRoutes } from '@nuxt/utils'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -27,6 +28,11 @@ export default {
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: [
     { path: '~/components/bloks', global: true, extensions: ['vue', 'js'] },
+    {
+      path: '~/components/molecules/cards',
+      global: true,
+      extensions: ['vue', 'js']
+    },
     {
       path: '~/node_modules/@nujek/ui/components/bloks',
       global: true,
@@ -58,6 +64,28 @@ export default {
       }
     ]
   ],
+
+  /**
+   * Nuxt custom router config
+   */
+  router: {
+    extendRoutes(routes, resolve) {
+      // We use the same template for frontpage and landingpages
+      routes.push({
+        name: 'index',
+        path: '/',
+        component: resolve(__dirname, 'pages/_slug/index.vue')
+      })
+
+      routes.push({
+        name: 'cafe-custom',
+        path: '/cafes',
+        component: resolve(__dirname, 'pages/_slug/index.vue')
+      })
+
+      sortRoutes(routes)
+    }
+  },
 
   googleFonts: {
     families: {

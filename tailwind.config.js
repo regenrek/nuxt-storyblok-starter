@@ -23,6 +23,11 @@ module.exports = {
       maxWidth: {
         container: '1400px'
       },
+      zIndex: {
+        // Needed for NjSidebar
+        400: 400,
+        500: 500
+      },
       typography: {
         DEFAULT: {
           css: {
