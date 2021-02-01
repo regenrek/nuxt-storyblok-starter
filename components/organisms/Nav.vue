@@ -1,7 +1,7 @@
 <template>
   <NjNav :is-fixed="false">
     <template #burger-menu>
-      <NjBurger class="burger" />
+      <NjBurger :open.sync="isOpenBurger" />
     </template>
 
     <template #logo>
@@ -61,7 +61,15 @@ export default {
     }),
     ...mapGetters({
       mainNavigation: 'nav/main'
-    })
+    }),
+    isOpenBurger: {
+      get: function () {
+        return this.navOpen
+      },
+      set: function (val) {
+        this.$store.dispatch('nav/set', val)
+      }
+    }
   },
   methods: {
     ...mapActions({
@@ -72,4 +80,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.nj-burger.active {
+  z-index: 999;
+}
+</style>

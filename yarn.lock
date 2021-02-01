@@ -962,10 +962,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@nujek/core@^0.0.39":
-  version "0.0.39"
-  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.39.tgz#1af156f029ccfb1b2f78610b73947d01df3f1059"
-  integrity sha512-v7uzLwBCbTgLP+DnvX82jIwCZj+zO+NsDDfICa5VrbsP7YsSJcs5SKC9DlZJG68P29fG5A8i8u5MqqX4mK+7JQ==
+"@nujek/core@^0.0.42":
+  version "0.0.42"
+  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.42.tgz#3007642be18036151241f91f93fd8839c867b0b0"
+  integrity sha512-YoVcwWoddJMdnBM5nAmft2OpwUuRfnYeuavjZE3wX+g8wa0Io5y8K/mmhBTcdZzcjJk23zhGwVy6b/8AjFeipg==
   dependencies:
     "@nujek/shared" "^0.0.7"
 
@@ -989,22 +989,27 @@
   resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.7.tgz#9be29235128bdd3b6659917f52e40ec8b59f3ece"
   integrity sha512-lbcbztHFzYBD+ibb+DHJlWYENj5jXoIl039kET50UmPXFKaIFP90u98WT9atzoccbDWklFxC4F2a1BnsdCfEew==
 
-"@nujek/storyblok@^0.0.36":
-  version "0.0.36"
-  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.36.tgz#34bc537c483ecd41e3cd39d3e1c3c0e45134f5b9"
-  integrity sha512-BQzJNS0aQpzQTQnBGKlZUGfhYgKjxmmqxIxtM4k/in+DWbroyKLD4sZzLLa82U1KsKPXVecKfYODI4iK2Oqy5Q==
+"@nujek/shared@latest":
+  version "0.0.53"
+  resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.53.tgz#3508643e5c8bb8967ed912af07208a4d27b8aac3"
+  integrity sha512-fwLjoZDS0OmZYGwAk0J1JyVF6nJzOKRxKZsmtwygK/lcjxOiHl4d84Yz5RVY7aY4zA6SlC4vBQTf5URP2dgE7g==
+
+"@nujek/storyblok@^0.0.39":
+  version "0.0.39"
+  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.39.tgz#5351f714ca8890ac48cc6fb5e32459c8a81eebbb"
+  integrity sha512-6Qp9nMJh93+GrzrNlPMEnqRDid//fM1s0gW1iXQ9GEPEWlGbv/rxswb1YkqkG1tPRAxVIGJgKQ+sMktNdfiNIQ==
   dependencies:
     "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
     "@nujek/nuxt-storyblok-queries" "^1.2.13"
-    "@nujek/shared" "^0.0.7"
+    "@nujek/shared" latest
     "@wearewondrous/nuxt-storyblok-router" "^1.5.2"
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@^0.0.130":
-  version "0.0.130"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.130.tgz#43407da16cc5ab4a0d8e86c166c37cbc32cae072"
-  integrity sha512-sEUg3OXiP5EQ3DXeQgSw0Jf5Lrbolv2DqAoJg7YkoxD2s14Af0Y3goVyfaY2ZUSV67A0a+lityjtGLMbIkHawQ==
+"@nujek/ui@^0.0.134":
+  version "0.0.134"
+  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.134.tgz#08a6b2bf1d496f989c11699225202b6923e46637"
+  integrity sha512-ZF1UdEpgZydqQIkafkEq2Jc/SHOwvokQGFrnwWJRpqGgal/kdOivhzor0hke/m/7O0P1NHXNg3IK19JrKtE0eA==
   dependencies:
     lazysizes "^5.3.0-beta1"
     lodash.get "^4.4.2"

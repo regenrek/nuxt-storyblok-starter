@@ -1,6 +1,7 @@
 <template>
   <div class="bg-white dark:bg-gray-500">
     <Nav />
+    <Sidebar :show.sync="isOpenBurger" :width="'80%'" />
     <Nuxt />
     <!-- footer -->
   </div>
@@ -25,7 +26,15 @@ export default {
   computed: {
     ...mapState({
       navOpen: (state) => state.nav.navOpen
-    })
+    }),
+    isOpenBurger: {
+      get: function () {
+        return this.navOpen
+      },
+      set: function (val) {
+        this.$store.dispatch('nav/set', val)
+      }
+    }
   }
 }
 </script>

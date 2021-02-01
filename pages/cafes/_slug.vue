@@ -1,5 +1,5 @@
 <template>
-  <Bloks :class="componentClass" :bloks="story.content.bloks" />
+  <div>Child Shop</div>
 </template>
 <script>
 import ClientLogger from '~/mixins/client-logger'
@@ -11,6 +11,7 @@ export default {
     try {
       const { story } = await $storyblok.getCurrentStory({
         resolve_links: 'url',
+        // resolve grid relations
         resolve_relations: 'blok_grid.source'
       })
 

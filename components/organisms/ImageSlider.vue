@@ -18,77 +18,67 @@
                   image: 'object-cover w-full'
                 }"
               />
-              <!-- <SbImage
-                  :src="slide.image"
-                  :alt="slide.image.alt"
-                  :classes="{
-                    aspectRatio: 'aspect-ratio-4/3 lg:aspect-ratio-2/3',
-                    image: 'object-cover'
-                  }"
-                /> -->
             </nuxt-link>
           </div>
         </div>
       </div>
 
-      <div class="bg-red-300">CONTENT</div>
-      <!-- <transition name="fade" mode="out-in">
-          <div
-            v-if="slides[activeIndex]"
-            :key="activeIndex"
-            class="safari-bg-fix bg-white relative flex flex-col items-start justify-center z-10 py-4 md:mb-8 lg:mb-0 lg:col-span-7 lg:pl-24 lg:pr-12 order-2 lg:order-2"
-          >
-            <h3
-              class="mb-8 text-dark text-2xl lg:text-3xl xl:text-4xl xxl:text-5xl"
-            >
-              {{ slides[activeIndex].item.name }}
-            </h3>
-
-            <p
-              v-if="
-                slides[activeIndex].item.content.hero.length &&
-                slides[activeIndex].item.content.hero[0].subtitle
-              "
-              class="text-h5 mb-10"
-            >
-              {{ slides[activeIndex].item.content.hero[0].subtitle }}
-            </p>
-
-            <NjButton :to="`/${slides[activeIndex].item.full_slug}`">
-              Beitrag ansehen
-            </NjButton>
-          </div>
-        </transition> -->
-    </div>
-
-    <!-- Pagination -->
-    <!-- <div
-        class="bg-white flex flex-col items-center justify-center py-4 relative z-10 lg:col-span-1 order-3 lg:order-3"
-      >
+      <div class="bg-blue-100">
         <div
-          class="nj-slider-pagination w-full text-xl flex items-center justify-between lg:flex-col"
-        />
-      </div>
-    </div> -->
+          class="relative flex flex-col items-start justify-center z-10 py-4 md:mb-8 lg:mb-0 lg:col-span-7 lg:pl-24 lg:pr-12 order-2 lg:order-2"
+        >
+          <transition name="fade" mode="out-in">
+            <div v-if="slides[activeIndex]" :key="activeIndex" class="">
+              <h3
+                class="mb-8 text-dark text-2xl lg:text-3xl xl:text-4xl xxl:text-5xl"
+              >
+                {{ slides[activeIndex].title }}
+              </h3>
 
-    <!-- Navigation -->
-    <!-- <div class="navigation py-2 hidden lg:flex xl:col-span-11 xl:col-start-2">
-      <button class="prev w-10 h-10 flex items-center justify-center">
-        <img
-          aria-label="Vorheriger Slide"
-          src="/svg/arrowLeft_blue.svg"
-          class="w-8 h-8"
-        />
-      </button>
-      <button class="next w-10 h-10 flex items-center justify-center">
-        <img
-          style="transform: rotate(180deg)"
-          aria-label="Nächster Slide"
-          src="/svg/arrowLeft_blue.svg"
-          class="w-8 h-8"
-        />
-      </button>
-    </div> -->
+              <p v-if="slides[activeIndex].subtitle" class="text-h5 mb-10">
+                {{ slides[activeIndex].subtitle }}
+              </p>
+
+              <nuxt-link :to="getBtnLink(slides[activeIndex])">
+                Beitrag ansehen
+              </nuxt-link>
+            </div>
+          </transition>
+
+          <!-- Navigation -->
+          <div class="navigation flex rotate-180">
+            <button
+              class="prev w-10 h-10 flex items-center justify-center bg-yellow-100"
+            >
+              <img
+                aria-label="Vorheriger Slide"
+                src="/svg/arrowLeft_blue.svg"
+                class="w-8 h-8"
+              />
+            </button>
+            <button
+              class="next w-10 h-10 flex items-center justify-center bg-yellow-100"
+            >
+              <img
+                style="transform: rotate(180deg)"
+                aria-label="Nächster Slide"
+                src="/svg/arrowLeft_blue.svg"
+                class="w-8 h-8"
+              />
+            </button>
+          </div>
+
+          <!-- Pagination -->
+          <div
+            class="bg-white flex flex-col items-center justify-center py-4 relative z-10 lg:col-span-1 order-3 lg:order-3"
+          >
+            <div
+              class="nj-slider-pagination w-full text-xl flex items-center justify-between lg:flex-col"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </NjSection>
 </template>
 
@@ -113,8 +103,13 @@ export default {
       activeIndex: 0,
       swiperOptions: {
         loop: true,
-        loopedSlides: 1,
+        //loopedSlides: 1,
         slidesPerView: 1.5,
+        initialSlide: 3,
+        centeredSlides: false,
+        // breakpoints: {
+
+        // },
         spaceBetween: 20,
         pagination: {
           el: '.nj-slider-pagination',
@@ -135,7 +130,7 @@ export default {
   },
   computed: {
     slides() {
-      return this.sliderItems
+      return this.sliderItems.slice().reverse()
     }
   },
   mounted() {
@@ -153,6 +148,10 @@ export default {
   methods: {
     getImage(item) {
       return item.image.filename || null
+    },
+    getBtnLink(slide) {
+      console.log(slide)
+      return `/${slide.button?.link?.story?.url}`
     }
   }
 }
