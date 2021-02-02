@@ -150,7 +150,6 @@ export default {
       return item.image.filename || null
     },
     getBtnLink(slide) {
-      console.log(slide)
       return `/${slide.button?.link?.story?.url}`
     }
   }

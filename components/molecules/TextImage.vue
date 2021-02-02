@@ -149,17 +149,9 @@ export default {
   },
   methods: {
     bindImage(image, propName) {
-      console.log('GETKEY', VARIANTS[_getKey(this.variant)].image)
-      //console.log(VARIANTS[_getKey(this.variant)]?.[propName || 'image'])
-
       const currentVariant =
         VARIANTS[_getKey(this.variant)]?.[propName || 'image']
       const currentDefault = DEFAULTS[propName || 'image']
-
-      console.log('CV', currentVariant)
-      console.log('CD', currentDefault)
-      console.log('---------', currentDefault)
-
       return {
         src: image,
         classes: currentVariant?.classes || currentDefault.classes,
@@ -167,7 +159,6 @@ export default {
       }
     },
     isVariant(v) {
-      console.log('VARIANT', v)
       return this.variant === v?.key || this.variant === v
     }
   }

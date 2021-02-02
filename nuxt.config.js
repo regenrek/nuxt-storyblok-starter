@@ -46,17 +46,18 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/composition-api',
+    '@nuxtjs/router-extras',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     '@nujek/core',
-    ['@nujek/ui', { withConsole: true }],
+    ['@nujek/ui', { withConsole: false }],
     [
       '@nujek/storyblok',
       {
         storyblokConfig: storyblokConfig,
-        withConsole: process.env.NODE_ENV === 'production' ? false : true,
+        withConsole: process.env.NODE_ENV === 'production' ? false : false,
         debug: process.env.NODE_ENV === 'production' ? false : true,
         storyblokQueries: {
           formatResponse: true
@@ -71,17 +72,51 @@ export default {
   router: {
     extendRoutes(routes, resolve) {
       // We use the same template for frontpage and landingpages
-      routes.push({
-        name: 'index',
-        path: '/',
-        component: resolve(__dirname, 'pages/_slug/index.vue')
+      // routes.push({
+      //   name: 'home',
+      //   path: '/',
+      //   component: resolve(__dirname, 'pages/_slug/index.vue')
+      // })
+      // routes.push({
+      //   path: '/cafes',
+      //   component: resolve(__dirname, 'pages/_slug/index.vue')
+      // })
+      //const newRoutes = generateRoutes(routes)
+      //routes.splice(0, routes.length)
+      //routes.unshift(...newRoutes)
+      //sortRoutes(routes)
+
+      const routesToAdd = [
+        {
+          name: 'index',
+          path: '/',
+          component: resolve(__dirname, 'pages/_slug/index.vue'),
+          chunkName: 'pages/index'
+        },
+        {
+          name: 'cafes',
+          path: '/cafes',
+          component: resolve(__dirname, 'pages/_slug/index.vue'),
+          chunkName: 'pages/cafe/index'
+        }
+      ]
+
+      const existingRoutesToRemove = routesToAdd.map((route) => route.name)
+
+      const generateRoutes = routes.filter((route) => {
+        return !existingRoutesToRemove.includes(route.name)
       })
 
-      routes.push({
-        name: 'cafe-custom',
-        path: '/cafes',
-        component: resolve(__dirname, 'pages/_slug/index.vue')
+      routesToAdd.forEach(({ name, path, component, chunkName }) => {
+        generateRoutes.push({
+          name,
+          path,
+          component,
+          chunkName
+        })
       })
+
+      routes.splice(0, routes.length, ...generateRoutes) // set new array
 
       sortRoutes(routes)
     }
