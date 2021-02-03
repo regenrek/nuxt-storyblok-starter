@@ -1,5 +1,5 @@
 <template>
-  <NjSection variant="boxed" class="py-16">
+  <NjSection variant="section-lg">
     <div class="flex items-center">
       <div class="px-8 lg:px-20">
         <h1 class="text-2xl lg:text-5xl xl:text-6xl">
