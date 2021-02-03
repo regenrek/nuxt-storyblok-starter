@@ -1,5 +1,5 @@
 <template>
-  <NjSection variant="boxed" class="py-16 prose md:prose-lg lg:prose-xl">
+  <NjSection variant="section-xl">
     <div
       class="grid grid-cols-1 items-center"
       :class="[

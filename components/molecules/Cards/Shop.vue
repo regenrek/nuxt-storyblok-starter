@@ -4,7 +4,7 @@
       <div class="pb-2">
         <div class="relative">
           <SbImage
-            :src="blok.content.featuredImage"
+            :src="image"
             :classes="{
               aspectRatio: 'aspect-ratio-16/9',
               image: 'object-cover'
@@ -33,6 +33,11 @@ export default {
       default() {
         return {}
       }
+    }
+  },
+  computed: {
+    image() {
+      return this.blok.content?.featuredImage || {}
     }
   }
 }

@@ -71,21 +71,6 @@ export default {
    */
   router: {
     extendRoutes(routes, resolve) {
-      // We use the same template for frontpage and landingpages
-      // routes.push({
-      //   name: 'home',
-      //   path: '/',
-      //   component: resolve(__dirname, 'pages/_slug/index.vue')
-      // })
-      // routes.push({
-      //   path: '/cafes',
-      //   component: resolve(__dirname, 'pages/_slug/index.vue')
-      // })
-      //const newRoutes = generateRoutes(routes)
-      //routes.splice(0, routes.length)
-      //routes.unshift(...newRoutes)
-      //sortRoutes(routes)
-
       const routesToAdd = [
         {
           name: 'index',

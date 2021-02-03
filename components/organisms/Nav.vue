@@ -1,42 +1,56 @@
 <template>
-  <NjNav :is-fixed="false">
-    <template #burger-menu>
-      <NjBurger :open.sync="isOpenBurger" />
-    </template>
-
-    <template #logo>
-      <div class="w-40 lg:w-48">
-        <nuxt-link to="/" class="block">
-          <!-- TODO -->
-          Logo
-        </nuxt-link>
-      </div>
-    </template>
-
-    <template #nav>
-      <!-- main nav desktop -->
-      <nav class="hidden md:flex justify-center items-center nj-nav-height">
-        <template v-for="nav_item in mainNavigation">
-          <nuxt-link
-            v-if="nav_item.link && nav_item.link.linktype === 'story'"
-            :key="nav_item._uid"
-            :to="`/${nav_item.link.cached_url}`"
-            class="font-600 cursor-pointer transition-color duration-700 text-sm navbar-item mx-2 lg:mx-4 xl:mx-6 h-20 uppercase letter-space flex items-center"
-            exact-active-class="navbar-item--active"
-          >
-            {{ nav_item.name || 'Mehr erfahren' }}
-          </nuxt-link>
-          <a
-            v-else-if="nav_item.link && nav_item.link.linktype === 'url'"
-            :key="nav_item._uid"
-            :href="nav_item.link.url"
-            class="cursor-pointer"
-            >{{ nav_item.name || 'Mehr erfahren' }}</a
-          >
+  <div class="flex justify-center w-full">
+    <div class="max-w-screen-xl w-full">
+      <NjNav :is-fixed="false">
+        <template #burger-menu>
+          <NjBurger :open.sync="isOpenBurger" />
         </template>
-      </nav>
-    </template>
-  </NjNav>
+
+        <template #logo>
+          <div class="w-40 lg:w-48">
+            <nuxt-link to="/" class="block">
+              <!-- TODO -->
+              Logo
+            </nuxt-link>
+          </div>
+        </template>
+
+        <template #nav>
+          <div
+            class="hidden lg:flex items-center flex-grow justify-between space-x-4"
+          >
+            <!-- main nav desktop -->
+            <div class="hidden lg:flex justify-center items-center space-x-4">
+              <nav v-for="(nav_item, index) in mainNavigation" :key="index">
+                <component
+                  :is="getLinkType(nav_item)"
+                  v-bind="getLink(nav_item)"
+                  class="flex items-center"
+                >
+                  {{ nav_item.name }}
+                </component>
+              </nav>
+            </div>
+            <!-- nav-right -->
+            <div class="flex items-center space-x-4">
+              <div
+                v-for="(nav_item, index) in mainNavigationRight"
+                :key="index"
+              >
+                <component
+                  :is="getLinkType(nav_item)"
+                  v-bind="getLink(nav_item)"
+                  class="flex items-center"
+                >
+                  <span>{{ nav_item.name }}</span>
+                </component>
+              </div>
+            </div>
+          </div>
+        </template>
+      </NjNav>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -57,7 +71,8 @@ export default {
   },
   computed: {
     ...mapState({
-      navOpen: (state) => state.nav.navOpen
+      navOpen: (state) => state.nav.navOpen,
+      mainNavigationRight: (state) => state.nav.settings.navigation_right
     }),
     ...mapGetters({
       mainNavigation: 'nav/main'
@@ -75,7 +90,26 @@ export default {
     ...mapActions({
       toggleSidebar: 'nav/toggle',
       closeSidebar: 'nav/close'
-    })
+    }),
+    getLinkType(navItem) {
+      if (navItem.link?.linktype === 'url') {
+        return 'a'
+      } else {
+        return 'nuxt-link'
+      }
+    },
+    getLink(navItem) {
+      if (navItem.link?.linktype === 'url') {
+        return { href: navItem.link.url, target: '_blank' }
+      } else if (navItem.link?.linktype === 'story') {
+        return {
+          to: '/' + navItem.link?.story?.fullSlug,
+          'exact-active-class': 'navbar-item--active'
+        }
+      } else {
+        return { to: '/', 'exact-active-class': 'navbar-item--active' }
+      }
+    }
   }
 }
 </script>
