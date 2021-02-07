@@ -16,7 +16,7 @@
         <div class="mb-4 md:mb-6 lg:mb-12">
           <SbRichtext v-if="description" :text="description" />
         </div>
-        <t-button :to="btnLink">{{ btn.label }}</t-button>
+        <t-button v-if="button.length" :to="btnLink">{{ btn.label }}</t-button>
       </div>
       <div
         v-if="hasTwoImages"

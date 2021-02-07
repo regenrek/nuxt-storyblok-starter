@@ -17,10 +17,10 @@
 
         <template #nav>
           <div
-            class="hidden lg:flex items-center flex-grow justify-between space-x-4"
+            class="hidden sm:flex items-center flex-grow justify-between space-x-4"
           >
             <!-- main nav desktop -->
-            <div class="hidden lg:flex justify-center items-center space-x-4">
+            <div class="hidden sm:flex justify-center items-center space-x-4">
               <nav v-for="(nav_item, index) in mainNavigation" :key="index">
                 <component
                   :is="getLinkType(nav_item)"
@@ -103,7 +103,7 @@ export default {
         return { href: navItem.link.url, target: '_blank' }
       } else if (navItem.link?.linktype === 'story') {
         return {
-          to: '/' + navItem.link?.story?.fullSlug,
+          to: '/' + navItem.link?.story?.full_slug,
           'exact-active-class': 'navbar-item--active'
         }
       } else {
