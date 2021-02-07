@@ -78,7 +78,7 @@ export default {
       this.categories = menuCategories
       this.selectedTab = this.getCategories[0]
 
-      console.log(this.categories)
+      this.filterQuery
     } catch (e) {
       console.error('error', e)
     }
@@ -87,10 +87,15 @@ export default {
     filterQuery() {
       const all = this.selectedTab.name === '-'
 
+      console.log('Filterquers', this.selectedTab.uuid)
+
       return {
         ...(!all && {
           category: {
-            like: this.selectedTab.name
+            like:
+              this.selectedTab.uuid ||
+              (this.getCategories?.length && this.getCategories[0].uuid) ||
+              ''
           },
           component: {
             in: 'Dish'
@@ -104,7 +109,8 @@ export default {
           title: category?.content?.title,
           name: category.name,
           slug: category.slug,
-          fullSlug: category.fullSlug
+          fullSlug: category.fullSlug,
+          uuid: category.uuid
         }
       })
     }

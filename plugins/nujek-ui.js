@@ -30,7 +30,7 @@ const settings = {
     component: NjBurger,
     props: {
       classes: {
-        bar: 'bg-red-600'
+        bar: 'bg-gray-800'
       }
     }
   },
