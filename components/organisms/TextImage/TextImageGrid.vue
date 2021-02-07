@@ -16,7 +16,7 @@
         <div class="mb-4 md:mb-6 lg:mb-12">
           <SbRichtext v-if="description" :text="description" />
         </div>
-        <t-button :to="btnLink">{{ btn.label }}</t-button>
+        <t-button v-if="button.length" :to="btnLink">{{ btn.label }}</t-button>
       </div>
       <div
         v-if="hasTwoImages"
@@ -46,6 +46,7 @@
 
 <script>
 import { VARIANTS } from './const'
+import TextImage from '~/mixins/components/organisms/TextImage'
 
 const DEFAULTS = {
   image: {
@@ -73,48 +74,7 @@ const _getKey = (value) => {
 
 export default {
   name: 'TextImageGrid',
-  props: {
-    title: {
-      type: String,
-      default: ''
-    },
-    image: {
-      type: [Object, String],
-      default: () => {}
-    },
-    image2: {
-      type: [Object, String],
-      default: () => {}
-    },
-    bgImage: {
-      type: Object,
-      default: () => {}
-    },
-    description: {
-      type: Object,
-      default() {
-        return {}
-      }
-    },
-    textRight: {
-      type: Boolean,
-      default: false
-    },
-    bgImageClass: {
-      type: String,
-      default: ''
-    },
-    button: {
-      type: Array,
-      default() {
-        return []
-      }
-    },
-    variant: {
-      type: String,
-      default: ''
-    }
-  },
+  mixins: [TextImage],
   data() {
     return {
       VARIANTS: VARIANTS,
@@ -173,9 +133,4 @@ export default {
   margin-top: -50%;
   grid-column: 1 / span 6;
 }
-/* 
-img {
-  width: 100%;
-  display: block;
-} */
 </style>

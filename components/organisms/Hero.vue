@@ -75,7 +75,7 @@ export default {
       default: ''
     },
     button: {
-      type: Array,
+      type: [Array],
       default() {
         return []
       }

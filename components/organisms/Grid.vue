@@ -81,6 +81,7 @@ export default {
       return (item) => item?.content?.component || 'Card'
     },
     fullSlug() {
+      console.log('FULLSLUG', this.source?.fullSlug)
       return this.source?.fullSlug
     }
   },
