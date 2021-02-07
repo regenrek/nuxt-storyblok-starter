@@ -20,6 +20,7 @@
 
       <div>
         <SbGrid
+          :key="timestamp"
           v-bind="{
             blok: {
               post_type: postType.fullSlug,
@@ -42,6 +43,7 @@
 <script>
 import MenuDishCard from './MenuDishCard'
 import slugify from 'slugify'
+import { v4 as uuidv4 } from 'uuid'
 
 const PostType = {
   name: 'Dish',
@@ -69,7 +71,8 @@ export default {
       categories: [],
       selectedTab: {},
       postType: PostType,
-      PostsPerPage: 10
+      PostsPerPage: 10,
+      timestamp: uuidv4()
     }
   },
   async fetch() {
@@ -81,6 +84,7 @@ export default {
       this.selectedTab = this.getCategories[0]
 
       this.PostsPerPage = 9
+      this.timestamp = uuidv4()
     } catch (e) {
       console.error('error', e)
     }
