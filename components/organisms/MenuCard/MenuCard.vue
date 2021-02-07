@@ -23,7 +23,8 @@
           v-bind="{
             blok: {
               post_type: postType.fullSlug,
-              resolve_relations: 'category'
+              resolve_relations: 'category',
+              posts_per_page: PostsPerPage
             },
             filterQuery
           }"
@@ -67,7 +68,8 @@ export default {
     return {
       categories: [],
       selectedTab: {},
-      postType: PostType
+      postType: PostType,
+      PostsPerPage: 10
     }
   },
   async fetch() {
@@ -78,7 +80,7 @@ export default {
       this.categories = menuCategories
       this.selectedTab = this.getCategories[0]
 
-      this.filterQuery
+      this.PostsPerPage = 9
     } catch (e) {
       console.error('error', e)
     }
