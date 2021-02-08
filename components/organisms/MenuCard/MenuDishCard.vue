@@ -1,6 +1,6 @@
 <template>
   <div v-if="blok.content" class="w-full">
-    Dish Name: {{ blok.content.title }}
+    {{ blok.content.title }}
   </div>
 </template>
 

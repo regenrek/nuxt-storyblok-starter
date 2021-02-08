@@ -91,7 +91,7 @@ export default {
       this.$router.push({
         name: 'cafes',
         query: {
-          kategorien: this.slugify(tab.value)
+          category: this.slugify(tab.value)
         }
       })
     },
