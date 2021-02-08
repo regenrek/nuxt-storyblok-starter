@@ -1,8 +1,6 @@
-# Nuxt.js Storyblok Starter
+# Nuxt.js Storyblok Starter Website template
 
-Nuxt Storyblok Starter Kit is a project template for building Websites on top of the popular Storyblok CMS, TailwindCSS 2, PostCSS and many more. 
-
-Helping you to stay productive following and eliminating repetive tasks. 
+Nuxt.js Storyblok Starter Website is a project template for building Websites on top of the popular [Storyblok CMS](https://www.storyblok.com/), TailwindCSS 2, PostCSS and many more. This starter template is using the [Nujek](https://github.com/regenrek/nujek) framework which allows you to build Storyblok websites fast and easy.
 
 - 🎲 &nbsp;Demos on CodeSandbox - WIP
 - 📖 [&nbsp;Read the documentation](https://nuxt-storyblok-starter-docs.vercel.app/)
@@ -41,7 +39,7 @@ yarn dev # start develop server
 
 ## Nujek Framework
 
-The Starter Kit built-in [Nujek Framework](https://nujek-docs.vercel.app/) which is a collection of powerful nuxt modules for storyblok including a reusable ui library.
+This starter Website template is using [Nujek Framework](https://nujek-docs.vercel.app/) which is a collection of powerful nuxt modules for storyblok including a reusable ui library.
 
 - 📖 [&nbsp;Nujek - Read more](https://nujek-docs.vercel.app/)
 
