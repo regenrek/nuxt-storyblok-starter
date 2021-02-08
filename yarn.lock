@@ -163,10 +163,10 @@
   dependencies:
     "@babel/types" "^7.12.10"
 
-"@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
-  version "7.10.4"
-  resolved "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.10.4.tgz#2f75a831269d4f677de49986dff59927533cf375"
-  integrity sha512-O4KCvQA6lLiMU9l2eawBPMf1xPP8xPfB3iEQw150hOVTqj/rfXz0ThTb4HEzqQfs2Bmo5Ay8BzxfzVtBrr9dVg==
+"@babel/helper-plugin-utils@^7.0.0", "@babel/helper-plugin-utils@^7.10.4", "@babel/helper-plugin-utils@^7.12.13", "@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.12.13.tgz#174254d0f2424d8aefb4dd48057511247b0a9eeb"
+  integrity sha512-C+10MXCXJLiR6IeG9+Wiejt9jmtFpxUc3MQqCmPY8hfCjyUGl9kT+B2okzEZrtykiwrc4dbCPdDoz0A/HQbDaA==
 
 "@babel/helper-remap-async-to-generator@^7.12.1":
   version "7.12.1"
@@ -342,12 +342,12 @@
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.0"
 
-"@babel/plugin-proposal-optional-chaining@^7.12.7":
-  version "7.12.7"
-  resolved "https://registry.npmjs.org/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.12.7.tgz#e02f0ea1b5dc59d401ec16fb824679f683d3303c"
-  integrity sha512-4ovylXZ0PWmwoOvhU2vhnzVNnm88/Sm9nx7V8BPgMvAzn5zDou3/Awy0EjglyubVHasJj+XCEkr/r1X3P5elCA==
+"@babel/plugin-proposal-optional-chaining@^7.12.13", "@babel/plugin-proposal-optional-chaining@^7.12.7":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.12.13.tgz#63a7d805bc8ce626f3234ee5421a2a7fb23f66d9"
+  integrity sha512-0ZwjGfTcnZqyV3y9DSD1Yk3ebp+sIUpT2YDqP8hovzaNZnQq2Kd7PEqa6iOIUDBXBt7Jl3P7YAcEIL5Pz8u09Q==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.10.4"
+    "@babel/helper-plugin-utils" "^7.12.13"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.12.1"
     "@babel/plugin-syntax-optional-chaining" "^7.8.0"
 
@@ -962,21 +962,27 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@nujek/core@latest":
-  version "0.0.35"
-  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.35.tgz#1cc618837e62dbc1e00f4eac8a1c332b1ddd6b44"
-  integrity sha512-Cwcm5lN7xR2vafRL4XIlUz2DbrZv2564iZrsqrYNdOZEA+GE9QixaEWT/TBarUc+KuOMBvDeLSf7M7a4PS50Gg==
+"@nujek/core@^0.0.42":
+  version "0.0.42"
+  resolved "https://registry.npmjs.org/@nujek/core/-/core-0.0.42.tgz#3007642be18036151241f91f93fd8839c867b0b0"
+  integrity sha512-YoVcwWoddJMdnBM5nAmft2OpwUuRfnYeuavjZE3wX+g8wa0Io5y8K/mmhBTcdZzcjJk23zhGwVy6b/8AjFeipg==
   dependencies:
     "@nujek/shared" "^0.0.7"
 
-"@nujek/nuxt-storyblok-queries@^1.2.11":
-  version "1.2.11"
-  resolved "https://registry.npmjs.org/@nujek/nuxt-storyblok-queries/-/nuxt-storyblok-queries-1.2.11.tgz#2df8b1f680b688d844ef8caeda5b035496a8feb8"
-  integrity sha512-k5UtyxtngU9frmt+WfSKLoMzoZE+cmsyjmmmvmHp1M2sSLdu5Wi2a730rcKVwW7onigwGVEs/2sW2PtE3hMOIA==
+"@nujek/nuxt-storyblok-queries@^1.2.16":
+  version "1.2.16"
+  resolved "https://registry.npmjs.org/@nujek/nuxt-storyblok-queries/-/nuxt-storyblok-queries-1.2.16.tgz#cefe15b92c804865d2624774d3c83b1fc2467f0b"
+  integrity sha512-XwXDDBQVtCWLgeFIRCvXb3oxyDBS1ONSsgRSqKM+hfuU1EwvgHam60snFprb4MGOfCycoce1HSMAU2LZeBLjqQ==
   dependencies:
     axios "^0.21.0"
+    camelcase "^6.2.0"
     consola "^2.15.0"
     storyblok-js-client "^2.5.2"
+
+"@nujek/shared@^0.0.50":
+  version "0.0.50"
+  resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.50.tgz#5c77fda39a2235da4dff27d3ae309c686f0b729e"
+  integrity sha512-nC7yVwhehM6IIGOtiAO2mAkwekfadvuChTVmhIg1RZ2/D6aRI3+bLIGiUMa3EnhNFu+MoQAWCb9M7tUyk10YvA==
 
 "@nujek/shared@^0.0.7":
   version "0.0.7"
@@ -984,26 +990,26 @@
   integrity sha512-lbcbztHFzYBD+ibb+DHJlWYENj5jXoIl039kET50UmPXFKaIFP90u98WT9atzoccbDWklFxC4F2a1BnsdCfEew==
 
 "@nujek/shared@latest":
-  version "0.0.45"
-  resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.45.tgz#6c37cb1ad2d2baf0c550272cc1a3f8032bd96785"
-  integrity sha512-jUhEo+9woWKYDTCpXY/lc2ECu3TiIG42qqJuaMeFg8hmKVF852UY59Xgm34o8TRIAG50AHRxDM3DImv01TiC4A==
+  version "0.0.53"
+  resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.53.tgz#3508643e5c8bb8967ed912af07208a4d27b8aac3"
+  integrity sha512-fwLjoZDS0OmZYGwAk0J1JyVF6nJzOKRxKZsmtwygK/lcjxOiHl4d84Yz5RVY7aY4zA6SlC4vBQTf5URP2dgE7g==
 
-"@nujek/storyblok@latest":
-  version "0.0.33"
-  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.33.tgz#2d29ed20c6a9fb0c7ade53db5eaf790b0f0e96ea"
-  integrity sha512-KolZuYyzywXcFsDyYRssKOHPBmSN7uf2nV8384Z0f5D9nKam6KexGQlMqPsdAThiFfKfKRXgpXndb3oDCyp8DA==
+"@nujek/storyblok@^0.0.42":
+  version "0.0.42"
+  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.42.tgz#82413cc2e330ab3c0ca2561204b4f635cbdcadd7"
+  integrity sha512-OrERdduZcsBPQ+4yhSQsRHElbHqAgsbPIEO+pK1WtT3QNTTfdnqnBy5lq91Kk5x4NnrmptiZVCQMO7IQe0Mdbw==
   dependencies:
     "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
-    "@nujek/nuxt-storyblok-queries" "^1.2.11"
-    "@nujek/shared" "^0.0.7"
+    "@nujek/nuxt-storyblok-queries" "^1.2.16"
+    "@nujek/shared" latest
     "@wearewondrous/nuxt-storyblok-router" "^1.5.2"
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@latest":
-  version "0.0.127"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.127.tgz#7e43b151f824cb046d5a2e89051752c518e97f9f"
-  integrity sha512-FI4BC26DXKxEja95HMgtve/zjvnJDBtCnePe90doBVOYIPqPL4/9nzHp02U4bSTVSXyY2QSOm5owEEr+8NoF7w==
+"@nujek/ui@^0.0.136":
+  version "0.0.136"
+  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.136.tgz#4722c458c35db9d21d0c0c780a26f1e07afd2134"
+  integrity sha512-yQyY8gyn5/52LJt0A3O/PhbDVs1foY0bBUmPOe2YuDmCEaWfHfkb6Hrknv/A8bauAXlIGW/kXswa6EOTudmGlA==
   dependencies:
     lazysizes "^5.3.0-beta1"
     lodash.get "^4.4.2"
@@ -1372,6 +1378,14 @@
     consola "^2.15.0"
     google-fonts-helper "^1.1.1"
 
+"@nuxtjs/router-extras@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/@nuxtjs/router-extras/-/router-extras-1.1.1.tgz#2f2ee52d2cd5a6e3a3a65a1cc5ed105cc091c3dc"
+  integrity sha512-WUBT6ig0MweXZVC3bYbhQ6cxvIRLBCCcIy/nZxUEw1zAWwrPWX12l3b5zRTLDFVhGUQfio25GWkNh8UWHWK7kw==
+  dependencies:
+    chokidar "^3.4.3"
+    gray-matter "^4.0.2"
+
 "@nuxtjs/sitemap@^2.4.0":
   version "2.4.0"
   resolved "https://registry.npmjs.org/@nuxtjs/sitemap/-/sitemap-2.4.0.tgz#6a9fa1c35e161f87375d59949d973568cec40614"
@@ -1428,6 +1442,16 @@
   integrity sha512-czfvEdY+J2Ogfd6RUSr/ZSUmDxTujr34M++YLnp2cCPC3oJ4kFvFMaRXA6cEXKw7F1hJuapdjXRjsXIEXGgORg==
   dependencies:
     mini-svg-data-uri "^1.2.3"
+
+"@tailwindcss/typography@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.4.0.tgz#b80974ad6af93df7b06e1981cb4d79698b6ad5c7"
+  integrity sha512-3BfOYT5MYNEq81Ism3L2qu/HRP2Q5vWqZtZRQqQrthHuaTK9qpuPfbMT5WATjAM5J1OePKBaI5pLoX4S1JGNMQ==
+  dependencies:
+    lodash.castarray "^4.4.0"
+    lodash.isplainobject "^4.0.6"
+    lodash.merge "^4.6.2"
+    lodash.uniq "^4.5.0"
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -2684,6 +2708,11 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
+camelcase@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
+  integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
+
 caniuse-api@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
@@ -3667,6 +3696,13 @@ dom-serializer@0:
   dependencies:
     domelementtype "^2.0.1"
     entities "^2.0.0"
+
+dom7@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/dom7/-/dom7-3.0.0.tgz#b861ce5d67a6becd7aaa3ad02942ff14b1240331"
+  integrity sha512-oNlcUdHsC4zb7Msx7JN3K0Nro1dzJ48knvBOnDPKJ2GV9wl1i5vydJZUSyOfrkKFDZEud/jBsTk92S/VGSAe/g==
+  dependencies:
+    ssr-window "^3.0.0-alpha.1"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -4824,6 +4860,16 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+gray-matter@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/gray-matter/-/gray-matter-4.0.2.tgz#9aa379e3acaf421193fce7d2a28cebd4518ac454"
+  integrity sha512-7hB/+LxrOjq/dd8APlK0r24uL/67w7SkYnfwhNFwg/VDIGWGmduTDYf3WNstLW2fbbmRwrDGCVSJ2isuf2+4Hw==
+  dependencies:
+    js-yaml "^3.11.0"
+    kind-of "^6.0.2"
+    section-matter "^1.0.0"
+    strip-bom-string "^1.0.0"
+
 gzip-size@^5.0.0:
   version "5.1.1"
   resolved "https://registry.npmjs.org/gzip-size/-/gzip-size-5.1.1.tgz#cb9bee692f87c0612b232840a873904e4c135274"
@@ -5629,7 +5675,7 @@ js-cookie@^2.2.1:
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.13.1:
+js-yaml@^3.11.0, js-yaml@^3.13.1:
   version "3.14.1"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
@@ -5960,6 +6006,11 @@ lodash._reinterpolate@^3.0.0:
   resolved "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
 
+lodash.castarray@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npmjs.org/lodash.castarray/-/lodash.castarray-4.4.0.tgz#c02513515e309daddd4c24c60cfddcf5976d9115"
+  integrity sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU=
+
 lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
@@ -5979,6 +6030,11 @@ lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
   integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
+
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+  integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
 
 lodash.kebabcase@^4.1.1:
   version "4.1.1"
@@ -8562,6 +8618,14 @@ schema-utils@^3.0.0:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
+section-matter@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/section-matter/-/section-matter-1.0.0.tgz#e9041953506780ec01d59f292a19c7b850b84167"
+  integrity sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==
+  dependencies:
+    extend-shallow "^2.0.1"
+    kind-of "^6.0.0"
+
 semver-compare@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
@@ -8908,6 +8972,11 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
+ssr-window@^3.0.0, ssr-window@^3.0.0-alpha.1:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/ssr-window/-/ssr-window-3.0.0.tgz#fd5b82801638943e0cc704c4691801435af7ac37"
+  integrity sha512-q+8UfWDg9Itrg0yWK7oe5p/XRCJpJF9OBtXfOPgSJl+u3Xd5KI328RUEvUqSMVM9CiQUEf1QdBzJMkYGErj9QA==
+
 ssri@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
@@ -9120,6 +9189,11 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
+strip-bom-string@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz#e5211e9224369fbb81d633a2f00044dc8cedad92"
+  integrity sha1-5SEekiQ2n7uB1jOi8ABE3IztrZI=
+
 strip-bom@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
@@ -9209,6 +9283,15 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swiper@^6.4.8:
+  version "6.4.8"
+  resolved "https://registry.npmjs.org/swiper/-/swiper-6.4.8.tgz#2033b69809ca67cb0851a8542089e43366f653e9"
+  integrity sha512-BvpbFiWTeHq+WniJNIeyVGsGeUozQ7q4EpqkyKocopYMzWgRDAmjCy+pr5QSrmtMQFgIG0+ta+3YBvjSHT+cgQ==
+  dependencies:
+    dom7 "^3.0.0"
+    ssr-window "^3.0.0"
+    tslib "^2.0.0"
 
 table@^6.0.4:
   version "6.0.7"
@@ -9460,7 +9543,7 @@ tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.1, tslib@^2.0.3:
+tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3:
   version "2.1.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
@@ -9845,10 +9928,10 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-tailwind@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/vue-tailwind/-/vue-tailwind-2.0.0.tgz#77b45e07d953e594b1d71f0b17e8d00143ee0dce"
-  integrity sha512-ytnyQ4gxwOTaUNhXtWf74YKrTPyNfaWQX585zZ2tm96HKlC51WjvG+BFGopSUZk9+b6OpWe2k1wWEJcSKmuOHQ==
+vue-tailwind@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/vue-tailwind/-/vue-tailwind-2.1.1.tgz#16a0aa9c0753f276b201088c1af2121ce83e170c"
+  integrity sha512-pnDqrp+lDD4KPUlMpMFh/LINqDn5ruIEFC7jgbtHB7ZEmxELTz0eUWhDsxaBqTzbsawexzGFTthTMLvYT0eFvQ==
   dependencies:
     body-scroll-lock "^3.1.5"
     lodash.clonedeep "^4.5.0"
