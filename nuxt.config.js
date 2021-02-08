@@ -7,7 +7,7 @@ export default {
   ssr: true,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'nuxt-nujek-starter',
+    title: 'Bakery | Nujek Starter',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

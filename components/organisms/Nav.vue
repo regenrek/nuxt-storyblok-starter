@@ -1,17 +1,14 @@
 <template>
   <div class="flex justify-center w-full">
-    <div class="max-w-screen-xl w-full">
-      <NjNav :is-fixed="false">
+    <div class="max-w-screen-xl w-full px-6">
+      <NjNav class="py-2" :is-fixed="false">
         <template #burger-menu>
           <NjBurger :open.sync="isOpenBurger" />
         </template>
 
         <template #logo>
           <div class="w-40 lg:w-48">
-            <nuxt-link to="/" class="block">
-              <!-- TODO -->
-              Logo
-            </nuxt-link>
+            <nuxt-link to="/" class="block"> Bakery </nuxt-link>
           </div>
         </template>
 

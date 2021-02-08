@@ -7,7 +7,7 @@
             <SbImage aspect-ratio="16/9" :src="blok.content.image" />
           </nuxt-link>
           <div
-            class="rounded-3xl flex justify-center items-center absolute h-12 w-20 bg-white bottom-6 left-6"
+            class="rounded-3xl flex justify-center items-center absolute h-12 w-20 bottom-6 left-6"
           >
             <img src="/svg/play.svg" class="h-4 w-4" />
           </div>

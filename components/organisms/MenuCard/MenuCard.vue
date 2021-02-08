@@ -24,8 +24,7 @@
           v-bind="{
             blok: {
               post_type: postType.fullSlug,
-              resolve_relations: 'category',
-              posts_per_page: PostsPerPage
+              resolve_relations: 'category'
             },
             filterQuery
           }"
@@ -71,19 +70,27 @@ export default {
       categories: [],
       selectedTab: {},
       postType: PostType,
-      PostsPerPage: 10,
       timestamp: uuidv4()
     }
   },
   async fetch() {
     try {
+      const { query } = this.$nuxt.context
+      const categorySlug = query?.category || null
+
       const menuCategories = await this.$storyblok.getStoryCollection(
         'bistro/menu-card/categories'
       )
       this.categories = menuCategories
-      this.selectedTab = this.getCategories[0]
+      this.selectedTab =
+        (categorySlug &&
+          this.getCategories.find((x) => x.slug === categorySlug)) ||
+        this.getCategories[0]
 
-      this.PostsPerPage = 9
+      console.log('SelectedTab', this.selectedTab)
+
+      // workaround so SbGrid is updating
+      // the categories after fetch
       this.timestamp = uuidv4()
     } catch (e) {
       console.error('error', e)
@@ -92,8 +99,6 @@ export default {
   computed: {
     filterQuery() {
       const all = this.selectedTab.name === '-'
-
-      console.log('Filterquers', this.selectedTab.uuid)
 
       return {
         ...(!all && {
@@ -123,13 +128,11 @@ export default {
   },
   methods: {
     selectTab(tab) {
-      console.log('selected before', this.selectedTab)
       this.selectedTab = tab
-      console.log('selected before', this.selectedTab)
       this.$router.push({
         name: 'slug',
         query: {
-          kategorien: this.slugify(tab.name)
+          category: this.slugify(tab.slug)
         },
         params: {
           slug: 'bistro'

@@ -11,7 +11,10 @@
       <div
         v-if="hasTwoImages"
         class="image-stack"
-        :class="{ 'md:order-1': textRight }"
+        :class="[
+          { 'md:order-1': textRight },
+          $options.filters.dashify(variant)
+        ]"
       >
         <div class="image-stack__item image-stack__item--top">
           <SbImage :src="image" :resize="{ width: '398', height: '409' }" />
@@ -44,6 +47,8 @@
 </template>
 
 <script>
+import kebabcase from 'lodash.kebabcase'
+
 export default {
   props: {
     title: {
@@ -79,6 +84,10 @@ export default {
       default() {
         return []
       }
+    },
+    variant: {
+      type: String,
+      default: 'image_style_1'
     }
   },
   computed: {
@@ -103,23 +112,33 @@ export default {
   display: grid;
   position: relative;
   grid-template-columns: repeat(12, 1fr);
-  /* grid-template-rows: repeat(2, 1fr); */
 }
 
-.image-stack__item--bottom {
-  grid-column: 6 / -1;
-  grid-row: 1;
-  z-index: 1;
+.image-style-1 {
+  .image-stack__item--bottom {
+    grid-column: 6 / -1;
+    grid-row: 1;
+    z-index: 1;
+  }
+
+  .image-stack__item--top {
+    grid-row: 2;
+    margin-top: -50%;
+    grid-column: 1 / span 6;
+  }
 }
 
-.image-stack__item--top {
-  grid-row: 2;
-  margin-top: -50%;
-  grid-column: 1 / span 6;
+.image-style-2 {
+  .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+  }
+
+  .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 6;
+    padding-top: 20%;
+    z-index: 1;
+  }
 }
-/* 
-img {
-  width: 100%;
-  display: block;
-} */
 </style>

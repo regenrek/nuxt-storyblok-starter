@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <div class="bg-blue-100">
+      <div>
         <div
           class="relative flex flex-col items-start justify-center z-10 py-4 md:mb-8 lg:mb-0 lg:col-span-7 lg:pl-24 lg:pr-12 order-2 lg:order-2"
         >
@@ -47,18 +47,14 @@
 
           <!-- Navigation -->
           <div class="navigation flex rotate-180">
-            <button
-              class="prev w-10 h-10 flex items-center justify-center bg-yellow-100"
-            >
+            <button class="prev w-10 h-10 flex items-center justify-center">
               <img
                 aria-label="Vorheriger Slide"
                 src="/svg/arrowLeft_blue.svg"
                 class="w-8 h-8"
               />
             </button>
-            <button
-              class="next w-10 h-10 flex items-center justify-center bg-yellow-100"
-            >
+            <button class="next w-10 h-10 flex items-center justify-center">
               <img
                 style="transform: rotate(180deg)"
                 aria-label="Nächster Slide"
@@ -69,12 +65,8 @@
           </div>
 
           <!-- Pagination -->
-          <div
-            class="bg-white flex flex-col items-center justify-center py-4 relative z-10 lg:col-span-1 order-3 lg:order-3"
-          >
-            <div
-              class="nj-slider-pagination w-full text-xl flex items-center justify-between lg:flex-col"
-            />
+          <div class="flex">
+            <div class="nj-slider-pagination flex space-x-2" />
           </div>
         </div>
       </div>
@@ -118,7 +110,7 @@ export default {
           bulletActiveClass: 'bullet--active',
           renderBullet(index, className) {
             const number = index <= 9 ? `0${index + 1}` : index + 1
-            return `<span class="${className}">${number}</span>`
+            return `<span class="${className} block cursor-pointer">${number}</span>`
           }
         },
         navigation: {

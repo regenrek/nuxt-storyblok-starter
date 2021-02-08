@@ -1,7 +1,7 @@
 <template>
   <NjSidebar v-bind="{ ...$props, ...$attrs }">
     <template #header>
-      <div class="flex items-center justify-between py-4 bg-blue-600 px-6">
+      <div class="flex items-center justify-between py-4 px-6">
         <div class="">Logo Here</div>
       </div>
     </template>
