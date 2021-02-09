@@ -31,7 +31,7 @@
     "@nujek/core": "^0.0.42",
     "@nujek/nuxt-storyblok-queries": "^1.2.16",
     "@nujek/shared": "^0.0.50",
-    "@nujek/storyblok": "^0.0.42",
+    "@nujek/storyblok": "^0.0.43",
     "@nujek/ui": "^0.0.136",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.17.0",
