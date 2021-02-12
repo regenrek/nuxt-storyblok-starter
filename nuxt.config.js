@@ -46,13 +46,11 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/composition-api',
-    '@nuxtjs/router-extras',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
-    '@nujek/core',
-    ['@nujek/ui', { withConsole: false }],
+    '@nujek/ui',
     [
       '@nujek/storyblok',
       {
@@ -72,23 +70,6 @@ export default {
   router: {
     extendRoutes(routes, resolve) {
       const routesToAdd = [
-        // {
-        //   name: 'bistro',
-        //   path: '/bistro',
-        //   component: resolve(__dirname, 'pages/_slug/index.vue'),
-        //   chunkName: 'pages/bistro',
-        //   children: [
-        //     {
-        //       name: 'bistro-menu-card-slug',
-        //       path: '/bistro/menu-card/:slug?',
-        //       component: resolve(
-        //         __dirname,
-        //         'components/organisms/MenuCard/MenuDishCard.vue'
-        //       ),
-        //       chunkName: 'pages/bistro/menu-card/_slug'
-        //     }
-        //   ]
-        // },
         {
           name: 'index',
           path: '/',
@@ -133,13 +114,5 @@ export default {
   colorMode: {
     // works with tailwindcss 2.0
     classSuffix: ''
-  },
-
-  tailwindcss: {
-    cssPath: '~/assets/styles/tailwind.css'
-  },
-
-  build: {
-    transpile: ['@nujek/shared', '@nujek/ui']
   }
 }
