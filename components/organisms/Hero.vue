@@ -47,8 +47,6 @@
 </template>
 
 <script>
-import kebabcase from 'lodash.kebabcase'
-
 export default {
   props: {
     title: {

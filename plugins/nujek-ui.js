@@ -1,8 +1,6 @@
 import Vue from 'vue'
-import Nujek from '@nujek/ui/plugin'
-import NjSection from '@nujek/ui/components/atoms/NjSection.vue'
-import NjBurger from '@nujek/ui/components/atoms/NjBurger.vue'
-import NjSidebar from '@nujek/ui/components/molecules/NjSidebar/NjSidebar.vue'
+import Nujek from '@nujek/ui/dist/plugin.js'
+import { NjSection, NjBurger, NjSidebar } from '@nujek/ui/dist/components'
 
 const settings = {
   NjSection: {
