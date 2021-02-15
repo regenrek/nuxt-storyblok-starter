@@ -1,6 +1,10 @@
 import Vue from 'vue'
-import Nujek from '@nujek/ui/dist/plugin.js'
-import { NjSection, NjBurger, NjSidebar } from '@nujek/ui/dist/components'
+import Nujek from '@nujek/ui/dist/runtime/plugin.js'
+import {
+  NjSection,
+  NjBurger,
+  NjSidebar
+} from '@nujek/ui/dist/runtime/components'
 
 const settings = {
   NjSection: {
@@ -8,7 +12,7 @@ const settings = {
     props: {
       fixedClasses: {
         wrapper:
-          'prose md:prose-lg lg:prose-xl w-full py-8 md:10 xl:12 flex justify-center',
+          'prose md:prose-lg lg:prose-xl w-full py-8 md:py-10 xl:py-12 flex justify-center w-full',
         container: 'px-6 w-full'
       },
       variants: {

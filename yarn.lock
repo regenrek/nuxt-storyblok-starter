@@ -967,10 +967,10 @@
   resolved "https://registry.npmjs.org/@nujek/shared/-/shared-0.0.87.tgz#410e4aa29f217f21d4c063c4fd5b350029cf3b50"
   integrity sha512-2voZ8ZB+/DSRnG2NdMx9VDkLeO5yn6nI+OosRX9Eoq8Bo4yVLJ0R5Vohfx0FZm8dNaBpgZ6wGFQaKhQrhWkGzw==
 
-"@nujek/storyblok@^0.0.72":
-  version "0.0.72"
-  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.72.tgz#d7b20d4301332698361c9e4d644ad5951ec049e6"
-  integrity sha512-fKWq0wCESjWpFkUhE3XU4JsBjQHnRnDof9NuNsPGSf3LgGJ8gFTvm+U6QSDVDDzER6PrbBnnJEAS1EhE2kqewQ==
+"@nujek/storyblok@^0.0.80":
+  version "0.0.80"
+  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-0.0.80.tgz#f63c6ac411b81c37462317e29f0e6df4ff1af4cb"
+  integrity sha512-yIRx4V+fs9ZxLqnTz9eXBVPf1AqJXGYLOvr9MS3WbArz5y+9MaxaBLJK/jYxaXOjpLV6+D6A8mo2WCTeg5pVnQ==
   dependencies:
     "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
     "@nujek/nuxt-storyblok-queries" "^1.2.16"
@@ -978,10 +978,10 @@
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@^0.0.167":
-  version "0.0.167"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.167.tgz#7836ec280c091ff858f45b4d110b1663609b9ee6"
-  integrity sha512-fXZTopWV6vLM+4yXJ4WbTOIQL1smaLSgnFc+AxWrhuro+dT7bk9PDbaCZUPiwa3/sKhiOJB5+qOrsOArjvVoCQ==
+"@nujek/ui@^0.0.175":
+  version "0.0.175"
+  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.175.tgz#b9119b75a8eeabc151a25d9fafcdf4a1d76e77c7"
+  integrity sha512-WG5V85mb79uSnk8mGktlyGrH1Ry3iMm4MckXZf7TiLINE4t2JCV46UL8CM91d3U9h5SnToIzT8xekl02f8y3Bw==
   dependencies:
     lazysizes "^5.3.0-beta1"
     lodash.get "^4.4.2"

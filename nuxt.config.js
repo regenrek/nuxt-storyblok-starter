@@ -50,12 +50,17 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
-    '@nujek/ui',
+    [
+      '@nujek/ui',
+      {
+        withConsole: true
+      }
+    ],
     [
       '@nujek/storyblok',
       {
         storyblokConfig: storyblokConfig,
-        withConsole: process.env.NODE_ENV === 'production' ? false : false,
+        withConsole: true,
         debug: process.env.NODE_ENV === 'production' ? false : true,
         storyblokQueries: {
           formatResponse: true
@@ -114,5 +119,9 @@ export default {
   colorMode: {
     // works with tailwindcss 2.0
     classSuffix: ''
+  },
+
+  build: {
+    transpile: ['@nujek/ui']
   }
 }
