@@ -31,7 +31,7 @@
     "@nujek/storyblok": "^0.0.72",
     "@nujek/ui": "^0.0.167",
     "@nuxtjs/color-mode": "^2.0.0",
-    "@nuxtjs/composition-api": "^0.17.0",
+    "@nuxtjs/composition-api": "^0.20.0",
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.1",
     "@nuxtjs/google-fonts": "^1.2.0",

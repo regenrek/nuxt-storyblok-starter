@@ -1312,14 +1312,15 @@
     defu "^3.2.2"
     lodash.template "^4.5.0"
 
-"@nuxtjs/composition-api@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.npmjs.org/@nuxtjs/composition-api/-/composition-api-0.17.0.tgz#533402f82dc860cbed17d9612ac8b41333789b26"
-  integrity sha512-hc/1amRpu1sr4/0jkb4T0N37YgvM00jcBTQeur5ymdUd52eJExKiOu+EwbWvTPRFz8IU29x6PhdLZ5LcJT6FgA==
+"@nuxtjs/composition-api@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/composition-api/-/composition-api-0.20.0.tgz#324ab8019628020bb44144217eeba90822b8c585"
+  integrity sha512-2fzrhZAOnCjzuDWop1TPjqzWak6sy/ty9Ob2ST2IJgizxiXITq+5O1NxdB7YcM4j2Yt5CTjRiypk2ML2uPoj2Q==
   dependencies:
-    "@vue/composition-api" "1.0.0-beta.21"
+    "@vue/composition-api" "1.0.0-rc.1"
     defu "^3.2.2"
-    normalize-path "^3.0.0"
+    ufo "^0.6.6"
+    upath "^2.0.1"
 
 "@nuxtjs/eslint-config@^5.0.0":
   version "5.0.0"
@@ -1665,12 +1666,12 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vue/composition-api@1.0.0-beta.21":
-  version "1.0.0-beta.21"
-  resolved "https://registry.npmjs.org/@vue/composition-api/-/composition-api-1.0.0-beta.21.tgz#d5a3c68afc8b569dfc3eccd69998388bb7f6a16c"
-  integrity sha512-tgbvDpLvKQ1GrII424wsoyzPCsG0oTFf38emMq495SfLY7RmUqhVIl81pvnC5489PPrCxDkbauJHJrhlcXfbTQ==
+"@vue/composition-api@1.0.0-rc.1":
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.0.0-rc.1.tgz#d5286bbaffcd1987e56d5e3a9f26bfb6023e7c41"
+  integrity sha512-6I5LkfA+VvVOLZufRugzQ5sWKQH81/Cr9gRLidDSeUmjRPolEEWgG4MAnWtBR5zgP5qbRMwZJ4IEYtKhnadMQQ==
   dependencies:
-    tslib "^2.0.1"
+    tslib "^2.0.3"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -9416,7 +9417,7 @@ tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.1, tslib@^2.0.3:
+tslib@^2.0.3:
   version "2.1.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
@@ -9477,6 +9478,11 @@ ua-parser-js@^0.7.22:
   version "0.7.24"
   resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.24.tgz#8d3ecea46ed4f1f1d63ec25f17d8568105dc027c"
   integrity sha512-yo+miGzQx5gakzVK3QFfN0/L9uVhosXBBO7qmnk7c2iw1IhL212wfA3zbnI54B0obGwC/5NWub/iT9sReMx+Fw==
+
+ufo@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.6.6.tgz#6bc4b4de19ff9a9cb68134719190196b0cc7353b"
+  integrity sha512-HDhml2KskY1VVtQGckmaf/p3rTuleC2M7qL9Wf1dJZMw7glFk6oVjRsddf6LJp0I+pHERZzfttVmBMq1nR3PGA==
 
 uglify-js@^3.5.1:
   version "3.12.7"
