@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-noise bg-white dark:bg-gray-500">
+  <div class="bg-noise bg-white">
     <Nav />
     <Sidebar :show.sync="isOpenBurger" :width="'80%'" />
     <Nuxt />
