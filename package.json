@@ -56,5 +56,8 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue-clickaway": "^2.2.2",
     "vue-tailwind": "^2.1.1"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
   }
 }
