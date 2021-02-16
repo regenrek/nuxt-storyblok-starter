@@ -29,12 +29,12 @@ export default {
   components: [
     { path: '~/components/bloks', global: true, extensions: ['vue', 'js'] },
     {
-      path: '~/components/molecules/cards',
+      path: '~/components/molecules/Cards',
       global: true,
       extensions: ['vue', 'js']
     },
     {
-      path: '~/node_modules/@nujek/ui/components/bloks',
+      path: '~/node_modules/@nujek/ui/dist/runtime/components/bloks',
       global: true,
       extensions: ['vue', 'js']
     },
