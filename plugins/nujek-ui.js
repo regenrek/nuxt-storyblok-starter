@@ -1,10 +1,6 @@
 import Vue from 'vue'
-import Nujek from '@nujek/ui/dist/runtime/plugin.js'
-import {
-  NjSection,
-  NjBurger,
-  NjSidebar
-} from '@nujek/ui/dist/runtime/components'
+import Nujek from '~nujek-ui/plugin.js'
+import { NjSection, NjBurger, NjSidebar } from '~nujek-ui/components'
 
 const settings = {
   NjSection: {
