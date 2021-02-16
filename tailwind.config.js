@@ -2,7 +2,7 @@ module.exports = {
   darkMode: 'class',
   purge: {
     options: {
-      safelist: ['/aspect-ratio-/', 'nj-video-background']
+      safelist: ['/aspect-ratio-/', '/nj-video-background/']
     },
     content: [
       './config/vue-tailwind-settings.js',
