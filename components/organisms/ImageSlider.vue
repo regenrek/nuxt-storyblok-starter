@@ -10,8 +10,8 @@
           >
             <nuxt-link :to="`#`">
               <SbImage
-                :src="slide.image"
-                :alt="slide.image.alt"
+                :src="getImage(slide)"
+                :alt="getAlt(slide)"
                 :resize="{ width: '445', height: '594' }"
                 :classes="{
                   aspectRatio: 'w-full',
@@ -138,8 +138,11 @@ export default {
     })
   },
   methods: {
-    getImage(item) {
-      return item.image.filename || null
+    getImage(slide) {
+      return slide?.image
+    },
+    getAlt(slide) {
+      return slide?.image?.alt
     },
     getBtnLink(slide) {
       return `/${slide.button?.link?.story?.url}`
