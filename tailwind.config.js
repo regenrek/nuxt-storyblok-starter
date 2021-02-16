@@ -20,6 +20,9 @@ module.exports = {
         '3/4': [3, 4],
         '2/3': [2, 3]
       },
+      minHeight: {
+        520: '520px'
+      },
       maxWidth: {
         container: '1400px'
       },
