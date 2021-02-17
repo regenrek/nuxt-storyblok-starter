@@ -1,14 +1,27 @@
 module.exports = {
   darkMode: 'class',
   purge: {
+    enabled: false,
     options: {
       safelist: [
         '/aspect-ratio-/',
         '/nj-video-background/',
+        '/nj-burger/',
         '/swiper/',
-        '/has-aspect-ratio/'
+        '/has-aspect-ratio/',
+        'nj-video-background'
       ]
-    }
+    },
+    content: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      'nuxt.config.js',
+      '@nujek/ui/css/nujek-ui.css',
+      '@nujek/ui/css/components/video-background.css',
+      '@nujek/ui/css/components/burger.css'
+    ]
   },
   theme: {
     extend: {
