@@ -119,5 +119,9 @@ export default {
   colorMode: {
     // works with tailwindcss 2.0
     classSuffix: ''
+  },
+
+  build: {
+    extractCss: true
   }
 }
