@@ -1,7 +1,7 @@
 module.exports = {
   darkMode: 'class',
   purge: {
-    enabled: true,
+    enabled: false,
     options: {
       safelist: [
         '/aspect-ratio-/',
