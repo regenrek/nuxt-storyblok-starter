@@ -48,7 +48,7 @@
     "husky": "^5.0.9",
     "lint-staged": "^10.4.0",
     "nuxt": "2.14.12",
-    "nuxt-i18n": "^6.16.0",
+    "nuxt-i18n": "^6.20.1",
     "postcss": "^7",
     "prettier": "^2.1.2",
     "slugify": "^1.4.6",
