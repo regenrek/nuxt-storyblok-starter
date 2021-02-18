@@ -9100,10 +9100,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swiper@^6.4.8:
-  version "6.4.11"
-  resolved "https://registry.npmjs.org/swiper/-/swiper-6.4.11.tgz#183b719cd7ccadc1c18558db49242098ca1d564c"
-  integrity sha512-AtOotOxvGBlYddJa7s1wzdh7/BAyfJq9h8q/JKgI2X9UrSx87YAOSfnM5j2UifYbvETmR6qhivGFew6kogA8Yw==
+swiper@^6.4.14:
+  version "6.4.14"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.4.14.tgz#bbc6f50ba08e90e3ab854a161d82e8dfd0f3829c"
+  integrity sha512-sykkFO53TOJGSryqtUcJAlqMT9t0iFNjxHAGYRdMnvg2br0oE0dL2cvC9G33zc4BdS0Y2sns6Az2wfilciPDYw==
   dependencies:
     dom7 "^3.0.0"
     ssr-window "^3.0.0"
