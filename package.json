@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.12.7",
-    "@nujek/storyblok": "^0.0.83",
+    "@nujek/storyblok": "^0.0.84",
     "@nujek/ui": "^0.0.178",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.20.1",
