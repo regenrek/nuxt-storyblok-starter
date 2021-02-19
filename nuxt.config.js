@@ -34,7 +34,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/composition-api',
     // https://go.nuxtjs.dev/tailwindcss
-    // '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     [
