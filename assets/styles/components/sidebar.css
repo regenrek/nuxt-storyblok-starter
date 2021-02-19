@@ -1,0 +1,47 @@
+@media all and (max-width: 400px) {
+  .sidenav {
+    width: 100% !important;
+  }
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.2s ease;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: translateX(-100%);
+  transition: all 150ms ease-in 0s;
+}
+
+.backdrop-enter-active {
+  transition: all 150ms ease-out;
+}
+
+.backdrop-leave-active {
+  transition: all 150ms ease-in;
+}
+
+.backdrop-enter,
+.backdrop-leave-to {
+  opacity: 0;
+}
+
+.sidebar-items > li {
+  > a {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      height: 2px;
+      left: 0;
+      right: 0;
+      width: 100%;
+    }
+  }
+  > ul > li > a {
+    font-size: 0.9em;
+  }
+}

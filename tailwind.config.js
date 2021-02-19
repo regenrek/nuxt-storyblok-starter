@@ -1,7 +1,8 @@
 module.exports = {
   darkMode: 'class',
+  exposeConfig: true,
   purge: {
-    enabled: false,
+    enabled: true,
     options: {
       safelist: [
         '/aspect-ratio-/',
@@ -18,9 +19,9 @@ module.exports = {
       'pages/**/*.vue',
       'plugins/**/*.js',
       'nuxt.config.js',
-      '@nujek/ui/css/nujek-ui.css',
-      '@nujek/ui/css/components/video-background.css',
-      '@nujek/ui/css/components/burger.css'
+      './node_modules/@nujek/ui/dist/runtime/**/*.{vue,js}',
+      './node_modules/@nujek/ui/css/*.css',
+      './node_modules/@nujek/storyblok/dist/runtime/**/*.vue'
     ]
   },
   theme: {
