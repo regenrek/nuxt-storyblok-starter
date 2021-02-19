@@ -47,7 +47,7 @@
     "lint-staged": "^10.4.0",
     "nuxt": "latest",
     "nuxt-i18n": "^6.20.1",
-    "postcss": "^7",
+    "postcss": "^8",
     "prettier": "^2.1.2",
     "slugify": "^1.4.6",
     "swiper": "^6.4.8",
