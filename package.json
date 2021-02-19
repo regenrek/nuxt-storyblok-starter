@@ -27,8 +27,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.12.7",
-    "@nujek/storyblok": "^0.0.83",
-    "@nujek/ui": "^0.0.178",
     "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/composition-api": "^0.20.1",
     "@nuxtjs/eslint-config": "^5.0.0",
@@ -47,7 +45,7 @@
     "eslint-plugin-vue": "^7.6.0",
     "husky": "^5.0.9",
     "lint-staged": "^10.4.0",
-    "nuxt": "2.14.12",
+    "nuxt": "latest",
     "nuxt-i18n": "^6.20.1",
     "postcss": "^7",
     "prettier": "^2.1.2",
@@ -58,6 +56,9 @@
     "vue-tailwind": "^2.1.1"
   },
   "dependencies": {
-    "lodash.get": "^4.4.2"
+    "lodash.get": "^4.4.2",
+    "uuid": "^8.3.2",
+    "@nujek/storyblok": "^0.0.84",
+    "@nujek/ui": "^0.0.179"
   }
 }

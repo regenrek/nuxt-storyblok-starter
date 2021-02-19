@@ -26,20 +26,7 @@ export default {
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: [
-    { path: '~/components/bloks', global: true, extensions: ['vue', 'js'] },
-    {
-      path: '~/components/molecules/Cards',
-      global: true,
-      extensions: ['vue', 'js']
-    },
-    {
-      path: '~/node_modules/@nujek/ui/dist/runtime/components/bloks',
-      global: true,
-      extensions: ['vue', 'js']
-    },
-    '~/components'
-  ],
+  components: [{ path: '~/components', pathPrefix: false, prefix: '' }],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
@@ -47,7 +34,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/composition-api',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    // '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     [
