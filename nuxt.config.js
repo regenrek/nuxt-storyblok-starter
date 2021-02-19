@@ -3,8 +3,8 @@ import { sortRoutes } from '@nuxt/utils'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'server',
-  ssr: true,
+  target: 'static',
+  ssr: false,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Bakery | Nujek Starter',
