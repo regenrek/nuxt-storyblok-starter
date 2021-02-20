@@ -19,7 +19,7 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js',
       './node_modules/@nujek/ui/dist/runtime/**/*.{vue,js}',
-      './node_modules/@nujek/ui/css/*.css',
+      './node_modules/@nujek/ui/dist/*.css',
       './node_modules/@nujek/storyblok/dist/runtime/**/*.vue'
     ]
   },

@@ -3,8 +3,8 @@ import { sortRoutes } from '@nuxt/utils'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
-  ssr: false,
+  target: 'server',
+  ssr: true,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Bakery | Nujek Starter',
@@ -17,7 +17,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['@nujek/ui/css/nujek-ui.css', '~assets/styles/main.css'],
+  css: ['~assets/styles/main.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
@@ -33,8 +33,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/composition-api',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     [
