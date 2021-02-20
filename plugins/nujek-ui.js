@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Nujek from '~nujek-ui/plugin.js'
 import { NjSection, NjBurger, NjSidebar } from '~nujek-ui/components'
-// Import fully resolved config
-import '@nujek/ui/css/nujek-ui.css'
 import tailwindConfig from '../tailwind.config'
 
 const settings = {
