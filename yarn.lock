@@ -6503,10 +6503,10 @@ num2fraction@^1.2.2:
   resolved "https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt-i18n@^6.20.1:
-  version "6.20.1"
-  resolved "https://registry.npmjs.org/nuxt-i18n/-/nuxt-i18n-6.20.1.tgz#a4247315d835e0d24cca162a5794fdc779d1a7d6"
-  integrity sha512-ZI0WsuxroqULJ0BcbR+PXY7nZJ/vUcaUeCz9AxDjoHNzWAJQdlgsdhmdD1V+u5GtDSMqUkDp3gI+dLQ2n7eOjg==
+nuxt-i18n@^6.20.6:
+  version "6.20.6"
+  resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-6.20.6.tgz#911f9c55dbe76c112494917d137e86a036c9b66f"
+  integrity sha512-DsbL+IsymTR0uRC7p+/mjD3yMVZgF+BlP5LAzCB/5HqMf148rFR+AjY0O/fCD9HunXXJAqaYeKXhHYDWrl6OGQ==
   dependencies:
     "@babel/parser" "^7.5.5"
     "@babel/traverse" "^7.5.5"
@@ -6516,7 +6516,7 @@ nuxt-i18n@^6.20.1:
     is-https "^3.0.0"
     js-cookie "^2.2.1"
     klona "^2.0.4"
-    vue-i18n "^8.18.1"
+    vue-i18n "^8.23.0"
 
 nuxt@latest:
   version "2.15.0"
@@ -9657,10 +9657,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-i18n@^8.18.1:
-  version "8.22.4"
-  resolved "https://registry.npmjs.org/vue-i18n/-/vue-i18n-8.22.4.tgz#255cbdab4ffa7337c5819b82dd171208af74e385"
-  integrity sha512-XLI5s0AdqMP2Lf4I4CmdmOq8kjb5DDFGR77wAuxCfpEuYSfhTRyyx6MetgZMiL6Lxa0DasjBOiOcciU3NkL3/Q==
+vue-i18n@^8.23.0:
+  version "8.24.0"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.24.0.tgz#f4a4fe553738f101a672f4da06a14942d1e64fc4"
+  integrity sha512-tRVmPN36Dv+fLeZW5AzoNsZwjV2y2+UdHROaTewUgSG2YLjOj4dFmai4T5PPZtIdRnDnUdwbAwdufCG6fPSegA==
 
 vue-lazy-hydration@^2.0.0-beta.4:
   version "2.0.0-beta.4"
