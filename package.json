@@ -53,7 +53,7 @@
     "swiper": "^6.4.8",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue-clickaway": "^2.2.2",
-    "vue-tailwind": "^2.1.1"
+    "vue-tailwind": "^2.1.4"
   },
   "dependencies": {
     "@nujek/storyblok": "^0.0.87",
