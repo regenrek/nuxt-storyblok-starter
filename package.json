@@ -49,7 +49,7 @@
     "nuxt-i18n": "^6.20.1",
     "postcss": "^7",
     "prettier": "^2.1.2",
-    "slugify": "^1.4.6",
+    "slugify": "^1.5.1",
     "swiper": "^6.4.8",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue-clickaway": "^2.2.2",
