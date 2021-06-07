@@ -3,9 +3,7 @@ const createSeoMeta = (data = {}) => {
     {
       hid: 'description',
       name: 'description',
-      content:
-        data.description ||
-        'Die Plattform zur Vernetzung von Personen und Unternehmen mit digitalen Interessen'
+      content: data.description || 'description'
     },
     { hid: 'og:site_name', property: 'og:site_name', content: '@TBD Sitename' },
     {
@@ -51,7 +49,7 @@ const createSeoMeta = (data = {}) => {
     }
   ]
   const head = {
-    title: data.title || 'Das virtuelle Haus der Digitalisierung',
+    title: data.title || 'title',
     meta: meta
   }
   return head
