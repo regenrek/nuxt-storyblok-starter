@@ -32,7 +32,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/composition-api',
+    '@nuxtjs/composition-api/module',
     '@nuxtjs/tailwindcss',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/color-mode',
