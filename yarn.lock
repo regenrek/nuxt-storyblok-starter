@@ -1066,10 +1066,10 @@
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@^0.0.191":
-  version "0.0.191"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.191.tgz#c53a26cf1c9561292f2308313e97a3163925e7c3"
-  integrity sha512-/IPtULX+owsSAKPFLk6e6K865UM1HQv/b/ByFKVzndUxEjbC4cToJDLw8VJjhFC1gOc+V93kWL8pTzvGGaS4wA==
+"@nujek/ui@^0.0.193":
+  version "0.0.193"
+  resolved "https://registry.yarnpkg.com/@nujek/ui/-/ui-0.0.193.tgz#597659c975fbe2117da1a74007bf20e2d27b0eee"
+  integrity sha512-cZj1HKUiv/q8UF+TDDzCnUowAkETfIGYPNfm7n8U6X1rsHKFfn5dMQ73T/7Ph4jqdSdGp1/WHh80mg6jWAgH8Q==
   dependencies:
     lazysizes "^5.3.0-beta1"
     lodash.get "^4.4.2"
