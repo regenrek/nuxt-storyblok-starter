@@ -26,7 +26,7 @@
     }
   },
   "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining": "^7.14.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
     "@nuxtjs/color-mode": "^2.0.9",
     "@nuxtjs/composition-api": "^0.24.4",
     "@nuxtjs/eslint-config": "^6.0.1",
