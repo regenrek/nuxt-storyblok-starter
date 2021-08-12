@@ -42,7 +42,7 @@
     "eslint-plugin-vue": "^7.6.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "nuxt": "^2.15.6",
+    "nuxt": "^2.15.8",
     "nuxt-i18n": "^6.20.1",
     "prettier": "^2.1.2",
     "slugify": "^1.4.6",
