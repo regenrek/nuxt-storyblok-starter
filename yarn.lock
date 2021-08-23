@@ -1066,11 +1066,12 @@
     storyblok-nuxt "^1.3.0"
     vue-lazy-hydration "^2.0.0-beta.4"
 
-"@nujek/ui@^0.0.191":
-  version "0.0.191"
-  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-0.0.191.tgz#c53a26cf1c9561292f2308313e97a3163925e7c3"
-  integrity sha512-/IPtULX+owsSAKPFLk6e6K865UM1HQv/b/ByFKVzndUxEjbC4cToJDLw8VJjhFC1gOc+V93kWL8pTzvGGaS4wA==
+"@nujek/ui@^2.0.20":
+  version "2.0.20"
+  resolved "https://registry.yarnpkg.com/@nujek/ui/-/ui-2.0.20.tgz#5add5a3dc28ddd7f93b84a12b4d93b5f28929886"
+  integrity sha512-0l8429j9kBVoSDiwXmpIFAPGepX++p7Llcd38F2UcjZmrjWtkioSFH08y3uh39KHIgNz2zuv/6axpinjS0HAmw==
   dependencies:
+    common-tags "^1.8.0"
     lazysizes "^5.3.0-beta1"
     lodash.get "^4.4.2"
     postcss-hexrgba "^2.0.1"
@@ -3024,6 +3025,11 @@ commander@^7.2.0:
   version "7.2.0"
   resolved "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
+
+common-tags@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
+  integrity sha512-6P6g0uetGpW/sdyUy/iQQCbFF0kWVMSIVSyYz7Zgjcgh8mgw8PQzDNZeyZ5DQ2gM7LBoZPHmnjz8rUthkBG5tw==
 
 commondir@^1.0.1:
   version "1.0.1"
