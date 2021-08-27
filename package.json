@@ -46,7 +46,7 @@
     "nuxt-i18n": "^6.20.1",
     "prettier": "^2.1.2",
     "slugify": "^1.4.6",
-    "swiper": "^6.4.8",
+    "swiper": "^7.0.1",
     "vue-clickaway": "^2.2.2",
     "vue-tailwind": "^2.1.1"
   },
