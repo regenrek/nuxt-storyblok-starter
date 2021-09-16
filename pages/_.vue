@@ -1,23 +1,35 @@
 <template>
   <div>
-    <!-- <Hero v-bind="story.content" />
-    <Bloks :bloks="story.content.bloks" /> -->
+    <Hero v-bind="story.content" />
+    <Bloks :bloks="story.content.bloks" />
   </div>
 </template>
 <script>
+const RELATIONS = [
+  'blok_grid.source'
+]
 
 export default {
   components: {},
-  async asyncData ({ $storyblok, error }) {
+  async asyncData ({ $storyapi, error, route }) {
     try {
-      const { story } = await $storyblok.getCurrentStory({
-        resolve_links: 'url'
-      })
+      const fullSlug = (route.path === '/' || route.path === '') ? 'home' : route.path
 
-      console.log(story)
+      const currentPage = await $storyapi.getStory(
+        fullSlug,
+        {
+          resolve_relations: RELATIONS.join(','),
+          resolve_links: 'url'
+        }
+      )
+
+      // if you plan to use nuxt-storyblok-queries
+      // const { story } = await $storyblok.getCurrentStory({
+      //   resolve_links: 'url'
+      // })
 
       return {
-        story
+        story: currentPage.data.story
       }
     } catch (e) {
       console.error('Exception', e)

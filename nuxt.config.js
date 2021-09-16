@@ -1,5 +1,10 @@
-import { sortRoutes } from '@nuxt/utils'
 import { storyblokConfig } from './config'
+
+const isDev = () => {
+  return process.env.APP_ENV === 'development'
+}
+const modulePathNujekUi = !isDev() ? '@nujek/ui' : '~/modules/@nujek/ui/dist/module.js'
+const modulePathNujekSb = !isDev() ? '@nujek/storyblok' : '~/modules/@nujek/storyblok/dist/module.js'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -41,13 +46,13 @@ export default {
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     [
-      '@nujek/ui',
+      modulePathNujekUi,
       {
         withConsole: process.env.NODE_ENV !== 'production'
       }
     ],
     [
-      '@nujek/storyblok',
+      modulePathNujekSb,
       {
         storyblokConfig,
         withConsole: process.env.NODE_ENV !== 'production',

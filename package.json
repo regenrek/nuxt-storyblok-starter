@@ -16,7 +16,8 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js",
-    "unj": "cd ../nujek && yarn build:ui && cd .. && rsync -a --delete ./nujek/packages/ui/ nuxt-storyblok-starter/modules/@nujek/ui/"
+    "unjui": "cd ../nujek && yarn build:ui && cd .. && rsync -a --delete ./nujek/packages/ui/ nuxt-storyblok-starter/modules/@nujek/ui/",
+    "unjsb": "cd ../nujek && yarn build:sb && cd .. && rsync -a --delete ./nujek/packages/storyblok/ nuxt-storyblok-starter/modules/@nujek/storyblok/"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"

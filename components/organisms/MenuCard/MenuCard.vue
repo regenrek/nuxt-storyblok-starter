@@ -80,10 +80,13 @@ export default {
       const { query } = this.$nuxt.context
       const categorySlug = query?.category || null
 
-      const menuCategories = await this.$storyblok.getStoryCollection(
-        'bistro/menu-card/categories'
-      )
-      this.categories = menuCategories
+      const menuCategories = await this.$storyapi.getStories({ starts_with: 'bistro/menu-card/categories' })
+
+      // const menuCategories = await this.$storyblok.getStoryCollection(
+      //   'bistro/menu-card/categories'
+      // )
+
+      this.categories = menuCategories.data
       this.selectedTab =
         (categorySlug &&
           this.getCategories.find(x => x.slug === categorySlug)) ||
