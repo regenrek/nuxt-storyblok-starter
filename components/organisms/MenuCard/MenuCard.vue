@@ -82,6 +82,7 @@ export default {
 
       const menuCategories = await this.$storyapi.getStories({ starts_with: 'bistro/menu-card/categories' })
 
+      // if you're using nuxt-storyblok-queries
       // const menuCategories = await this.$storyblok.getStoryCollection(
       //   'bistro/menu-card/categories'
       // )
