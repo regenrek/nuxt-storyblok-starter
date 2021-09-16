@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Nujek from '~nujek-ui/plugin.js'
 import { NjSection, NjBurger, NjSidebar } from '~nujek-ui/components'
-import tailwindConfig from '../tailwind.config'
 
 const settings = {
   NjSection: {
@@ -45,5 +44,3 @@ const settings = {
 }
 
 Vue.use(Nujek, settings)
-
-console.log(tailwindConfig)

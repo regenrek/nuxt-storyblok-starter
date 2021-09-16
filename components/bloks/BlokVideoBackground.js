@@ -5,7 +5,7 @@ export default {
   name: 'BlokVideoBackground',
   functional: true,
   props: ['blok'],
-  render(h, context) {
+  render (h, context) {
     return h(VideoBackground, {
       props: forwardProps(context.props.blok)
     })

@@ -7,7 +7,7 @@ import ClientLogger from '~/mixins/client-logger'
 export default {
   components: {},
   mixins: [ClientLogger],
-  async asyncData({ $storyblok, error }) {
+  async asyncData ({ $storyblok, error }) {
     try {
       const { story } = await $storyblok.getCurrentStory({
         resolve_links: 'url',
@@ -27,7 +27,7 @@ export default {
     }
   },
   computed: {
-    componentClass() {
+    componentClass () {
       switch (this.story.content.component) {
         case 'content-page':
           return ['my-12']

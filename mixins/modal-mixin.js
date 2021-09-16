@@ -1,7 +1,7 @@
 import { mapActions, mapState } from 'vuex'
 
 export default {
-  data() {
+  data () {
     return {
       isLocalModalOpen: false,
       isLocalSubModalOpen: false,
@@ -10,9 +10,9 @@ export default {
   },
   computed: {
     ...mapState({
-      showModal: (state) => state.modal.showModal,
-      showSubModal: (state) => state.modal.showSubModal,
-      modalByName: (state) => state.modal.modalByName
+      showModal: state => state.modal.showModal,
+      showSubModal: state => state.modal.showSubModal,
+      modalByName: state => state.modal.modalByName
     })
   },
   methods: {
@@ -24,37 +24,37 @@ export default {
       openSuccessModalGlobal: 'modal/openSuccessModal',
       setModalOptions: 'modal/setModalOptions'
     }),
-    isModalOpen(type) {
+    isModalOpen (type) {
       // first check if we have a modalByName open if not check if local Modal is open
       return (type && this.modalByName === type) || this.isLocalModalOpen
     },
-    isSubModalOpen() {
+    isSubModalOpen () {
       return this.isSubModalOpen
     },
-    closeModal() {
+    closeModal () {
       this.isLocalModalOpen = false
       this.closeModalGlobal()
     },
-    openModal(type, options) {
+    openModal (type, options) {
       this.isLocalModalOpen = true
       this.openModalGlobal({ name: type, options })
     },
-    openSubModal() {
+    openSubModal () {
       this.isLocalSubModalOpen = true
       this.openSubModalGlobal()
     },
-    closeSubModal() {
+    closeSubModal () {
       this.isLocalSubModalOpen = false
       this.closeSubModalGlobal()
     },
-    openSuccessModal(options) {
+    openSuccessModal (options) {
       this.isLocalModalOpen = true
       this.openSuccessModalGlobal(options)
     },
-    modalStep(current) {
+    modalStep (current) {
       return this.currentScreen === current
     },
-    toModalStep(screen, options) {
+    toModalStep (screen, options) {
       this.setModalOptions(options)
       this.currentScreen = screen
     }

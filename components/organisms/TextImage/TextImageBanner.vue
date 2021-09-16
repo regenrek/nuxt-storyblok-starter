@@ -1,7 +1,9 @@
 <template>
   <NjSection variant="section-lg">
     <div class="text-center">
-      <t-tag tag-name="h2">{{ title }}</t-tag>
+      <t-tag tag-name="h2">
+        {{ title }}
+      </t-tag>
       <SbRichtext v-if="description" :text="description" />
     </div>
     <SbImage
@@ -12,7 +14,9 @@
       }"
     />
     <NjSection variant="spacer" class="flex justify-center">
-      <t-button to="#">Get Partner</t-button>
+      <t-button to="#">
+        Get Partner
+      </t-button>
     </NjSection>
   </NjSection>
 </template>

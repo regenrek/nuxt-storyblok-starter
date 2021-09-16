@@ -2,7 +2,9 @@
   <NjSidebar v-bind="{ ...$props, ...$attrs }">
     <template #header>
       <div class="flex items-center justify-between py-4 px-6">
-        <div class="">Logo Here</div>
+        <div class="">
+          Logo Here
+        </div>
       </div>
     </template>
     <div class="px-6">
@@ -20,8 +22,7 @@
             href="getNavItemLink(nav_item)"
             target="_blank"
             class="relative inline-block hover:text-hre-red letter-space mb-2 text-h2 font-dmsans text-white"
-            >{{ nav_item.name }}</a
-          >
+          >{{ nav_item.name }}</a>
           <NjNavItem
             v-else
             :type="nav_item.link.linktype"
@@ -47,8 +48,7 @@
               :href="getNavItemLink(nav_item)"
               target="_blank"
               class="relative inline mb-0 text-paragraph font-dmsans text-white text-opacity-75"
-              >{{ nav_item.name }}</a
-            >
+            >{{ nav_item.name }}</a>
             <NjNavItem
               v-else
               :type="nav_item.link.linktype"
@@ -79,12 +79,12 @@ export default {
     ...mapActions({
       closeSidebar: 'nav/closeSidebar'
     }),
-    getNavItemLink(navItem) {
+    getNavItemLink (navItem) {
       return navItem.link?.story?.full_slug
         ? navItem.link.story.full_slug
         : navItem.link?.url
-        ? navItem.link?.url
-        : null
+          ? navItem.link?.url
+          : null
     }
   }
 }

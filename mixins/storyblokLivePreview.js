@@ -1,31 +1,28 @@
-const assign = {
-  'reale-haus-der-digitalisierung': 'landing'
-}
-
 export default {
-  mounted() {
-    this.$storybridge.on(['input'], (event) => {
-      if (event.story.id === this.story.id) {
-        this.story.content = event.story.content
+  mounted () {
+    this.$storybridge(
+      () => {
+        const { StoryblokBridge } = window
+        if (typeof StoryblokBridge !== 'undefined') {
+          const storyblokInstance = new StoryblokBridge()
 
-        const storyName = assign[this.story.slug] || this.story.slug
-
-        this.$store.dispatch(
-          'header/setHeader',
-          this.$pageHelper.parseHeader(this.story, storyName)
-        )
+          storyblokInstance.on(['input', 'published', 'change'], (event) => {
+            if (event.action === 'input') {
+              if (event.story.id === this.story.id) {
+                this.story.content = event.story.content
+              }
+            } else {
+              this.$nuxt.$router.go({
+                path: this.$nuxt.$router.currentRoute,
+                force: true
+              })
+            }
+          })
+        }
+      },
+      (error) => {
+        console.error(error)
       }
-    })
-
-    this.$storybridge.on(['published', 'change'], (event) => {
-      // window.location.reload()
-      if (!event.slugChanged) {
-        // Reload the page on save events (publish, save button or autosave)
-        this.$nuxt.$router.go({
-          path: this.$nuxt.$router.currentRoute,
-          force: true
-        })
-      }
-    })
+    )
   }
 }

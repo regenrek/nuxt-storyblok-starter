@@ -1,14 +1,14 @@
 const actions = {
-  async nuxtServerInit({ dispatch }, ctx) {
+  async nuxtServerInit ({ dispatch }, ctx) {
     // dispatch('parseAppCookies', ctx)
     await dispatch('fetchAppSettings', ctx)
   },
-  nuxtClientInit({ state }, ctx) {
+  nuxtClientInit ({ state }, ctx) {
     const { app } = ctx
     const isAnalyticsEnabled = state.gdpr.service.analytics
-    if (isAnalyticsEnabled) app.$ga.startPageTracking()
+    if (isAnalyticsEnabled) { app.$ga.startPageTracking() }
   },
-  async fetchAppSettings({ dispatch }, ctx) {
+  async fetchAppSettings ({ dispatch }, ctx) {
     try {
       const settings = await ctx.app.$storyapi.getStory('settings', {
         resolve_links: 'url'
@@ -33,7 +33,7 @@ const actions = {
     }
   },
 
-  parseAppCookies({ dispatch }) {
+  parseAppCookies ({ dispatch }) {
     dispatch('gdpr/parseCookies')
   }
 }

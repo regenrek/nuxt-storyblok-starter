@@ -58,7 +58,7 @@ export default {
       default: () => {}
     }
   },
-  data() {
+  data () {
     return {
       tabs: TABS,
       scrollPosition: null,
@@ -66,7 +66,7 @@ export default {
     }
   },
   computed: {
-    filterQuery() {
+    filterQuery () {
       const all = this.selectedTab.value === 'alle'
 
       return {
@@ -77,16 +77,15 @@ export default {
         })
       }
     },
-    componentName() {
-      return (item) => item?.content?.component || 'Card'
+    componentName () {
+      return item => item?.content?.component || 'Card'
     },
-    fullSlug() {
-      console.log('FULLSLUG', this.source?.fullSlug)
+    fullSlug () {
       return this.source?.fullSlug
     }
   },
   methods: {
-    selectTab(tab) {
+    selectTab (tab) {
       this.selectedTab = tab
       this.$router.push({
         name: 'cafes',
@@ -95,7 +94,7 @@ export default {
         }
       })
     },
-    slugify(string) {
+    slugify (string) {
       return slugify(string, {
         lower: true,
         locale: 'de'

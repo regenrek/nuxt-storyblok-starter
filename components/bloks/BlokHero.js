@@ -5,7 +5,7 @@ export default {
   name: 'BlokHero',
   functional: true,
   props: ['blok'],
-  render(h, context) {
+  render (h, context) {
     return h(Hero, {
       props: forwardProps(context.props.blok)
     })

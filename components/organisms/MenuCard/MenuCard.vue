@@ -1,7 +1,9 @@
 <template>
   <NjSection variant="section-lg">
     <div>
-      <t-tag tag-name="h2">{{ title }}</t-tag>
+      <t-tag tag-name="h2">
+        {{ title }}
+      </t-tag>
       <p>{{ description }}</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
@@ -40,9 +42,9 @@
 </template>
 
 <script>
-import MenuDishCard from './MenuDishCard'
 import slugify from 'slugify'
 import { v4 as uuidv4 } from 'uuid'
+import MenuDishCard from './MenuDishCard'
 
 const PostType = {
   name: 'Dish',
@@ -65,7 +67,7 @@ export default {
       default: ''
     }
   },
-  data() {
+  data () {
     return {
       categories: [],
       selectedTab: {},
@@ -73,7 +75,7 @@ export default {
       timestamp: uuidv4()
     }
   },
-  async fetch() {
+  async fetch () {
     try {
       const { query } = this.$nuxt.context
       const categorySlug = query?.category || null
@@ -84,10 +86,8 @@ export default {
       this.categories = menuCategories
       this.selectedTab =
         (categorySlug &&
-          this.getCategories.find((x) => x.slug === categorySlug)) ||
+          this.getCategories.find(x => x.slug === categorySlug)) ||
         this.getCategories[0]
-
-      console.log('SelectedTab', this.selectedTab)
 
       // workaround so SbGrid is updating
       // the categories after fetch
@@ -97,7 +97,7 @@ export default {
     }
   },
   computed: {
-    filterQuery() {
+    filterQuery () {
       const all = this.selectedTab.name === '-'
 
       return {
@@ -114,7 +114,7 @@ export default {
         })
       }
     },
-    getCategories() {
+    getCategories () {
       return this.categories?.stories?.map((category) => {
         return {
           title: category?.content?.title,
@@ -127,7 +127,7 @@ export default {
     }
   },
   methods: {
-    selectTab(tab) {
+    selectTab (tab) {
       this.selectedTab = tab
       this.$router.push({
         name: 'slug',
@@ -139,7 +139,7 @@ export default {
         }
       })
     },
-    slugify(string) {
+    slugify (string) {
       return slugify(string, {
         lower: true,
         locale: 'de'

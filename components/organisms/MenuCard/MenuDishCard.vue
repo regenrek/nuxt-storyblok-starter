@@ -9,13 +9,13 @@ export default {
   props: {
     blok: {
       type: Object,
-      default() {
+      default () {
         return {}
       }
     }
   },
   computed: {
-    image() {
+    image () {
       return this.blok.content?.featuredImage || {}
     }
   }

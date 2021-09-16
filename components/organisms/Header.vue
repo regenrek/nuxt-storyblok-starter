@@ -11,13 +11,13 @@
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110238/portrait1.jpeg"
             alt=""
-          />
+          >
         </div>
         <div class="image-stack__item image-stack__item--bottom">
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110238/texture-waves-cropped.jpg"
             alt=""
-          />
+          >
         </div>
       </div>
     </div>

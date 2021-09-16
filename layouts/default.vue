@@ -11,7 +11,7 @@
 import { mapState } from 'vuex'
 
 export default {
-  data() {
+  data () {
     return {
       mainNavigation: [
         {
@@ -25,13 +25,13 @@ export default {
   },
   computed: {
     ...mapState({
-      navOpen: (state) => state.nav.navOpen
+      navOpen: state => state.nav.navOpen
     }),
     isOpenBurger: {
-      get: function () {
+      get () {
         return this.navOpen
       },
-      set: function (val) {
+      set (val) {
         this.$store.dispatch('nav/set', val)
       }
     }
