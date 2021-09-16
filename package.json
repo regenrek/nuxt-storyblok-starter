@@ -1,6 +1,6 @@
 {
   "name": "nuxt-storyblok-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "contributors": [
     {
@@ -14,8 +14,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js",
-    "loci": "install-local"
+    "unj": "cd ../nujek && yarn build:ui && cd .. && rsync -a --delete ./nujek/packages/ui/ nuxt-storyblok-starter/modules/@nujek/ui/"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"
@@ -28,32 +29,33 @@
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.14.2",
     "@nuxtjs/color-mode": "^2.0.9",
-    "@nuxtjs/composition-api": "^0.24.4",
+    "@babel/eslint-parser": "^7.14.7",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/google-fonts": "^1.3.0",
-    "@nuxtjs/tailwindcss": "^4.1.3",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.1",
-    "babel-eslint": "^10.1.0",
-    "core-js": "^3.6.5",
-    "eslint": "^7.20.0",
+    "eslint": "^7.29.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.6.0",
-    "husky": "^6.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "postcss": "^8.3.5",
+    "husky": "^7.0.2",
     "lint-staged": "^11.0.0",
-    "nuxt": "^2.15.6",
     "nuxt-i18n": "^6.20.1",
-    "prettier": "^2.1.2",
     "slugify": "^1.4.6",
     "swiper": "^6.4.8",
     "vue-clickaway": "^2.2.2",
     "vue-tailwind": "^2.1.1"
   },
   "dependencies": {
-    "@nujek/storyblok": "^0.0.96",
-    "@nujek/ui": "^0.0.191",
+    "@nujek/storyblok": "^0.0.103",
+    "@nujek/ui": "^2.0.29",
+    "@nuxtjs/composition-api": "^0.29.0",
     "lodash.get": "^4.4.2",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7"
   }
 }
