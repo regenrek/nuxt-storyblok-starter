@@ -1,5 +1,5 @@
-import { storyblokConfig } from './config'
 import { sortRoutes } from '@nuxt/utils'
+import { storyblokConfig } from './config'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -30,6 +30,9 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    ['~/modules/nujek-local-deploy/index.js', {
+      env: process.env.NODE_ENV || 'development'
+    }],
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/composition-api/module',
@@ -40,18 +43,15 @@ export default {
     [
       '@nujek/ui',
       {
-        withConsole: true
+        withConsole: process.env.NODE_ENV !== 'production'
       }
     ],
     [
       '@nujek/storyblok',
       {
-        storyblokConfig: storyblokConfig,
-        withConsole: true,
-        debug: process.env.NODE_ENV === 'production' ? false : true,
-        storyblokQueries: {
-          formatResponse: true
-        }
+        storyblokConfig,
+        withConsole: process.env.NODE_ENV !== 'production',
+        debug: process.env.NODE_ENV !== 'production'
       }
     ]
   ],
@@ -60,41 +60,41 @@ export default {
    * Nuxt custom router config
    */
   router: {
-    extendRoutes(routes, resolve) {
-      const routesToAdd = [
-        {
-          name: 'index',
-          path: '/',
-          component: resolve(__dirname, 'pages/_slug/index.vue'),
-          chunkName: 'pages/index'
-        },
-        {
-          name: 'cafes',
-          path: '/cafes',
-          component: resolve(__dirname, 'pages/_slug/index.vue'),
-          chunkName: 'pages/cafe/index'
-        }
-      ]
+    // extendRoutes(routes, resolve) {
+    // const routesToAdd = [
+    //   {
+    //     name: 'index',
+    //     path: '/',
+    //     component: resolve(__dirname, 'pages/_slug/index.vue'),
+    //     chunkName: 'pages/index'
+    //   },
+    //   {
+    //     name: 'cafes',
+    //     path: '/cafes',
+    //     component: resolve(__dirname, 'pages/_slug/index.vue'),
+    //     chunkName: 'pages/cafe/index'
+    //   }
+    // ]
 
-      const existingRoutesToRemove = routesToAdd.map((route) => route.name)
+    // const existingRoutesToRemove = routesToAdd.map((route) => route.name)
 
-      const generateRoutes = routes.filter((route) => {
-        return !existingRoutesToRemove.includes(route.name)
-      })
+    // const generateRoutes = routes.filter((route) => {
+    //   return !existingRoutesToRemove.includes(route.name)
+    // })
 
-      routesToAdd.forEach(({ name, path, component, chunkName }) => {
-        generateRoutes.push({
-          name,
-          path,
-          component,
-          chunkName
-        })
-      })
+    // routesToAdd.forEach(({ name, path, component, chunkName }) => {
+    //   generateRoutes.push({
+    //     name,
+    //     path,
+    //     component,
+    //     chunkName
+    //   })
+    // })
 
-      routes.splice(0, routes.length, ...generateRoutes) // set new array
+    // routes.splice(0, routes.length, ...generateRoutes) // set new array
 
-      sortRoutes(routes)
-    }
+    // sortRoutes(routes)
+    // }
   },
 
   googleFonts: {

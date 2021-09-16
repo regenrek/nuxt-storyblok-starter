@@ -1,4 +1,4 @@
-const PREFIX = '_virh'
+const PREFIX = '_cookie'
 const ONE_WEEK = 60 * 60 * 24 * 7
 const ONE_MONTH = 60 * 60 * 24 * 30
 
@@ -26,24 +26,24 @@ const state = () => ({
 const getters = {}
 
 const mutations = {
-  [types.SET_COOKIE_BANNER](state, status) {
+  [types.SET_COOKIE_BANNER] (state, status) {
     state.showCookieBanner = status
   },
-  [types.SET_COOKIE_BANNER_SETTINGS](state, settings) {
+  [types.SET_COOKIE_BANNER_SETTINGS] (state, settings) {
     state.cookieBannerSettings = settings
   },
-  [types.SET_SERVICE](state, { key, value }) {
+  [types.SET_SERVICE] (state, { key, value }) {
     state.service[key] = value
   }
 }
 const actions = {
-  openCookieBanner({ dispatch }) {
+  openCookieBanner ({ dispatch }) {
     dispatch('setCookieBanner', true)
   },
-  closeCookieBanner({ dispatch }) {
+  closeCookieBanner ({ dispatch }) {
     dispatch('setCookieBanner', false)
   },
-  setCookieBanner({ commit }, value) {
+  setCookieBanner ({ commit }, value) {
     const cookieName = `${PREFIX}_gdpr`
     const cookieOptions = {
       path: '/',
@@ -52,10 +52,10 @@ const actions = {
     this.$cookies.set(cookieName, value, cookieOptions)
     commit(types.SET_COOKIE_BANNER, value)
   },
-  setCookieBannerSettings({ commit }, settings) {
+  setCookieBannerSettings ({ commit }, settings) {
     commit(types.SET_COOKIE_BANNER_SETTINGS, settings)
   },
-  setService({ commit }, { key, value }) {
+  setService ({ commit }, { key, value }) {
     const cookieName = `${PREFIX}_${key}`
     const cookieOptions = {
       path: '/',
@@ -70,7 +70,7 @@ const actions = {
 
     commit(types.SET_SERVICE, { key, value })
   },
-  parseCookies({ commit, state }) {
+  parseCookies ({ commit, state }) {
     Object.keys(state.service).forEach((key) => {
       const value = this.$cookies.get(`${PREFIX}_${key}`)
       if (value) {
@@ -79,7 +79,7 @@ const actions = {
     })
 
     let isActive = this.$cookies.get(`${PREFIX}_gdpr`)
-    if ([undefined, null].includes(isActive)) isActive = true
+    if ([undefined, null].includes(isActive)) { isActive = true }
     commit(types.SET_COOKIE_BANNER, isActive)
   }
 }

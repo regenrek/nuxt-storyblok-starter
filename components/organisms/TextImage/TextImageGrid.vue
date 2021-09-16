@@ -12,11 +12,15 @@
           'md:order-2': isVariant(VARIANTS.IMAGE_LEFT_TEXT_RIGHT)
         }"
       >
-        <t-tag tag-name="h2">{{ title }}</t-tag>
+        <t-tag tag-name="h2">
+          {{ title }}
+        </t-tag>
         <div class="mb-4 md:mb-6 lg:mb-12">
           <SbRichtext v-if="description" :text="description" />
         </div>
-        <t-button v-if="button.length" :to="btnLink">{{ btn.label }}</t-button>
+        <t-button v-if="button.length" :to="btnLink">
+          {{ btn.label }}
+        </t-button>
       </div>
       <div
         v-if="hasTwoImages"
@@ -67,7 +71,7 @@ const DEFAULTS = {
 
 const _getKey = (value) => {
   return (
-    Object.keys(VARIANTS).find((key) => VARIANTS[key].key === value) ||
+    Object.keys(VARIANTS).find(key => VARIANTS[key].key === value) ||
     VARIANTS[value]
   )
 }
@@ -75,28 +79,28 @@ const _getKey = (value) => {
 export default {
   name: 'TextImageGrid',
   mixins: [TextImage],
-  data() {
+  data () {
     return {
-      VARIANTS: VARIANTS,
-      DEFAULTS: DEFAULTS
+      VARIANTS,
+      DEFAULTS
     }
   },
   computed: {
-    btn() {
+    btn () {
       return this.button.length && this.button[0]
     },
-    btnLink() {
+    btnLink () {
       return (
         this.btn &&
         (this.btn.link?.url || '/' + this.btn.link?.story?.fullSlug || '')
       )
     },
-    hasTwoImages() {
+    hasTwoImages () {
       return this.image2?.filename
     }
   },
   methods: {
-    bindImage(image, propName) {
+    bindImage (image, propName) {
       const currentVariant =
         VARIANTS[_getKey(this.variant)]?.[propName || 'image']
       const currentDefault = DEFAULTS[propName || 'image']
@@ -107,7 +111,7 @@ export default {
         resize: currentVariant?.resize || currentDefault.resize
       }
     },
-    isVariant(v) {
+    isVariant (v) {
       return this.variant === v?.key || this.variant === v
     }
   }

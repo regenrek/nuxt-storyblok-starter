@@ -52,7 +52,7 @@
                 aria-label="Vorheriger Slide"
                 src="/svg/arrowLeft_blue.svg"
                 class="w-8 h-8"
-              />
+              >
             </button>
             <button class="next w-10 h-10 flex items-center justify-center">
               <img
@@ -60,7 +60,7 @@
                 aria-label="Nächster Slide"
                 src="/svg/arrowLeft_blue.svg"
                 class="w-8 h-8"
-              />
+              >
             </button>
           </div>
 
@@ -84,18 +84,18 @@ export default {
   props: {
     sliderItems: {
       type: Array,
-      default() {
+      default () {
         return []
       }
     }
   },
-  data() {
+  data () {
     return {
       slider: null,
       activeIndex: 0,
       swiperOptions: {
         loop: true,
-        //loopedSlides: 1,
+        // loopedSlides: 1,
         slidesPerView: 1.5,
         initialSlide: 3,
         centeredSlides: false,
@@ -108,7 +108,7 @@ export default {
           clickable: true,
           bulletClass: 'bullet',
           bulletActiveClass: 'bullet--active',
-          renderBullet(index, className) {
+          renderBullet (index, className) {
             const number = index <= 9 ? `0${index + 1}` : index + 1
             return `<span class="${className} block cursor-pointer">${number}</span>`
           }
@@ -121,11 +121,11 @@ export default {
     }
   },
   computed: {
-    slides() {
+    slides () {
       return this.sliderItems.slice().reverse()
     }
   },
-  mounted() {
+  mounted () {
     this.$nextTick(() => {
       this.slider = new Swiper(this.$refs.gallery, this.swiperOptions)
       this.slider.on('slideChange', ({ realIndex }) => {
@@ -134,17 +134,17 @@ export default {
     })
 
     this.$once('hook:destroyed', function () {
-      if (this.slider) this.slider.destroy()
+      if (this.slider) { this.slider.destroy() }
     })
   },
   methods: {
-    getImage(slide) {
+    getImage (slide) {
       return slide?.image
     },
-    getAlt(slide) {
+    getAlt (slide) {
       return slide?.image?.alt
     },
-    getBtnLink(slide) {
+    getBtnLink (slide) {
       return `/${slide.button?.link?.story?.url}`
     }
   }

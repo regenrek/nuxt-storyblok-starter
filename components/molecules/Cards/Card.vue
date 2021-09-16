@@ -9,7 +9,7 @@
           <div
             class="rounded-3xl flex justify-center items-center absolute h-12 w-20 bottom-6 left-6"
           >
-            <img src="/svg/play.svg" class="h-4 w-4" />
+            <img src="/svg/play.svg" class="h-4 w-4">
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default {
   props: {
     blok: {
       type: Object,
-      default() {
+      default () {
         return {}
       }
     }

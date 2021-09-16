@@ -5,7 +5,7 @@ export default {
   name: 'BlokHeader',
   functional: true,
   props: ['blok'],
-  render(h, context) {
+  render (h, context) {
     return h(Header, {
       props: forwardProps(context.props.blok)
     })

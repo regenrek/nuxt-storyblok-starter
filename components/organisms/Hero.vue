@@ -2,11 +2,15 @@
   <NjSection variant="section-xl">
     <div class="grid grid-cols-1 md:grid-cols-2 items-center">
       <div class="px-8 lg:px-20" :class="{ 'md:order-2': textRight }">
-        <t-tag tag-name="h2">{{ title }}</t-tag>
+        <t-tag tag-name="h2">
+          {{ title }}
+        </t-tag>
         <div class="mb-4 md:mb-6 lg:mb-12">
           <SbRichtext v-if="description" :text="description" />
         </div>
-        <t-button v-if="btn" :to="btnLink">{{ btn.label }}</t-button>
+        <t-button v-if="btn" :to="btnLink">
+          {{ btn.label }}
+        </t-button>
       </div>
       <div
         v-if="hasTwoImages"
@@ -79,7 +83,7 @@ export default {
     },
     button: {
       type: [Array],
-      default() {
+      default () {
         return []
       }
     },
@@ -89,16 +93,16 @@ export default {
     }
   },
   computed: {
-    btn() {
+    btn () {
       return this.button.length && this.button[0]
     },
-    btnLink() {
+    btnLink () {
       return (
         this.btn &&
         (this.btn.link?.url || '/' + this.btn.link?.story?.fullSlug || '')
       )
     },
-    hasTwoImages() {
+    hasTwoImages () {
       return this.image2?.filename
     }
   }

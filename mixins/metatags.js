@@ -50,13 +50,13 @@ const createSeoMeta = (data = {}) => {
   ]
   const head = {
     title: data.title || 'title',
-    meta: meta
+    meta
   }
   return head
 }
 
 export default {
-  head() {
+  head () {
     if (this.story?.content?.meta) {
       const meta = this.story.content.meta
       return createSeoMeta({

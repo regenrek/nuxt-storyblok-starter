@@ -1,7 +1,7 @@
 import consola from 'consola'
 
 export default {
-  mounted() {
+  mounted () {
     // @TODO Put this in nuxt-storyblok-queries
     consola.success('Storyblok Payload', this.story)
   }

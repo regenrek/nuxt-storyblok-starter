@@ -4,7 +4,7 @@ export default {
   name: 'BlokGrid',
   functional: true,
   props: ['blok'],
-  render(h, context) {
+  render (h, context) {
     return h(Grid, {
       props: forwardProps(context.props.blok)
     })

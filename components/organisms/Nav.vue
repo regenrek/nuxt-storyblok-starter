@@ -8,7 +8,9 @@
 
         <template #logo>
           <div class="w-40 lg:w-48">
-            <nuxt-link to="/" class="block"> Bakery </nuxt-link>
+            <nuxt-link to="/" class="block">
+              Bakery
+            </nuxt-link>
           </div>
         </template>
 
@@ -54,7 +56,7 @@
 import { mapState, mapGetters, mapActions } from 'vuex'
 
 export default {
-  data() {
+  data () {
     return {
       dummyMainNavigation: [
         {
@@ -68,17 +70,17 @@ export default {
   },
   computed: {
     ...mapState({
-      navOpen: (state) => state.nav.navOpen,
-      mainNavigationRight: (state) => state.nav.settings.navigation_right
+      navOpen: state => state.nav.navOpen,
+      mainNavigationRight: state => state.nav.settings.navigation_right
     }),
     ...mapGetters({
       mainNavigation: 'nav/main'
     }),
     isOpenBurger: {
-      get: function () {
+      get () {
         return this.navOpen
       },
-      set: function (val) {
+      set (val) {
         this.$store.dispatch('nav/set', val)
       }
     }
@@ -88,14 +90,14 @@ export default {
       toggleSidebar: 'nav/toggle',
       closeSidebar: 'nav/close'
     }),
-    getLinkType(navItem) {
+    getLinkType (navItem) {
       if (navItem.link?.linktype === 'url') {
         return 'a'
       } else {
         return 'nuxt-link'
       }
     },
-    getLink(navItem) {
+    getLink (navItem) {
       if (navItem.link?.linktype === 'url') {
         return { href: navItem.link.url, target: '_blank' }
       } else if (navItem.link?.linktype === 'story') {

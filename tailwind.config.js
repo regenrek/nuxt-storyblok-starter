@@ -31,14 +31,6 @@ module.exports = {
         primary: '#FFE152',
         'gray-lightest': '#efefef'
       },
-      aspectRatio: {
-        '1/1': [1, 1],
-        '16/9': [16, 9],
-        '9/16': [9, 16],
-        '4/3': [4, 3],
-        '3/4': [3, 4],
-        '2/3': [2, 3]
-      },
       minHeight: {
         520: '520px'
       },
@@ -91,7 +83,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('./tailwind-plugins/aspect-ratio.js')()
+    require('@tailwindcss/forms')
   ]
 }

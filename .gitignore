@@ -94,3 +94,5 @@ sw.*
 
 # disable vs code counter
 .VSCodeCounter
+
+modules

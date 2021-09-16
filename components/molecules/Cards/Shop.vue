@@ -15,11 +15,15 @@
     </slot>
     <slot name="footer">
       <div class="footer border-2 p-6">
-        <t-tag tag-name="h2"
-          ><nuxt-link :to="'/' + blok.fullSlug">{{
-            blok.content.title
-          }}</nuxt-link></t-tag
+        <t-tag
+          tag-name="h2"
         >
+          <nuxt-link :to="'/' + blok.fullSlug">
+            {{
+              blok.content.title
+            }}
+          </nuxt-link>
+        </t-tag>
       </div>
     </slot>
   </div>
@@ -30,13 +34,13 @@ export default {
   props: {
     blok: {
       type: Object,
-      default() {
+      default () {
         return {}
       }
     }
   },
   computed: {
-    image() {
+    image () {
       return this.blok.content?.featuredImage || {}
     }
   }

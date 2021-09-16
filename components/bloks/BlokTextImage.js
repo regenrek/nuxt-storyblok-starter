@@ -10,7 +10,7 @@ const componentList = {
 }
 
 const _getKey = (value) => {
-  return Object.keys(componentList).find((key) =>
+  return Object.keys(componentList).find(key =>
     componentList[key].includes(value)
   )
 }
@@ -25,9 +25,9 @@ export default {
   name: 'BlokTextImage',
   props: ['blok'],
   functional: true,
-  render(h, context) {
+  render (h, context) {
     const name = 'TextImage' + _getKey(context.props.blok.variant)
-    const c = components.find((x) => x.name === name)
+    const c = components.find(x => x.name === name)
     return h(c, {
       props: forwardProps(context.props.blok)
     })
