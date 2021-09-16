@@ -13,12 +13,12 @@
         }"
       >
         <t-tag tag-name="h2">
-          {{ title }}
+          {{ blok.title }}
         </t-tag>
         <div class="mb-4 md:mb-6 lg:mb-12">
-          <SbRichtext v-if="description" :text="description" />
+          <SbRichtext v-if="blok.description" :text="blok.description" />
         </div>
-        <t-button v-if="button.length" :to="btnLink">
+        <t-button v-if="blok.button.length" :to="btnLink">
           {{ btn.label }}
         </t-button>
       </div>
@@ -30,10 +30,10 @@
         }"
       >
         <div class="image-stack__item image-stack__item--top">
-          <SbImage v-bind="bindImage(image, 'image')" />
+          <SbImage v-bind="bindImage(blok.image, 'image')" />
         </div>
         <div class="image-stack__item image-stack__item--bottom">
-          <SbImage v-bind="bindImage(image2, 'image2')" />
+          <SbImage v-bind="bindImage(blok.image2, 'image2')" />
         </div>
       </div>
       <div
@@ -41,7 +41,7 @@
         :class="{ 'md:order-1': isVariant(VARIANTS.IMAGE_LEFT_TEXT_RIGHT) }"
       >
         <div>
-          <SbImage v-bind="bindImage(image, 'image')" />
+          <SbImage v-bind="bindImage(blok.image, 'image')" />
         </div>
       </div>
     </div>
@@ -50,7 +50,6 @@
 
 <script>
 import { VARIANTS } from './const'
-import TextImage from '~/mixins/components/organisms/TextImage'
 
 const DEFAULTS = {
   image: {
@@ -78,7 +77,12 @@ const _getKey = (value) => {
 
 export default {
   name: 'TextImageGrid',
-  mixins: [TextImage],
+  props: {
+    blok: {
+      type: Object,
+      default: () => {}
+    }
+  },
   data () {
     return {
       VARIANTS,
@@ -87,16 +91,16 @@ export default {
   },
   computed: {
     btn () {
-      return this.button.length && this.button[0]
+      return this.blok.button.length && this.blok.button[0]
     },
     btnLink () {
       return (
-        this.btn &&
-        (this.btn.link?.url || '/' + this.btn.link?.story?.fullSlug || '')
+        this.blok.btn &&
+        (this.blok.btn.link?.url || '/' + this.blok.btn.link?.story?.fullSlug || '')
       )
     },
     hasTwoImages () {
-      return this.image2?.filename
+      return this.blok.image2?.filename
     }
   },
   methods: {

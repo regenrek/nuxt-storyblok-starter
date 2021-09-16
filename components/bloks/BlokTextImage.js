@@ -29,7 +29,7 @@ export default {
     const name = 'TextImage' + _getKey(context.props.blok.variant)
     const c = components.find(x => x.name === name)
     return h(c, {
-      props: forwardProps(context.props.blok)
+      props: forwardProps(context.props)
     })
   }
 }

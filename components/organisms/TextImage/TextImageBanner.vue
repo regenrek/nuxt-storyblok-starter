@@ -2,12 +2,12 @@
   <NjSection variant="section-lg">
     <div class="text-center">
       <t-tag tag-name="h2">
-        {{ title }}
+        {{ blok.title }}
       </t-tag>
-      <SbRichtext v-if="description" :text="description" />
+      <SbRichtext v-if="blok.description" :text="blok.description" />
     </div>
     <SbImage
-      :src="image"
+      :src="blok.image"
       :classes="{
         aspectRatio: 'aspect-ratio-16/9',
         image: 'object-cover w-full'
@@ -22,10 +22,13 @@
 </template>
 
 <script>
-import TextImage from '~/mixins/components/organisms/TextImage'
-
 export default {
   name: 'TextImageBanner',
-  mixins: [TextImage]
+  props: {
+    blok: {
+      type: Object,
+      default: () => {}
+    }
+  }
 }
 </script>
