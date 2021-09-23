@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@nujek/storyblok": "^0.0.103",
-    "@nujek/ui": "^2.0.29",
+    "@nujek/ui": "^3.0.0",
     "@nuxtjs/composition-api": "^0.29.0",
     "lodash.get": "^4.4.2",
     "uuid": "^8.3.2",
