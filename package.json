@@ -43,7 +43,7 @@
     "eslint-plugin-vue": "^7.12.1",
     "postcss": "^8.3.5",
     "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^12.1.2",
     "nuxt-i18n": "^6.20.1",
     "slugify": "^1.4.6",
     "swiper": "^6.4.8",
