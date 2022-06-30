@@ -46,7 +46,7 @@
     "lint-staged": "^11.0.0",
     "nuxt-i18n": "^6.20.1",
     "slugify": "^1.4.6",
-    "swiper": "^6.4.8",
+    "swiper": "^8.2.6",
     "vue-clickaway": "^2.2.2",
     "vue-tailwind": "^2.1.1"
   },
